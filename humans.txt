@@ -1,0 +1,76 @@
+# humanstxt.org
+# The humans responsible & technology colophon
+
+# Officers
+
+  Andy Ding -- President
+  Pavan Kalla -- Vice President of Engineering
+  Isha Chakraborty -- Vice President of Operations
+  Divya Satrawada -- Director of Electrical
+  Steven Long -- Director of Software
+  Veronica Hui -- Director of Mechanical
+  Ranya Pendyala -- Director of Outreach
+  Annabelle Choi -- Director of Finance and Corporate Relations
+  Sophie Ye -- Director of Marketing
+  
+
+# Mentors
+
+  Connie Laitinen -- Advisor
+  John Yelinek -- Advisor
+  Steve Bronstein -- Liason to FIRST
+  Ted Shinta -- Advisor and Machine Trainer
+  Ryan Lee
+  Ashwin Mathur
+  Rod Sinks
+  Jaiom Sambyal
+  Peter Easton
+  Vinay Venkatesh
+  Umesh Toprani
+  Anant Singhania
+  Bhaven Toprani
+  Arun Kuchibotla
+  Karthik Kumaravel
+  Nick Baker
+  Alice Chang
+  Patrick Yang
+  
+
+# Sponsors
+
+  Abbott Fund
+  Ace Hardware
+  Autodesk
+  Boeing
+  Boudin
+  Colony Landscape
+  Fremont Union High Schools Foundation
+  Google
+  HSC Electronic Supply
+  Intel
+  Intuitive Surgical
+  Microsoft
+  Pinnacle Manufacturing
+  PostNet
+  Rotary Club of Cupertino
+  Scaleway
+  Solidwize
+  Solidworks
+  Sticker Mule
+  Western Digital
+  
+
+# Webdev Team
+
+  Tej Qu Nair
+  
+
+# TECHNOLOGY COLOPHON
+
+  HTML5, CSS3, Javascript
+  Bourbon, Neat, Normalize.css
+  jQuery, Browserify
+  Gulp, Jekyll
+
+
+Last generated Tue, 11 Sep 2018 20:35:44 -0700.
