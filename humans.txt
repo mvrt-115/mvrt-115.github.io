@@ -10,7 +10,7 @@
   Steven Long -- Director of Software
   Veronica Hui -- Director of Mechanical
   Ranya Pendyala -- Director of Outreach
-  Annabelle Choi -- Director of Finance and Corporate Relations
+  Seungah Choi -- Director of Finance and Corporate Relations
   Sophie Ye -- Director of Marketing
   
 
@@ -73,4 +73,4 @@
   Gulp, Jekyll
 
 
-Last generated Tue, 11 Sep 2018 20:35:44 -0700.
+Last generated Mon, 26 Nov 2018 15:13:02 -0600.
