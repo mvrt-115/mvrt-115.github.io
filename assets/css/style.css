@@ -614,6 +614,16 @@ about page
     border-radius: 2px;
 }
 
+@media only screen and (max-width: 768px) {
+    .information .container {
+        position: relative;
+        margin: 20px auto;
+        padding: 20px;
+        width: 100%;
+        border-radius: 2px;
+}
+}
+
 .information .container .tabs {
     display: flex;
     position: relative;
