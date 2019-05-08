@@ -18,14 +18,14 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/assets/favicons/site.webmanifest">
-    <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico">
     <meta name="msapplication-TileColor" content="#662d91">
-    <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+    <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
 
@@ -38,21 +38,19 @@
     </div>
 
     <!--
-	    Header start
-	    ==================== -->
+    Header start
+    ==================== -->
     <div id="particles-js"></div>
     <div class="container">
-        <div class="header-secondary">
             <nav class="navbar navigation " id="top-nav">
                 <a class="navbar-brand logo" href="index.html">
                     <h1>MVRT</h1>
                 </a>
-
                 <button class="navbar-toggler hidden-lg-up float-lg-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                     <i class="tf-ion-android-menu"></i>
                 </button>
                 <div class="collapse navbar-toggleable-md" id="navbarResponsive">
-                    <ul class="nav navbar-nav menu float-lg-right" id="top-nav">
+                    <ul class="nav navbar-nav menu float-lg-right" id="top-nav" style="columns:1">
                         <li class="">
                             <a href="index.html"><b>HOME</b></a>
                         </li>
@@ -65,77 +63,73 @@
                         <li class="">
                             <a href="contact.html"><b>CONTACT</b></a>
                         </li>
-                        <li class="active">
+                        <li class="active" style="text-decoration: underline;">
                             <a href="join.html" class="btn-main-nav btn-main-nav-sm" style="color:#fff">Join <i class="far fa-arrow-alt-circle-right"></i></a>
                         </li>
                     </ul>
                 </div>
             </nav>
-            <section>
+            <div class="header-secondary">
                 <span class="title">Join</span>
-            </section>
-        </div>
+            </div>
         <hr>
     </div>
-    <br />
-    <br />
-    <section class="join">
+
+    <section class="information">
+        <div class="container" style="text-align:justify">
+            <p>We would love to have you on board our team! Each year, we are tasked to build a robot depending on the game released by the FIRST Robotics Competition. We need all the minds we can get to make this happen. Additionaly, we also host an annual summercamp! Joining the team or camp is easy, just follow the instructions below. If you want to learn more about the team, visit the <a href="about.html">about</a> page!</p>
+        </div>
         <div class="container">
-            <div class="heading">
-                <h1>Join the Team</h1>
+            <div class="tabs">
+                <a class="tab tab-1 active" href="#/" data-tab="1">Regular Season</a>
+                <a class="tab tab-2" href="#/" data-tab="2">Headstart</a>
+
+
+                <!-- <span class="highlighter"></span> -->
             </div>
-            <p>We would love to have you on board our team! Each year, we are tasked to build a robot depending on the game released by the FIRST Robotics Competition. We need all the minds we can get to make this happen. There are two sessions of operation, listed below.Joining the team is easy! Follow the instructions below.</p>
-            <br />
-            <h2>Headstart</h2>
-            <p>Headstart is a week long summer camp hosted at Monta Vista. We go through basic training and prototyping to allow kids to get an advantage during the Build Season. It is not required to sign up for Headstart if you want to participate during the Build Season.</p>
-            <br />
-            <h2>Build Season</h2>
-            <p>This is a 6-week session which starts after the game for the year has been unveiled. We work tirelessly to produce the best robot that we can during this time. Build Season consists of workshop days throughout the week where students can come participate in prototyping and building the final robot. You can see the build schedule here.</p>
-            <br />
-            <br />
 
-        </div>
-        <div class="heading">
-            <h1>Choose Your Program</h1>
-        </div>
-        <section class="cards">
-            <article class="card card-1">
-                <div class="card_img"></div>
-                <a href="#" class="card_link">
-                    <div class="card_img-hover"></div>
-                </a>
-                <div class="card_info">
-                    <h2 class="card_title">Headstart (2019 Season)</h2>
-                    <!-- comment when open and uncomment other statement -->
-
-                    <h3 class="card_title">Registration is now <span style="color:red;">closed.</span></h3>
-                    <!-- <h3 class="card_title">Registration is now <span style="color:green;">open.</span></h3> -->
+            <div class="content">
+                <div class="content__section visible" data-tab="1" id="regularseason">
+                    <h1>Regular Season (Registration Currently Closed)</h1>
+                    <br />
+                    <p>This is the signup for the MVRT team. Signing up through the linked form is required in order to particpate in trainings, buildseason, and competitions. Please follow the instructions and remember to turn in any necessary forms.</p>
+                    <br />
+                    <h3>1. Fill out the online application (currenty closed).</h3>
+                    <!-- <h3>1. Fill out the <a href="https://mvrt115.typeform.com/to/O6i2Fz">online application</a>.</h3> -->
+                    <br />
+                    <h3>2. Print out, complete, and sign the <a href="assets/files/membership-forms.pdf">Medical Agreement</a>.</h3>
+                    <p>Turn forms in to any MVRT Officer, or stop by at one of our meetings.</p>
+                    <br />
+                    <h3>3. Pay the $135 membership donation (or $160 with a polo).</h3>
+                    <p>Checks can be made out to "MV ASB", with "MVRT" in the memo, and turned in to any officer.</p>
+                    <br>
+                    <p>If you have any personal financial issues with paying the membership fee, please talk to us! We are more than willing to accommodate to your situation.</p>
+                    <br />
+                    <h3>Questions? <a href="contact.html">Contact Us</a>!</h3>
                 </div>
-            </article>
-            <article class="card card-2">
-                <div class="card_img"></div>
-                <a href="#" class="card_link">
-                    <div class="card_img-hover"></div>
-                </a>
-                <div class="card_info">
-                    <h2 class="card_title">Build Season</h2>
-                    <!-- comment when open and uncomment other statement -->
+    
 
-                    <h3 class="card_title">Registration is now <span style="color:red;">closed.</span></h3>
-                    <!-- <h3 class="card_title">Registration is now <span style="color:green;">open.</span></h3> -->
+                <div class="content__section" data-tab="2" id="headstart">
+                    <h1>Headstart (Registration Currently Closed)</h1>
+                    <br />
+                    <p>MVRT Headstart is a summer camp created to build a strong foundation in the basics of robotics for potential members. MVRT Headstart accomplishes this by training new students in the basics of electrical engineering, mechanical engineering, and computer science as related to FIRST Robotics Competition. The camp is a one-week summer camp where students receive a hands-on introduction to circuitry, mechanical and electrical tools, as well as programming in WPILib. Students also assemble a kit of parts to understand how the different divisions interact to create a finalized product. By participating in MVRT Headstart, students are provided with knowledge that will strengthen their understanding of robotics and prepare them for joining the MVRT team.</p>
+                    <br>
+                    <h3>Headstart 2019: <i>August 6th - 10th</i></h3>
+                    <br>
+                    <h3>Fill out this <a href="https://mvrt115.typeform.com/to/W6xCUS">form</a> to signup for MVRT's Headstart summer camp.</h3>
+                    <br>
+                    <p>If you have any questions, contact us at <a href="mailto:outreach@mvrt.com">outreach@mvrt.com</a>.</p>
                 </div>
-            </article>
-        </section>
-        <br />
+            </div>
+        </div>
     </section>
-    <br>
 
     <footer>
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-12">
                     <div class="block">
-                        <a class="logo" href="index.html">
+                        <a class="footer-logo" href="index.html">
                             <h1>MVRT</h1>
                         </a>
                         <ul class="menu">
@@ -298,6 +292,32 @@
         });
 
     </script>
-</body>
+    <script type="text/javascript">
+        const tabs = document.querySelector('.tabs');
 
+        tabs.addEventListener('click', e => handleClick(e));
+
+        function handleClick(e) {
+            const target = e.target;
+            const tabNum = target.dataset.tab;
+            const activeTab = document.querySelector('.tabs .active');
+            const activeContent = document.querySelector(
+                '.content .visible'
+            );
+            const currentContent = document.querySelector(
+                `.content__section[data-tab='${tabNum}']`
+            );
+
+            if (!tabNum) {
+                return;
+            }
+
+            activeTab.classList.remove('active');
+            target.classList.add('active');
+            activeContent.classList.remove('visible');
+            currentContent.classList.add('visible');
+        }
+
+    </script>
+</body>
 </html>
