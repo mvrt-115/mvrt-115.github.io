@@ -40,39 +40,38 @@
     <!--
 	    Header start
 	    ==================== -->
-    <div id="particles-js"></div>
     <div class="container">
-            <nav class="navbar navigation " id="top-nav">
-                <a class="navbar-brand logo" href="index.html">
-                    <h1>MVRT</h1>
-                </a>
+        <nav class="navbar navigation " id="top-nav">
+            <a class="navbar-brand logo" href="index.html">
+                <h1>MVRT</h1>
+            </a>
 
-                <button class="navbar-toggler hidden-lg-up float-lg-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                    <i class="tf-ion-android-menu"></i>
-                </button>
-                <div class="collapse navbar-toggleable-md" id="navbarResponsive">
-                    <ul class="nav navbar-nav menu float-lg-right" id="top-nav" style="columns:1">
-                        <li class="">
-                            <a href="index.html"><b>HOME</b></a>
-                        </li>
-                        <li class="active" style="text-decoration: underline;">
-                            <a href="about.html"><b>ABOUT</b></a>
-                        </li>
-                        <li class="">
-                            <a href="resources.html"><b>RESOURCES</b></a>
-                        </li>
-                        <li class="">
-                            <a href="contact.html"><b>CONTACT</b></a>
-                        </li>
-                        <li class="">
-                            <a href="join.html" class="btn-main-nav btn-main-nav-sm" style="color:#fff">Join <i class="far fa-arrow-alt-circle-right"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <div class="header-secondary">
-                <span class="title">About</span>
+            <button class="navbar-toggler hidden-lg-up float-lg-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <i class="tf-ion-android-menu"></i>
+            </button>
+            <div class="collapse navbar-toggleable-md" id="navbarResponsive">
+                <ul class="nav navbar-nav menu float-lg-right" id="top-nav" style="columns:1">
+                    <li class="">
+                        <a href="index.html"><b>HOME</b></a>
+                    </li>
+                    <li class="active" style="text-decoration: underline;">
+                        <a href="about.html"><b>ABOUT</b></a>
+                    </li>
+                    <li class="">
+                        <a href="resources.html"><b>RESOURCES</b></a>
+                    </li>
+                    <li class="">
+                        <a href="contact.html"><b>CONTACT</b></a>
+                    </li>
+                    <li class="">
+                        <a href="join.html" class="btn-main-nav btn-main-nav-sm" style="color:#fff">Join <i class="far fa-arrow-alt-circle-right"></i></a>
+                    </li>
+                </ul>
             </div>
+        </nav>
+        <div class="header-secondary">
+            <span class="title">About</span>
+        </div>
         <hr>
     </div>
     <br />
@@ -118,7 +117,7 @@
                             </div>
                         </div>
                     </div>
-                </div>        
+                </div>
             </div>
             <div class="subheading" style="padding-top: 30px;">
                 <h2>Engineering Directors</h2>
@@ -158,7 +157,6 @@
                     </div>
                 </div>
             </div>
-            </table>
             <div class="subheading" style="padding-top: 30px;">
                 <h2>Operations Directors</h2>
                 <div class="row">
@@ -327,7 +325,7 @@
                                         <p>Ranya Pendyala - <i>Director of Outreach</i></p>
                                     </div>
                                 </li>
-                                
+
                                 <li data-date="01/05/2018">
                                     <div>
                                         <img src="assets/images/team/team-2018.jpg" style="float:right;height:auto; max-width: 600px; margin-top: auto;">
@@ -1075,122 +1073,6 @@
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/particles.js"></script>
-    <script>
-        particlesJS("particles-js", {
-            "particles": {
-                "number": {
-                    "value": 25,
-                    "density": {
-                        "enable": true,
-                        "value_area": 800
-                    }
-                },
-                "color": {
-                    "value": "#929292"
-                },
-                "shape": {
-                    "type": "polygon",
-                    "stroke": {
-                        "width": 0,
-                        "color": "#000000"
-                    },
-                    "polygon": {
-                        "nb_sides": 5
-                    },
-                    "image": {
-                        "src": "img/github.svg",
-                        "width": 100,
-                        "height": 100
-                    }
-                },
-                "opacity": {
-                    "value": 1,
-                    "random": true,
-                    "anim": {
-                        "enable": true,
-                        "speed": 1,
-                        "opacity_min": 0,
-                        "sync": false
-                    }
-                },
-                "size": {
-                    "value": 5,
-                    "random": true,
-                    "anim": {
-                        "enable": false,
-                        "speed": 4,
-                        "size_min": 0.3,
-                        "sync": false
-                    }
-                },
-                "line_linked": {
-                    "enable": false,
-                    "distance": 150,
-                    "color": "#ffffff",
-                    "opacity": 0.4,
-                    "width": 1
-                },
-                "move": {
-                    "enable": true,
-                    "speed": 1,
-                    "direction": "none",
-                    "random": true,
-                    "straight": false,
-                    "out_mode": "out",
-                    "bounce": false,
-                    "attract": {
-                        "enable": false,
-                        "rotateX": 600,
-                        "rotateY": 600
-                    }
-                }
-            },
-            "interactivity": {
-                "detect_on": "canvas",
-                "events": {
-                    "onhover": {
-                        "enable": true,
-                        "mode": "bubble"
-                    },
-                    "onclick": {
-                        "enable": true,
-                        "mode": "repulse"
-                    },
-                    "resize": true
-                },
-                "modes": {
-                    "grab": {
-                        "distance": 400,
-                        "line_linked": {
-                            "opacity": 1
-                        }
-                    },
-                    "bubble": {
-                        "distance": 250,
-                        "size": 0,
-                        "duration": 2,
-                        "opacity": 0,
-                        "speed": 3
-                    },
-                    "repulse": {
-                        "distance": 400,
-                        "duration": 0.4
-                    },
-                    "push": {
-                        "particles_nb": 4
-                    },
-                    "remove": {
-                        "particles_nb": 2
-                    }
-                }
-            },
-            "retina_detect": true
-        });
-
-        requestAnimationFrame();
-
-    </script>
     <script type="text/javascript">
         const tabs = document.querySelector('.tabs');
 
@@ -1217,7 +1099,6 @@
             activeContent.classList.remove('visible');
             currentContent.classList.add('visible');
         }
-
     </script>
     <script>
         jQuery(document).ready(function($) {
@@ -1496,7 +1377,6 @@
                 return window.getComputedStyle(document.querySelector('.cd-horizontal-timeline'), '::before').getPropertyValue('content').replace(/'/g, "").replace(/"/g, "");
             }
         });
-
     </script>
 </body>
 
