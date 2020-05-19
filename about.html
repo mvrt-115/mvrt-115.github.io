@@ -184,7 +184,7 @@
                             <ul>
 				<li class="selected" data-date="01/05/2020">
                                     <div>
-                                        <img loading="lazy" src="https://drive.google.com/uc?id=16R25pdWmOkEAicpFGYexuLWp9eP9M3v6" style="float:right;height:auto; max-width: 600px; margin-top: auto;">
+                                        <img class="lazy" data-src="https://drive.google.com/uc?id=16R25pdWmOkEAicpFGYexuLWp9eP9M3v6" style="float:right;height:auto; max-width: 600px; margin-top: auto;">
                                         <h2>2020</h2>
                                         <em>INFINITE RECHARGE (Presented by Lucasfilm)</em>
                                         <br />
@@ -208,7 +208,7 @@
 
                                 <li data-date="01/05/2019">
                                     <div>
-                                        <img loading="lazy" src="https://drive.google.com/uc?id=1B45yMPaAwhM1Ml6NbctGhgvDpfeG1Om3" style="float:right;height:auto; max-width: 600px; margin-top: auto;">
+                                        <img class="lazy" data-src="https://drive.google.com/uc?id=1B45yMPaAwhM1Ml6NbctGhgvDpfeG1Om3" style="float:right;height:auto; max-width: 600px; margin-top: auto;">
                                         <h2>2019</h2>
                                         <em>DESTINATION: DEEP SPACE (Presented by the Boeing Company)</em>
                                         <br />
@@ -233,7 +233,7 @@
 
                                 <li data-date="01/05/2018">
                                     <div>
-                                        <img loading="lazy" src="https://drive.google.com/uc?id=14NaekPYzCfgX1-HRFU-8ivWoNVmmsvvA" style="float:right;height:auto; max-width: 600px; margin-top: auto;">
+                                        <img class="lazy" data-src="https://drive.google.com/uc?id=14NaekPYzCfgX1-HRFU-8ivWoNVmmsvvA" style="float:right;height:auto; max-width: 600px; margin-top: auto;">
                                         <h2>2018</h2>
                                         <em>FIRST POWER UP</em>
                                         <br />
@@ -1089,7 +1089,7 @@
             </div>
         </div>
     </section>
-    <script>
+    <script>//lazy loading for images on site that aren't in viewport
       document.addEventListener("DOMContentLoaded", function() {
       var lazyloadImages = document.querySelectorAll("img.lazy");
       var lazyloadThrottleTimeout;
