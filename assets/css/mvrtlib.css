@@ -1,16 +1,16 @@
 * {
 box-sizing: border-box;
 }
-																		
-.column {   
+
+.column {
 	float: left; width: 33%; padding: 8px;
 }
-									
+
 /* list image for articles*/
 .dispimg {
 	background-color: #aaa;	width: 100%; height: 100%;
 }
-						
+
 /* Add a card effect for articles */
 .card {
 	background-color: white;
@@ -21,7 +21,7 @@ box-sizing: border-box;
 .card:hover{
 	background-color: #eee;
 	cursor: pointer;
-}						
+}
 /* Clear floats after the columns */
 .row:after {
 	content: "";
@@ -74,17 +74,17 @@ box-sizing: border-box;
 /*responsive to large screens, limit docs width to 800px due to extra whitespace*/
 @media screen and (min-width: 1300px) {
 .gdocs iframe {
-  	width:725px;  
+  	width:725px;
+}
 }
 
-						
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-.column {   
+@media screen and (max-width: 900px) {
+.column {
     width: 100%;
 	padding: 0;
 }
-
+}
 #myUL {
   /* Remove default list styling */
   list-style-type: none;
