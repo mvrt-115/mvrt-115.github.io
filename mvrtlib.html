@@ -277,11 +277,11 @@
                 </div>
 
 				<div class="content__section" data-tab="11" id="search">
-                    <h1>Search</h1>
+                    <h1 onload='search()'>Search</h1>
 					   	      <script>
-                    $("a[href=#tab2]").click(function() {
+                    function search(){
                       window.location.href='https://jsoni.pythonanywhere.com/search';
-                    });
+                    }
                     </script>
             </div>
         </div>
