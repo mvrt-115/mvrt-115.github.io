@@ -76,8 +76,8 @@
         <hr>
     </div>
     <div class='container'><h4>
-      <a style='float:left;display:none;' id='goback' onclick='restore()' target="_self" href="#/" >&laquo; Back</a>
-      <a style='float:right;' target="_self" href="https://jsoni.pythonanywhere.com/" >Add Article</a>
+      <a style='float:left;display:none;' id='goback' onclick='restore()' target="_self" href="#/" >&larr; Back</a>
+      <a style='float:right;display:block;' id='adda' target="_self" href="https://jsoni.pythonanywhere.com/" >Add Article &rarr;</a>
     </h4></div>
     <section class="information" id="mainstuff">
       <div class='container' id='article'></div>
@@ -102,6 +102,7 @@
 			<script>
 				function showArticle(value){    //show back button, hide menu and tabs, show article
           document.getElementById('goback').style.display="inline";
+          document.getElementById('adda').style.display="none";
           document.getElementById('menu').style.display='none';
           document.getElementById('tabmenu').style.display='none';
 					document.getElementById("article").innerHTML=articles[value];
@@ -384,6 +385,7 @@
         }
         function restore() {    //remove back button, show menu and tabs, remove article
             document.getElementById('goback').style.display = "none";
+            document.getElementById('adda').style.display = "block";
             document.getElementById("menu").style.display='block';
             document.getElementById('tabmenu').style.display='inherit';
             document.getElementById("article").innerHTML='';
