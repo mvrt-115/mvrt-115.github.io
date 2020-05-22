@@ -35,4 +35,6 @@ var articles=[  '<div id="ar1c0arend"class="gdocs"><iframe src="https://docs.goo
 
 				'<div id="ar1c4arend"><h1 class="ql-align-center"><strong>This is test article</strong></h1><p>This article will test a feature on the server side</p></div>',
 
-				'<div id="ar1c3arend"><h1 class="ql-align-center">This is <strong>another </strong>Test Article</h1><h3>In this case, the animation on the article editor is being tested. Ignore this addition to the article list.</h3></div>'];
+				'<div id="ar1c3arend"><h1 class="ql-align-center">This is <strong>another </strong>Test Article</h1><h3>In this case, the animation on the article editor is being tested. Ignore this addition to the article list.</h3></div>',
+
+				'<div id="ar1c6arend"><h1><strong>This is a test article</strong></h1><p><strong>Here is some bold text</strong></p><p><strong><em>some italics too</em></strong></p><p><strong><em><u>oh boi underlines</u></em></strong></p><p><strong><em><s><u>let\'s go!!!</u></s></em></strong></p><p>just normal text</p></div>'];
