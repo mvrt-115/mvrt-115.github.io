@@ -76,8 +76,8 @@
         <hr>
     </div>
     <div class='container'><h4>
-      <a style='float:left;display:none;' id='goback' onclick='restore()' target="_self" href="#/" >&laquo; Back</a>
-      <a style='float:right;' target="_self" href="https://jsoni.pythonanywhere.com/" >Add Article</a>
+      <a style='float:left;display:none;' id='goback' target="_self" href="javascript:restore();" >&laquo; Back</a>
+      <a style='float:right;' target="_self" href="https://jsoni.pythonanywhere.com/editor" >Add Article</a>
     </h4></div>
     <section class="information" id="mainstuff">
       <div class='container' id='article'></div>
@@ -381,7 +381,6 @@
             target.classList.add('active');
             activeContent.classList.remove('visible');
             currentContent.classList.add('visible');
-            sessionStorage.setItem('cc',JSON.stringify(currentContent));
         }
         function restore() {    //remove back button, show menu and tabs, remove article
             document.getElementById('goback').style.display = "none";
