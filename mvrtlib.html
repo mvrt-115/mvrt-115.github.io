@@ -76,8 +76,8 @@
         <hr>
     </div>
     <div class='container'><h4>
-      <a style='float:left;display:none;' id='goback' target="_self" href="javascript:restore();" >&larr; Back</a>
-      <a style='float:right;' target="_self" id='addArt' href="https://jsoni.pythonanywhere.com/editor" >Add Article &rarr;</a>
+      <a style='display:none;' id='goback' target="_self" href="javascript:restore();" ><i style='float:left;' class='material-icons'>reply</i> Back</a>
+      <a style='float:right;' target="_self" id='addArt' href="https://jsoni.pythonanywhere.com/editor"> <i style='float:right;' class='material-icons'>note_add</i> Add Article</a>
     </h4></div>
     <section class="information" id="mainstuff">
       <div class='container' id='article'></div>
@@ -93,7 +93,7 @@
         				<a class="tab tab-8" href="#/" data-tab="8">Finance</a>
         				<a class="tab tab-9" href="#/" data-tab="9">Marketing</a>
         				<a class="tab tab-10" href="#/" data-tab="10">Old Submissions</a>
-        				<button class="tab" style='border-width: 0' onclick='window.location.href="https://jsoni.pythonanywhere.com/search"'>Search</button>
+                <a class="tab tab-11" href="#/" data-tab="11">Search</a>
 	<!-- ^^ insert new categories above-->
 
                 <!-- <span class="highlighter"></span> -->
@@ -266,8 +266,8 @@
                 </div>
 
 				<div class="content__section" data-tab="10" id="oldSubmissions">
-                    <h1>Old Submissions</h1>
-                    	<div class="row">
+            <h1>Old Submissions</h1>
+            <div class="row">
 							<div class="column" id="left">
 
 						  	</div>
@@ -278,9 +278,14 @@
 
 						  	</div>
 						</div>
-                </div>
-
-
+        </div>
+          <div class="content__section" data-tab="11" id="search">
+            <h1>Search Resources</h1><br>
+            <h4><div>
+            <a class='sbutton' target="_self" href="javascript:search();"><i style='float:left' class="material-icons">search</i>Search</a>
+            <input class='searchbox'  id='sbox' type='text' name='keywrd' placeholder='Find articles ...'><br>
+          </h4></div><br><br><br><div></div>
+          </div>
         </div>
       </div>
     </section>
@@ -387,11 +392,15 @@
         }
         function restore() {    //remove back button, show menu and tabs, remove article
             document.getElementById('goback').style.display = "none";
-	    document.getElementById('addArt').style.display = "inline";
+	          document.getElementById('addArt').style.display = "inline";
             document.getElementById("menu").style.display='block';
             document.getElementById('tabmenu').style.display='inherit';
             document.getElementById("article").innerHTML='';
         }
+        function search(){
+                var keyword=String(document.getElementById('sbox').value);
+                window.location.href='https://jsoni.pythonanywhere.com/query?keyword='+keyword;
+            }
     </script>
 </body>
 
