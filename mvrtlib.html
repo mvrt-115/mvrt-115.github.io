@@ -100,12 +100,12 @@
             </div>
 			<script src="assets/js/articles.js" type="text/javascript"></script>
 			<script>
-				function showArticle(value){    //show back button, hide menu and tabs, show article
+				function showArticle(articleId){    //show back button, hide menu and tabs, show article
           document.getElementById('goback').style.display="inline";
           document.getElementById('menu').style.display='none';
           document.getElementById('tabmenu').style.display='none';
 					document.getElementById('addArt').style.display = "none";
-					document.getElementById("article").innerHTML=articles[value];
+					document.getElementById("article").innerHTML=articles[articleId];
 				}
 			</script>
         <div class="content" id='menu'>
@@ -113,17 +113,17 @@
             <h1>Design</h1>
 						<div class="row">
 						  	<div class="column" id="left">
-						    	<div onclick="showArticle(0)" class="card"> <h2>WCD and Gearbox</h2> <h5>Dec 7, 2019</h5><img src="https://drive.google.com/uc?id=1nalGJS0VqnyeWah4vi8WWck1-Ssc6jMz" class="dispimg" alt="WCD and Gearbox"></div>
+						    	<div onclick="showArticle('ar1c0arend')" class="card"> <h2>WCD and Gearbox</h2> <h5>Dec 7, 2019</h5><img src="https://drive.google.com/uc?id=1nalGJS0VqnyeWah4vi8WWck1-Ssc6jMz" class="dispimg" alt="WCD and Gearbox"></div>
 
 						  	</div>
 
 						 	<div class="column" id="center">
-						 		<div onclick="showArticle(1)" class="card"> <h2>Using Pistons (Designs)</h2> <h5>Dec 7, 2020</h5><img src="https://drive.google.com/uc?id=1RhZD5uafEW-KR1XZz9cOupFC8gz3HqR5" class="dispimg" alt="Pistons (Designs)"></div>
+						 		<div onclick="showArticle('ar2c0arend')" class="card"> <h2>Using Pistons (Designs)</h2> <h5>Dec 7, 2020</h5><img src="https://drive.google.com/uc?id=1RhZD5uafEW-KR1XZz9cOupFC8gz3HqR5" class="dispimg" alt="Pistons (Designs)"></div>
 
 						 	</div>
 
 						  	<div class="column" id="right">
-						    	<div onclick="showArticle(2)" class="card"> <h2>4 Bars & Virtual 4 Bars</h2> <h5>Dec 7, 2020</h5><img src="https://drive.google.com/uc?id=1_OWYypxG6idnHobjFkRPZV4WAb8jX04m" class="dispimg" alt="4 Bars and Virtual 4 Bars"></div>
+						    	<div onclick="showArticle('ar3c0arend')" class="card"> <h2>4 Bars & Virtual 4 Bars</h2> <h5>Dec 7, 2020</h5><img src="https://drive.google.com/uc?id=1_OWYypxG6idnHobjFkRPZV4WAb8jX04m" class="dispimg" alt="4 Bars and Virtual 4 Bars"></div>
 
 						  	</div>
 						</div>
@@ -135,19 +135,19 @@
             <h1>CAD Tutorials</h1>
             	<div class="row">
 							<div class="column" id="left">
-									<div onclick="showArticle(10)" class="card"> <h2>iLogic Forms (Hex Shaft Template)</h2> <h5>May 18, 2020</h5><img data-src="https://drive.google.com/uc?id=1Bq5z-A1D6AlrqGuW-dNu0tZFZAWDiYCC" class="dispimg lazy" alt="iLogic Forms (Hex Shaft Template)"></div>
-									<div onclick="showArticle(7)" class="card"> <h2>Chain (#25, #35, Template)</h2> <h5>May 18, 2020</h5><img data-src="https://drive.google.com/uc?id=1-YyEzHN42Z0GbONOtqFX10FM1JnqSGeW" class="dispimg lazy" alt="Chain (#25, #35, Template)"></div>
+									<div onclick="showArticle('ar6c1arend')" class="card"> <h2>iLogic Forms (Hex Shaft Template)</h2> <h5>May 18, 2020</h5><img data-src="https://drive.google.com/uc?id=1Bq5z-A1D6AlrqGuW-dNu0tZFZAWDiYCC" class="dispimg lazy" alt="iLogic Forms (Hex Shaft Template)"></div>
+									<div onclick="showArticle('ar3c1arend')" class="card"> <h2>Chain (#25, #35, Template)</h2> <h5>May 18, 2020</h5><img data-src="https://drive.google.com/uc?id=1-YyEzHN42Z0GbONOtqFX10FM1JnqSGeW" class="dispimg lazy" alt="Chain (#25, #35, Template)"></div>
 
 						  	</div>
 							<div class="column" id="center">
-									<div onclick="showArticle(12)" class="card"> <h2>Using MVRT Parts Library</h2> <h5>May 19, 2020</h5><img data-src="https://drive.google.com/uc?id=1ydyxJRC6yeXlMDfUGETc3WdrYxsXdw-r" class="dispimg lazy" alt="Using MVRT Parts Library"></div>
-									<div onclick="showArticle(8)" class="card"> <h2>Inventor Templates (2x1 Template)</h2> <h5>May 18, 2020</h5><img data-src="https://drive.google.com/uc?id=1ALt4h2Mr4SCZrvKHBV8RH1-zoKs8XUsq" class="dispimg lazy" alt="Inventor Templates (2x1 Template)"></div>
-									<div onclick="showArticle(5)" class="card"> <h2>Bumpers</h2> <h5>May 18, 2020</h5><img data-src="https://drive.google.com/uc?id=1Bq3cy_7bIeEVan9KcAyaKMTOuzw59Tpn" class="dispimg lazy" alt="Bumpers"></div>
+									<div onclick="showArticle('ar7c1arend')" class="card"> <h2>Using MVRT Parts Library</h2> <h5>May 19, 2020</h5><img data-src="https://drive.google.com/uc?id=1ydyxJRC6yeXlMDfUGETc3WdrYxsXdw-r" class="dispimg lazy" alt="Using MVRT Parts Library"></div>
+									<div onclick="showArticle('ar4c1arend')" class="card"> <h2>Inventor Templates (2x1 Template)</h2> <h5>May 18, 2020</h5><img data-src="https://drive.google.com/uc?id=1ALt4h2Mr4SCZrvKHBV8RH1-zoKs8XUsq" class="dispimg lazy" alt="Inventor Templates (2x1 Template)"></div>
+									<div onclick="showArticle('ar1c1arend')" class="card"> <h2>Bumpers</h2> <h5>May 18, 2020</h5><img data-src="https://drive.google.com/uc?id=1Bq3cy_7bIeEVan9KcAyaKMTOuzw59Tpn" class="dispimg lazy" alt="Bumpers"></div>
 
 						  	</div>
 							<div class="column" id="right">
-									<div onclick="showArticle(9)" class="card"> <h2>Belts (Timing, Polyurethane)</h2> <h5>May 18, 2020</h5><img data-src="https://drive.google.com/uc?id=1LfkkyBf-rMflTZwz7Pmj083er3BTrS4S" class="dispimg lazy" alt="Belts (Timing, Polyurethane)"></div>
-									<div onclick="showArticle(6)" class="card"> <h2>Pocketing (lightening)</h2> <h5>May 18, 2020</h5><img data-src="https://drive.google.com/uc?id=1yb6TRytJwrUwIhzuZ17bvgA7g5WrT-JO" class="dispimg lazy" alt="Pocketing (lightening)"></div>
+									<div onclick="showArticle('ar5c1arend')" class="card"> <h2>Belts (Timing, Polyurethane)</h2> <h5>May 18, 2020</h5><img data-src="https://drive.google.com/uc?id=1LfkkyBf-rMflTZwz7Pmj083er3BTrS4S" class="dispimg lazy" alt="Belts (Timing, Polyurethane)"></div>
+									<div onclick="showArticle('ar2c1arend')" class="card"> <h2>Pocketing (lightening)</h2> <h5>May 18, 2020</h5><img data-src="https://drive.google.com/uc?id=1yb6TRytJwrUwIhzuZ17bvgA7g5WrT-JO" class="dispimg lazy" alt="Pocketing (lightening)"></div>
 
 						  	</div>
 						</div>
@@ -157,15 +157,15 @@
 					<h1>Manufacturing</h1>
 						<div class="row">
 						  	<div class="column" id="left">
-								  <div onclick="showArticle(4)" class="card"> <h2>Laguna CNC Operation</h2> <h5>May 06, 2020</h5><img data-src="https://drive.google.com/uc?id=1XERTdgFkxBk8-uje9BND5m8BPodChmV2" class="dispimg lazy" alt="Laguna CNC Operation"></div>
+								  <div onclick="showArticle('ar1c2arend')" class="card"> <h2>Laguna CNC Operation</h2> <h5>May 06, 2020</h5><img data-src="https://drive.google.com/uc?id=1XERTdgFkxBk8-uje9BND5m8BPodChmV2" class="dispimg lazy" alt="Laguna CNC Operation"></div>
 
 						  	</div>
 						  	<div class="column" id="center">
-						    	<div onclick="showArticle(3)" class="card"> <h2>OMIO CNC Operation</h2> <h5>Dec 7, 2019</h5><img data-src="https://drive.google.com/uc?id=1WKxF4Fi_Amn6yYLDfEmpfwqjvm2vRBZW" class="dispimg lazy" alt="OMIO CNC Operation"></div>
+						    	<div onclick="showArticle('ar2c2arend')" class="card"> <h2>OMIO CNC Operation</h2> <h5>Dec 7, 2019</h5><img data-src="https://drive.google.com/uc?id=1WKxF4Fi_Amn6yYLDfEmpfwqjvm2vRBZW" class="dispimg lazy" alt="OMIO CNC Operation"></div>
 
 						  	</div>
 						 	  <div class="column" id="right">
-									<div onclick="showArticle(13)" class="card"> <h2>Post Processing (CAM)</h2> <h5>May 19, 2020</h5><img data-src="https://drive.google.com/uc?id=1oGbjF_ZCOk73YEVfXkCnHK9o0UXt3-fW" class="dispimg lazy" alt="Post Processing (CAM)"></div>
+									<div onclick="showArticle('ar3c2arend')" class="card"> <h2>Post Processing (CAM)</h2> <h5>May 19, 2020</h5><img data-src="https://drive.google.com/uc?id=1oGbjF_ZCOk73YEVfXkCnHK9o0UXt3-fW" class="dispimg lazy" alt="Post Processing (CAM)"></div>
 
 						  	</div>
 						</div>
@@ -179,7 +179,7 @@
 
 						        </div>
 							      <div class="column" id="center">
-									<div onclick="showArticle(15)" class="card"> <h2>One More Test Article</h2> <h5>May 22, 2020</h5><img data-src="https://drive.google.com/uc?id=1-YyEzHN42Z0GbONOtqFX10FM1JnqSGeW" class="dispimg lazy" alt="One More Test Article"></div>
+									<div onclick="showArticle('ar1c3arend')" class="card"> <h2>One More Test Article</h2> <h5>May 22, 2020</h5><img data-src="https://drive.google.com/uc?id=1-YyEzHN42Z0GbONOtqFX10FM1JnqSGeW" class="dispimg lazy" alt="One More Test Article"></div>
 
 						  	    </div>
       							<div class="column" id="right">
@@ -195,7 +195,7 @@
 
 					 	</div>
 					  <div class="column" id="center">
-									<div onclick="showArticle(14)" class="card"> <h2>Test Article Ignore this</h2> <h5>May 22, 2020</h5><img data-src="https://drive.google.com/uc?id=1ydyxJRC6yeXlMDfUGETc3WdrYxsXdw-r" class="dispimg lazy" alt="Test Article Ignore this"></div>
+									<div onclick="showArticle('ar1c4arend')" class="card"> <h2>Test Article Ignore this</h2> <h5>May 22, 2020</h5><img data-src="https://drive.google.com/uc?id=1ydyxJRC6yeXlMDfUGETc3WdrYxsXdw-r" class="dispimg lazy" alt="Test Article Ignore this"></div>
 
 						</div>
 						<div class="column" id="right">
@@ -208,7 +208,7 @@
                     <h1>Software</h1>
                     	<div class="row">
 							<div class="column" id="left">
-                  <div onclick="showArticle(11)" class="card"> <h2>General Resources</h2> <h5>May 19, 2020</h5><img data-src="" class="dispimg lazy" alt="General Resources"></div>
+                  <div onclick="showArticle('ar1c5arend')" class="card"> <h2>General Resources</h2> <h5>May 19, 2020</h5><img data-src="" class="dispimg lazy" alt="General Resources"></div>
 						  	</div>
 							<div class="column" id="center">
 
@@ -256,7 +256,7 @@
 
 						  	</div>
 							<div class="column" id="center">
-									<div onclick="showArticle(16)" class="card"> <h2>Test Article Title</h2> <h5>May 22, 2020</h5><img data-src="https://drive.google.com/uc?id=1ydyxJRC6yeXlMDfUGETc3WdrYxsXdw-r" class="dispimg lazy" alt="Test Article Title"></div>
+									<div onclick="showArticle('ar1c6arend')" class="card"> <h2>Test Article Title</h2> <h5>May 22, 2020</h5><img data-src="https://drive.google.com/uc?id=1ydyxJRC6yeXlMDfUGETc3WdrYxsXdw-r" class="dispimg lazy" alt="Test Article Title"></div>
 
 						  	</div>
 							<div class="column" id="right">
@@ -400,7 +400,11 @@
         function search(){
                 var keyword=String(document.getElementById('sbox').value);
                 window.location.href='https://jsoni.pythonanywhere.com/query?keyword='+keyword;
-            }
+        }
+        var urlParams = new URLSearchParams(window.location.search);
+        if(urlParams!=''){
+          showArticle(String(urlParams).split('=')[1]);
+        }
     </script>
 </body>
 
