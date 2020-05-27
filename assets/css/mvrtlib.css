@@ -78,12 +78,43 @@ box-sizing: border-box;
 }
 }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1200px) {
+	.column {
+	  width: 50%;
+		padding: 5px;
+	}
+
+/* Responsive layout - when the screen is less than 900px wide, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 900px) {
-.column {
-    width: 100%;
-	padding: 0;
-}
+	.column {
+	  width: 100%;
+		padding: 0;
+	}
+	.gdocs{
+		position: relative;
+		width:100%;
+		padding-bottom:100%;
+	}
+	.gdocs iframe{
+		position: absolute;
+		left:0;top:0;
+		height:100%;
+		width:100%;
+		border-width:0px;
+		box-shadow: 1px 1px 8px 4px rgba(0, 0, 0, 0.2);
+	}
+	.vids{
+			position: inherit;
+			width:100%;
+		}
+		.vids iframe{
+			position: relative;
+			width:100%;
+			height:100%;
+			border-width:0px;
+			padding-bottom:0;
+			box-shadow: 1px 1px 8px 4px rgba(0, 0, 0, 0.2);
+		}
 }
 #myUL {
   /* Remove default list styling */

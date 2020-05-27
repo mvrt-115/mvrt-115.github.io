@@ -77,6 +77,7 @@
     </div>
     <div class='container'><h4>
       <a style='display:none;' id='goback' target="_self" href="javascript:restore();" ><i style='float:left;' class='material-icons'>reply</i> Back</a>
+      <a style='float:left;' target="_self" id='srchbut' href="javascript:showArticle(0,true);"> <i style='float:left;' class='material-icons'>search</i> Search</a>
       <a style='float:right;' target="_self" id='addArt' href="https://jsoni.pythonanywhere.com/editor"> <i style='float:right;' class='material-icons'>note_add</i> Add Article</a>
     </h4></div>
     <section class="information" id="mainstuff">
@@ -87,25 +88,33 @@
                 <a class="tab tab-2" href="#/" data-tab="2">CAD Tutorials</a>
                 <a class="tab tab-3" href="#/" data-tab="3">Manufacturing</a>
                 <a class="tab tab-4" href="#/" data-tab="4">Wiring</a>
-        				<a class="tab tab-5" href="#/" data-tab="5">Sensors</a>
+        				<a class="tab tab-5" href="#/" data-tab="5">Pneumatics</a>
         				<a class="tab tab-6" href="#/" data-tab="6">Software</a>
-        				<a class="tab tab-7" href="#/" data-tab="7">Outreach</a>
-        				<a class="tab tab-8" href="#/" data-tab="8">Finance</a>
-        				<a class="tab tab-9" href="#/" data-tab="9">Marketing</a>
-        				<a class="tab tab-10" href="#/" data-tab="10">Old Submissions</a>
-                <a class="tab tab-11" href="#/" data-tab="11">Search</a>
+                <a class="tab tab-7" href="#/" data-tab="7">Photo/Video</a>
+        				<a class="tab tab-9" href="#/" data-tab="8">Outreach</a>
+        				<a class="tab tab-9" href="#/" data-tab="9">Finance</a>
+        				<a class="tab tab-10" href="#/" data-tab="10">Marketing</a>
+        				<a class="tab tab-11" href="#/" data-tab="11">Old Submissions</a>
 	<!-- ^^ insert new categories above-->
 
                 <!-- <span class="highlighter"></span> -->
             </div>
 			<script src="assets/js/articles.js" type="text/javascript"></script>
 			<script>
-				function showArticle(articleId){    //show back button, hide menu and tabs, show article
+        var searchHTML=`<div class="container"><h1>Search Resources</h1><br>
+                      <h4><div>
+                      <a class='sbutton' target="_self" href="javascript:search();"><i style='float:left' class="material-icons">search</i>Search</a>
+                      <input class='searchbox'  id='sbox' type='text' name='keywrd' placeholder='Find articles ...'><br>
+                      </h4></div><br><br><br></div>`;
+				function showArticle(articleId,search=false){    //show back button, hide menu and tabs, show article
           document.getElementById('goback').style.display="inline";
           document.getElementById('menu').style.display='none';
           document.getElementById('tabmenu').style.display='none';
 					document.getElementById('addArt').style.display = "none";
-					document.getElementById("article").innerHTML=articles[articleId];
+          document.getElementById('srchbut').style.display = "none";
+          if(!search){var inhtml=articles[articleId];}
+          if(search){var inhtml=searchHTML;}
+					document.getElementById("article").innerHTML=inhtml;
 				}
 			</script>
         <div class="content" id='menu'>
@@ -190,8 +199,8 @@
       						</div>
                 </div>
 
-				<div class="content__section" data-tab="5" id="sensors">
-          <h1>Sensors</h1>
+				<div class="content__section" data-tab="5" id="Pneumatics">
+          <h1>Pneumatics</h1>
           <div class="row">
 						<div class="column" id="left">
 
@@ -220,9 +229,9 @@
 						</div>
                 </div>
 
-				<div class="content__section" data-tab="7" id="outreach">
-                    <h1>Outreach</h1>
-                    	<div class="row">
+				<div class="content__section" data-tab="7" id="photo-video">
+          <h1>Photography/Videography</h1>
+          	<div class="row">
 							<div class="column" id="left">
 
 						  	</div>
@@ -235,9 +244,9 @@
 						</div>
                 </div>
 
-				<div class="content__section" data-tab="8" id="finance">
-                    <h1>Finance</h1>
-                    	<div class="row">
+				<div class="content__section" data-tab="8" id="outreach">
+          <h1>Outreach</h1>
+          	<div class="row">
 							<div class="column" id="left">
 
 						  	</div>
@@ -250,9 +259,9 @@
 						</div>
                 </div>
 
-				<div class="content__section" data-tab="9" id="marketing">
-                    <h1>Marketing</h1>
-                    	<div class="row">
+				<div class="content__section" data-tab="9" id="finance">
+          <h1>Finance</h1>
+          	<div class="row">
 							<div class="column" id="left">
 
 						  	</div>
@@ -265,7 +274,21 @@
 						</div>
                 </div>
 
-				<div class="content__section" data-tab="10" id="oldSubmissions">
+				<div class="content__section" data-tab="10" id="marketing">
+            <h1>Marketing</h1>
+            <div class="row">
+							<div class="column" id="left">
+
+						  	</div>
+							<div class="column" id="center">
+
+						  	</div>
+							<div class="column" id="right">
+
+						  	</div>
+						</div>
+        </div>
+        <div class="content__section" data-tab="11" id="oldSubmissions">
             <h1>Old Submissions</h1>
             <div class="row">
 							<div class="column" id="left">
@@ -279,13 +302,6 @@
 						  	</div>
 						</div>
         </div>
-          <div class="content__section" data-tab="11" id="search">
-            <h1>Search Resources</h1><br>
-            <h4><div>
-            <a class='sbutton' target="_self" href="javascript:search();"><i style='float:left' class="material-icons">search</i>Search</a>
-            <input class='searchbox'  id='sbox' type='text' name='keywrd' placeholder='Find articles ...'><br>
-          </h4></div><br><br><br><div></div>
-          </div>
         </div>
       </div>
     </section>
@@ -395,6 +411,7 @@
 	          document.getElementById('addArt').style.display = "inline";
             document.getElementById("menu").style.display='block';
             document.getElementById('tabmenu').style.display='inherit';
+            document.getElementById('srchbut').style.display = "inline";
             document.getElementById("article").innerHTML='';
         }
         function search(){
@@ -405,7 +422,7 @@
         if(urlParams!=''){
           showArticle(String(urlParams).split('=')[1]);
         }
-    </script>
+      </script>
 </body>
 
 </html>
