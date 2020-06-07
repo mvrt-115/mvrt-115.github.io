@@ -57,20 +57,6 @@ box-sizing: border-box;
 	box-shadow: 1px 1px 8px 4px rgba(0, 0, 0, 0.2);
 }
 
-.search{
-	position: relative;
-	width:100%;
-	padding-bottom:100%;
-}
-.search iframe{
-	position: absolute;
-	left:0;top:0;
-	height:100%;
-	width:100%;
-	border-width:0px;
-	box-shadow: 1px 1px 8px 4px rgba(0, 0, 0, 0.2);
-}
-
 /*responsive to large screens, limit docs width to 800px due to extra whitespace*/
 @media screen and (min-width: 1300px) {
 .gdocs iframe {
@@ -140,40 +126,4 @@ box-sizing: border-box;
 
 .sizes{
 	border-radius:10px;
-}
-
-.searchbox{
-	border-width:0;
-	border-top-right-radius:15px;
-	border-bottom-right-radius:15px;
-	box-shadow:1px 1px 8px 1px rgba(0,0,0,0.2);
-	padding:5px 10px;
-	margin-right:7px;
-	float:left;
-	width:calc(100% - 124px);
-	opacity:100%;
-}
-.searchbox:hover{
-	box-shadow:1px 1px 8px 3px rgba(0,0,0,0.2);
-}
-.sbutton {
-	padding:5px 10px;
-	margin-left:7px;
-	margin-bottom:10px;
-	float:left;
-	background-color:#fff;
-	color:#550575;
-	width:110px;
-  border-top-left-radius:15px;
-	border-bottom-left-radius:15px;
-	box-shadow:1px 1px 8px 1px rgba(0,0,0,0.2);
-	border-width:1px;
-}
-.sbutton:hover{
-	text-decoration:underline;
-	box-shadow:1px 1px 10px 3px rgba(0,0,0,0.2);
-}
-.sbutton:visited{
-	text-decoration:underline;
-	box-shadow:1px 1px 10px 3px rgba(0,0,0,0.2);
 }
