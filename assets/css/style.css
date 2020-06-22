@@ -1320,7 +1320,7 @@ label.error {
 }
 
 .third-section {
-    background: linear-gradient(125deg, rgba(62, 28, 87, 0.9331933456976541) 0%, rgba(116, 81, 152, 0.8435574913559174) 100%), url("https://drive.google.com/uc?id=1hbdwsB4C-T7eyUME93qIKuk797mbzmDR") no-repeat center;
+    background: linear-gradient(125deg, rgba(62, 28, 87, 0.9331933456976541) 0%, rgba(116, 81, 152, 0.8435574913559174) 100%), url("assets/images/thirdbg.jpg") no-repeat center;
     padding: 90px 0px;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -1515,7 +1515,7 @@ label.error {
 --*/
 .call-to-action {
     padding: 90px 0px;
-    background: linear-gradient(125deg, rgba(62, 28, 87, 0.9331933456976541) 0%, rgba(116, 81, 152, 0.8435574913559174) 100%), url("https://drive.google.com/uc?id=1hbdwsB4C-T7eyUME93qIKuk797mbzmDR") no-repeat center;
+    background: linear-gradient(125deg, rgba(62, 28, 87, 0.9331933456976541) 0%, rgba(116, 81, 152, 0.8435574913559174) 100%), url("assets/images/thirdbg.jpg") no-repeat center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
