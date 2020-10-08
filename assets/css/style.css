@@ -518,9 +518,9 @@ about page
 }
 
 .team .profile-box:hover {
-    -webkit-box-shadow: 0px 0px 29px 5px rgba(0, 0, 0, 0.57);
-    -moz-box-shadow: 0px 0px 29px 5px rgba(0, 0, 0, 0.57);
-    box-shadow: 0px 0px 29px 5px rgba(0, 0, 0, 0.57);
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
 }
 
 .team img {
