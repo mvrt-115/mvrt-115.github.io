@@ -80,17 +80,17 @@
     <section class="information">
         <div class="container">
             <div class="tabs">
-                <a id="t1" class="tab tab-1 active" href="#/" data-tab="1">Calendar</a>
+                <a id="t1" class="tab tab-1" href="#/" data-tab="1">Calendar</a>
                 <a id="t2" class="tab tab-2" href="#/" data-tab="2">Events</a>
                 <a id="t3" class="tab tab-3" href="#/" data-tab="3">Forms</a>
                 <a id="t4" class="tab tab-4" href="#/" data-tab="4">Documents</a>
 
-				<a id="t5" class="tab tab-5" href="#/" data-tab="5">Symposium</a>
+				<a id="t5" class="tab tab-5 active" href="#/" data-tab="5">Symposium</a>
                 <!-- <span class="highlighter"></span> -->
             </div>
 
             <div class="content">
-                <div class="content__section visible" data-tab="1" id="calendar">
+                <div class="content__section" data-tab="1" id="calendar">
                     <h1>Calendar</h1>
                     <br />
                     <p>If you have any questions about upcoming events, or something doesn't look quite right, <a href="contact.html">let us know</a>! The calendar is best viewed on a computer.</p>
@@ -196,7 +196,7 @@
                             <li><a href="http://whizoo.com/f/TalonSRX_bom.txt">Bill Of Materials</a></li>
                         </ul>
                 </div>
-				<div class="content__section" data-tab="5" id="symposium">
+				<div class="content__section visible" data-tab="5" id="symposium">
                     <h1>Symposium: November 21st, 3-5 PM</h1>
 					<br>
                     <p>Diversity in STEM Symposium Schedule (<a style="text-decoration:underline;" href="https://tinyurl.com/mvrtsymposium2020">click here to RSVP</a>)</p>
@@ -318,14 +318,6 @@
             target.classList.add('active');
             activeContent.classList.remove('visible');
             currentContent.classList.add('visible');
-        }
-		var urlParams = new URLSearchParams(window.location.search);
-		//window.alert(String(urlParams));
-		if(String(urlParams)=='symposium'){
-          document.getElementById('t1').classList.remove('active');
-		  document.getElementById('t5').classList.add('active');
-		  document.getElementById('calendar').classList.remove('visible');
-		  document.getElementById('symposium').classList.add('visible');
         }
     </script>
 </body>
