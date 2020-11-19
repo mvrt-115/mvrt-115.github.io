@@ -80,12 +80,12 @@
     <section class="information">
         <div class="container">
             <div class="tabs">
-                <a class="tab tab-1 active" href="#/" data-tab="1">Calendar</a>
-                <a class="tab tab-2" href="#/" data-tab="2">Events</a>
-                <a class="tab tab-3" href="#/" data-tab="3">Forms</a>
-                <a class="tab tab-4" href="#/" data-tab="4">Documents</a>
+                <a id="t1" class="tab tab-1 active" href="#/" data-tab="1">Calendar</a>
+                <a id="t2" class="tab tab-2" href="#/" data-tab="2">Events</a>
+                <a id="t3" class="tab tab-3" href="#/" data-tab="3">Forms</a>
+                <a id="t4" class="tab tab-4" href="#/" data-tab="4">Documents</a>
 
-
+				<a id="t5" class="tab tab-5" href="#/" data-tab="5">Symposium</a>
                 <!-- <span class="highlighter"></span> -->
             </div>
 
@@ -127,7 +127,8 @@
                         <br>
                         <p>MVRT Events:</p>
                         <li>Rookie Trainings: <i>October 5th - November 20th</i></li>
-		    	<!--<li>Club Info Day: <i>(Exact date TBD)</i></li>
+						<li>Diversity in STEM Symposium: <i>November 21st, 3-5 PM</i></li>
+				<!--<li>Club Info Day: <i>(Exact date TBD)</i></li>
 		    	<li>Interest Meeting: <i>(Exact date TBD)</i></li>-->
                     </ul>
                     <br>
@@ -194,6 +195,44 @@
                             <li><a href="https://oshpark.com/shared_projects/bFWVuim5">Bare PCB</a></li>
                             <li><a href="http://whizoo.com/f/TalonSRX_bom.txt">Bill Of Materials</a></li>
                         </ul>
+                </div>
+				<div class="content__section" data-tab="5" id="symposium">
+                    <h1>Symposium: November 21st, 3-5 PM</h1>
+					<br>
+                    <p>Diversity in STEM Symposium Schedule (<a style="text-decoration:underline;" href="https://tinyurl.com/mvrtsymposium2020">click here to RSVP</a>)</p>
+                    <br />
+                    <ul>
+						<p>Opening (<a style="text-decoration:underline;" href="https://tinyurl.com/mvrtwistem">Click here for the Zoom Link</a>)</p>
+						<li>3:00 PM</li>
+                        <br>
+						<p>Parul Agrawal: <i>Engineer at NASA</i></p>
+						<li>Presentation: 3:05 PM</li>
+						<li>Q&A: 3:20 PM</li>
+                        <br>
+						<p>Viji Angaian: <i>Clinical Data Scientist at Pfizer</i></p>
+						<li>Presentation: 3:25 PM</li>
+						<li>Q&A: 3:40 PM</li>
+                        <br>
+						<p>Madison Kriege: <i>Associate Software Developer at Pearson</i></p>
+						<li>Presentation: 3:45 PM</li>
+						<li>Q&A: 4:00 PM</li>
+                        <br>
+						<p>Break</p>
+						<li>4:05 PM</li>
+                        <br>
+						<p>Ayushi Sinha: <i>Member of the Product Team at Nines and cofounder at Prospect Student Ventures</i></p>
+						<li>Presentation: 4:10 PM</li>
+						<li>Q&A: 4:25 PM</li>
+                        <br>
+						<p>Jessie Contour: <i>Assistant Professor of Practice in Immersive Media at the University of Texas Austin</i></p>
+						<li>Presentation: 4:30 PM</li>
+						<li>Q&A: 4:45 PM</li>
+                        <br>
+						<p>Closing</p>
+						<li>4:50 PM</li>
+                        <br>
+                    </ul>
+                    <br>
                 </div>
             </div>
         </div>
@@ -280,7 +319,14 @@
             activeContent.classList.remove('visible');
             currentContent.classList.add('visible');
         }
-
+		var urlParams = new URLSearchParams(window.location.search);
+		//window.alert(String(urlParams));
+		if(String(urlParams)=='symposium'){
+          document.getElementById('t1').classList.remove('active');
+		  document.getElementById('t5').classList.add('active');
+		  document.getElementById('calendar').classList.remove('visible');
+		  document.getElementById('symposium').classList.add('visible');
+        }
     </script>
 </body>
 
