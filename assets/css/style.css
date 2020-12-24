@@ -1499,8 +1499,8 @@ label.error {
 .sponsorimg {
   display: block;
   margin: auto;
-  height:150px;
-  width:auto;
+  /*height:150px;
+  width:auto;*/
   padding:20px;
 }
 /*--
