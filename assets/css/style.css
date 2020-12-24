@@ -1486,7 +1486,23 @@ label.error {
     height: 100px;
     width: 250px;
 }
-
+.sponsorrow:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.sponsorcolumn{
+  float:left;
+  padding: 8px;
+  width:50%;
+}
+.sponsorimg {
+  display: block;
+  margin: auto;
+  height:150px;
+  width:auto;
+  padding:20px;
+}
 /*--
     events start
 --*/
