@@ -1496,6 +1496,21 @@ label.error {
   padding: 8px;
   width:50%;
 }
+
+.sponsorcolumn p
+{
+	width: 100%;
+	padding: 0px 10%;
+	text-align: center;
+}
+
+.sponsorcolumn p .btn-main
+{
+	margin: 30px 0px;
+	margin-bottom: 45px;
+	
+}
+
 .sponsorimg {
   display: block;
   margin: auto;
@@ -1507,7 +1522,8 @@ label.error {
 	.sponsorcolumn {
 	  width: 100%;
 		padding: 0;
-	}}
+	}
+}
 /*--
     events start
 --*/
