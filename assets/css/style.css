@@ -1486,6 +1486,12 @@ label.error {
     height: 100px;
     width: 250px;
 }
+.sponsorrow
+{
+	display: flex;
+	justify-content: center;
+	padding: 50px 0%;
+}
 .sponsorrow:after {
 	content: "";
 	display: table;
@@ -1510,18 +1516,26 @@ label.error {
 	margin-bottom: 45px;
 	
 }
-
+.sponsorrow a
+{
+	width: 100%;
+	text-align: center;
+}
 .sponsorimg {
-  display: block;
-  margin: auto;
-  /*height:150px;
-  width:auto;*/
-  padding:20px;
+	height: calc( 4vw + 60px );
 }
 @media screen and (max-width: 900px) {
 	.sponsorcolumn {
 	  width: 100%;
 		padding: 0;
+	}
+	.sponsorrow{
+		flex-wrap: wrap;
+		padding: 0;
+	}
+	.sponsorrow a
+	{
+		padding: 30px 0px;
 	}
 }
 /*--
