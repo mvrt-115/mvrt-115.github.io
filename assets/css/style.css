@@ -1523,6 +1523,7 @@ label.error {
 }
 .sponsorimg {
 	height: calc( 4vw + 60px );
+/*	border: 1px solid black;*/
 }
 @media screen and (max-width: 900px) {
 	.sponsorcolumn {
