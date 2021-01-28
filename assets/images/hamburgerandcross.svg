@@ -1,0 +1,5 @@
+<svg id = "menubtn" viewBox = "0 0 100 100">
+	<path class = "line line1" d = "M 20 29 H 82 C 91 29 107 91 77 75 l -52 -50"/>
+	<path class = "line line2" d = "M 20 50 H 80 "/>
+	<path class = "line line3" d = "M 20 71 H 82 C 91 71 107 9 77 25 L 25 75 "/>		
+</svg>
