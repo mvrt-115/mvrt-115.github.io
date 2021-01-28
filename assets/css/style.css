@@ -665,6 +665,7 @@ about page
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 0.125rem 0.375rem 0 rgba(0, 0, 0, 0.12);
+	width: 100%;
 }
 
 .information .container .content__section {
@@ -695,7 +696,8 @@ about page
 .information .container .content__section.visible {
     position: relative;
     opacity: 1;
-    width: 70vw;
+    width: 100%;
+	max-width: 1000px;
     height: auto;
     transition: opacity 0.5s ease;
     z-index: 2;
@@ -1621,6 +1623,26 @@ footer .footer-logo {
     font-size: 40px;
     font-family: 'Montserrat';
     color: #662D91;
+}
+
+.socialmediabar 
+{
+	
+}
+.socialmediabar i
+{
+	font-size: 35px;
+	transition: 0.3s;
+	padding: 20px 15px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #282828;
+}
+.socialmediabar i:hover
+{
+	transform: scale(1.2);
+	cursor: pointer;
+	color: #662D91;
 }
 
 footer p.copyright-text {
