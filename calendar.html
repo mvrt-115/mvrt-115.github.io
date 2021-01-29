@@ -33,6 +33,8 @@
 
 <body id="body">
 
+	
+	
     <div id="preloader-wrapper">
         <div class="pre-loader"></div>
     </div>
@@ -41,15 +43,24 @@
 	    Header start
 	    ==================== -->
     <div class="container">
-            <nav class="navbar navigation " id="top-nav">
-                <a class="navbar-brand logo" href="index.html">
-                    <h1>MVRT</h1>
-                </a>
-                <button class="navbar-toggler hidden-lg-up float-lg-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                    <i class="tf-ion-android-menu"></i>
-                </button>
-                <div class="collapse navbar-toggleable-md" id="navbarResponsive">
-                    <ul class="nav navbar-nav menu float-lg-right" id="top-nav" style="columns:1">
+		
+			<svg id = "menubtn" viewBox = "0 0 100 100" onclick = "this.classList.toggle('opened'); document.getElementById('top-nav').classList.toggle('opened'); document.documentElement.classList.toggle('noscroll');">
+				<path class = "line line1" d = "M 20 29 H 82 C 91 29 107 91 77 75 l -52 -50"/>
+				<path class = "line line2" d = "M 20 50 H 80 "/>
+				<path class = "line line3" d = "M 20 71 H 82 C 91 71 107 9 77 25 L 25 75 "/>		
+			</svg>
+            <nav class="navbar navigation " id="">
+            <a class="navbar-brand logo" href="index.html">
+                <h1>MVRT</h1>
+            </a>
+
+<!--
+            <button class="navbar-toggler hidden-lg-up float-lg-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <i class="tf-ion-android-menu"></i>
+            </button>
+-->
+            <div class="" id="">
+                <ul class="nav navbar-nav menu float-lg-right" id="top-nav" style="columns:1;">
                         <li class="">
                             <a href="index.html"><b>HOME</b></a>
                         </li>

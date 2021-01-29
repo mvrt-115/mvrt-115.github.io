@@ -426,63 +426,24 @@ a:active {
     font-size: 25px;
     color: #000;
 }
-
-
-.line
-{
-	fill: none;
-	stroke: black; 
-	stroke-width: 7;
-	transition: 0.3s;
-	transition-timing-function:ease;
-	stroke-dashoffset: 0;
-}
-.line1, .line3
-{
-	stroke-dasharray: 60 197
-}
-.line2
-{
-	stroke-dasharray: 60 60;
-
-}
-.opened .line1, .opened .line3 
-{
-	stroke-dasharray: 73 172;
-	stroke-dashoffset: -128;
-	stroke-width: 8;
-}
-.opened .line2
-{
-	stroke-dasharray: 0 60;
-	stroke-dashoffset: -30.5;
-}
 #menubtn
 {
-	transition: 0.2s;
-	background-color: #8ff0;
-	border-radius: 50%;
-	width: 80px;
-	height: 80px;
-	padding: 15px;
-	position: fixed;
-	top: 12px;
-	right: 15px;
-	z-index: 11;
 	display: none;
-}
-#menubtn:hover
-{
-/*	background-color: #deddff;*/
-	cursor: pointer;
-}
-#menubtn:active
-{
-	background-color: #cde;
 }
 
 @media ( max-width: 1000px )
 {
+	html.noscroll, html.noscroll body
+	{
+		overflow: hidden;
+		width: 100%;
+		height: 100%;
+		margin: 0;
+	}
+	html.noscroll body
+	{
+		position: relative;
+	}
 	#top-nav
 	{
 		left: 0;
@@ -490,26 +451,79 @@ a:active {
 		margin: 0;
 		padding: 0;
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-around;
 		align-items: center;
 		flex-direction: column;
-		padding: 10vh 0px;
+		padding: 5vh 0px;
 		position: fixed;
 		width: 100vw;
-		height: 100vh;
+		height: 100%;
 		background-color: white;
 		opacity: 0;
 		z-index: -1;
 		transition: 0.25s;
 	}
+	.line
+	{
+		fill: none;
+		stroke: black; 
+		stroke-width: 7;
+		transition: 0.3s;
+		transition-timing-function:ease;
+		stroke-dashoffset: 0;
+	}
+	.line1, .line3
+	{
+		stroke-dasharray: 60 197
+	}
+	.line2
+	{
+		stroke-dasharray: 60 60;
+
+	}
+	.opened .line1, .opened .line3 
+	{
+		stroke-dasharray: 73 172;
+		stroke-dashoffset: -128;
+		stroke-width: 8;
+	}
+	.opened .line2
+	{
+		stroke-dasharray: 0 60;
+		stroke-dashoffset: -30.5;
+	}
+	#menubtn
+	{
+		transition: 0.2s;
+		background-color: #8ff0;
+		border-radius: 50%;
+		width: 70px;
+		height: 70px;
+		padding: 15px;
+		position: absolute;
+		top: 20px;
+		right: 15px;
+		z-index: 11;
+		display: block;
+	}
+	#menubtn.opened
+	{
+		position: fixed;
+	}
+	#menubtn:hover
+	{
+	/*	background-color: #deddff;*/
+		cursor: pointer;
+	}
+	#menubtn:active
+	{
+		background-color: #deddff;
+	}
+
 	#top-nav.opened
 	{
 		z-index: 10;
 		opacity: 1;
-	}
-	#menubtn
-	{
-		display: block;
 	}
 
 }
