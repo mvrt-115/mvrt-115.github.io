@@ -430,6 +430,34 @@ a:active {
 {
 	display: none;
 }
+.logo {
+	user-select: none;
+	position: absolute; 
+    display: inline-block;
+	transition: 0.28s;
+	transition-timing-function: cubic-bezier(.25,.1,.2,1.2);
+	z-index: 11;
+	left: calc( 25vw - 200px );
+	top:19px;
+	width: 0px;
+	text-align: center;
+}
+
+.noscroll .logo
+{
+	width: 100%;
+	left: 0;
+}
+
+.logo h1 {
+    color: #662D91;
+    font-size: 40px;
+    font-family: 'Montserrat';
+    margin: 0;
+    margin-top: 10px;
+    line-height: 1;
+    align-content: center
+}
 
 @media ( max-width: 1000px )
 {
@@ -467,6 +495,18 @@ a:active {
 		opacity: 0;
 		z-index: 1;
 		transition: 0.25s;
+	}
+	#top-nav li
+	{
+		transition: 0.12s;
+		transform: translateX(-80px);
+		transition-timing-function: cubic-bezier(.25,.1,.2,1.2);
+		opacity: 0;
+	}
+	.noscroll #top-nav li
+	{
+		transform: translateX(0px);
+		opacity: 1;
 	}
 	.line
 	{
@@ -530,37 +570,14 @@ a:active {
 		z-index: 10;
 		opacity: 1;
 	}
+	.logo {
+		left: 20px;
+		top: 25px;
+	}
 
 }
 
 
-.logo {
-	position: absolute; 
-    display: inline-block;
-	transition: 0.3s;
-	transition-timing-function: cubic-bezier(.25,.1,.2,1.23);
-	z-index: 11;
-	left: 15px;
-	top: 22px;
-	width: 0px;
-	text-align: center;
-}
-
-.noscroll .logo
-{
-	width: 100%;
-	left: 0;
-}
-
-.logo h1 {
-    color: #662D91;
-    font-size: 40px;
-    font-family: 'Montserrat';
-    margin: 0;
-    margin-top: 10px;
-    line-height: 1;
-    align-content: center
-}
 
 
 .menu {
@@ -570,6 +587,7 @@ a:active {
 .menu li {
     display: inline-block;
     margin: 0 12px;
+    
 }
 
 .menu li a {
@@ -577,11 +595,39 @@ a:active {
     font-size: 14px;
     font-weight: bold;
     text-align: center;
+	text-decoration: none;
+	position: relative;
+}
+.menu li a:after
+{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -1px;
+	width: 0%;
+	margin-left: 50%;
+	height: 2px;
+	transition: 0.1s;;
+	background-color: #662D91;;
+}
+.menu li:last-of-type a:after
+{
+	display: none;
 }
 
 .menu li a:hover,
 .menu li a:focus {
     background: none;
+}
+.menu li a:hover:after,
+.menu li a:focus:after {
+    width: 100%;
+	margin-left: 0px;
+}
+
+.menu li.active a:after {
+	width: 100%;
+	margin-left: 0px;
 }
 
 .announcement {

@@ -1,5 +1,11 @@
 $(window).load(function() {
     $("#preloader-wrapper").fadeOut("slow");
+	var menuItems = document.querySelectorAll("#top-nav li");
+	menuItems.forEach(
+		function( currentValue, currentIndex ){
+			currentValue.style.transitionDelay = (currentIndex*0.025) + 0.035 + "s";
+		},
+	);
 });
 
 $(document).ready(function(){

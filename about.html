@@ -42,7 +42,7 @@
 	    ==================== -->
     <div class="container">
 		
-		<svg id = "menubtn" viewBox = "0 0 100 100" onclick = "this.classList.toggle('opened'); document.getElementById('top-nav').classList.toggle('opened'); document.documentElement.classList.toggle('noscroll');">
+		<svg id = "menubtn" viewBox = "0 0 100 100" onclick = "toggleMobileMenu()">
 				<path class = "line line1" d = "M 20 29 H 82 C 91 29 107 91 77 75 l -52 -50"/>
 				<path class = "line line2" d = "M 20 50 H 80 "/>
 				<path class = "line line3" d = "M 20 71 H 82 C 91 71 107 9 77 25 L 25 75 "/>		
@@ -64,7 +64,7 @@
 					<li>
                         <a href="index.html"><b>HOME</b></a>
                     </li>
-                    <li class="active" style="text-decoration: underline;">
+                    <li class="active" >
                         <a href="about.html"><b>ABOUT</b></a>
                     </li>
                     <li class="">
@@ -1165,7 +1165,7 @@
                             <li class="">
                                 <a href="index.html">HOME</a>
                             </li>
-                            <li class="" style="text-decoration: underline;">
+                            <li class=""  >
                                 <a href="about.html">ABOUT</a>
                             </li>
                             <li class="">
