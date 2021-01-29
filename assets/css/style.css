@@ -444,6 +444,10 @@ a:active {
 	{
 		position: relative;
 	}
+	.navbar
+	{
+		height: calc( 450px - 100vh );
+	}
 	#top-nav
 	{
 		left: 0;
@@ -455,12 +459,13 @@ a:active {
 		align-items: center;
 		flex-direction: column;
 		padding: 5vh 0px;
+		padding-top: calc( 5vh + 80px );
 		position: fixed;
 		width: 100vw;
-		height: 100vh;
+		height: 100%;
 		background-color: white;
 		opacity: 0;
-		z-index: -1;
+		z-index: 1;
 		transition: 0.25s;
 	}
 	.line
@@ -503,7 +508,7 @@ a:active {
 		position: absolute;
 		top: 20px;
 		right: 15px;
-		z-index: 11;
+		z-index: 12;
 		display: block;
 	}
 	#menubtn.opened
@@ -530,7 +535,21 @@ a:active {
 
 
 .logo {
+	position: absolute; 
     display: inline-block;
+	transition: 0.3s;
+	transition-timing-function: cubic-bezier(.25,.1,.2,1.23);
+	z-index: 11;
+	left: 15px;
+	top: 22px;
+	width: 0px;
+	text-align: center;
+}
+
+.noscroll .logo
+{
+	width: 100%;
+	left: 0;
 }
 
 .logo h1 {
