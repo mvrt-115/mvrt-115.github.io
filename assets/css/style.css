@@ -439,10 +439,16 @@ a:active {
 	z-index: 11;
 	left: calc( 25vw - 200px );
 	top:19px;
-	width: 0px;
-	text-align: center;
+	width: 120px;
+	padding: 0;
+	display: flex;
+	justify-content: center;
 }
 
+.logo h1
+{
+	width: 120px;
+}
 .noscroll .logo
 {
 	width: 100%;
@@ -456,7 +462,8 @@ a:active {
     margin: 0;
     margin-top: 10px;
     line-height: 1;
-    align-content: center
+    align-content: center;
+	position: relative;
 }
 
 @media ( max-width: 1000px )
@@ -493,7 +500,7 @@ a:active {
 		height: 100%;
 		background-color: white;
 		opacity: 0;
-		z-index: 1;
+		z-index: -1;
 		transition: 0.25s;
 	}
 	#top-nav li
@@ -513,7 +520,7 @@ a:active {
 		fill: none;
 		stroke: black; 
 		stroke-width: 7;
-		transition: 0.3s;
+		transition: 0.25s;
 		transition-timing-function:ease;
 		stroke-dashoffset: 0;
 	}
@@ -598,7 +605,7 @@ a:active {
 	text-decoration: none;
 	position: relative;
 }
-.menu li a:after
+.menu li a:after, .logo h1:after
 {
 	content: '';
 	position: absolute;
@@ -610,17 +617,34 @@ a:active {
 	transition: 0.1s;;
 	background-color: #662D91;;
 }
+.logo h1:after
+{
+	height: 3px;
+}
 .menu li:last-of-type a:after
 {
 	display: none;
 }
 
+.logo:hover,
+.logo:focus
+{
+	text-decoration: none;
+	
+}
+
 .menu li a:hover,
-.menu li a:focus {
+.menu li a:focus,
+.logo h1:hover,
+.logo h1:focus
+{
     background: none;
 }
 .menu li a:hover:after,
-.menu li a:focus:after {
+.menu li a:focus:after,
+.logo h1:hover:after,
+.logo h1:focus:after
+{
     width: 100%;
 	margin-left: 0px;
 }
@@ -1799,7 +1823,7 @@ footer .footer-logo {
 .socialmediabar i
 {
 	font-size: 35px;
-	transition: 0.3s;
+	transition: 0.2s;
 	padding: 20px 15px;
 	margin-top: 10px;
 	text-decoration: none;
@@ -1831,4 +1855,9 @@ footer p.copyright-text a:hover {
 footer .menu li {
     display: inline-block;
     margin: 0 10px;
+}
+
+footer .menu li:last-of-type a:after
+{
+	display: inline-block;
 }
