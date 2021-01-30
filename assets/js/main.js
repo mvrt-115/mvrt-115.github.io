@@ -3,7 +3,7 @@ $(window).load(function() {
 	var menuItems = document.querySelectorAll("#top-nav li");
 	menuItems.forEach(
 		function( currentValue, currentIndex ){
-			currentValue.style.transitionDelay = (currentIndex*0.025) + 0.035 + "s";
+			currentValue.style.transitionDelay = (currentIndex*0.025) + 0.045 + "s";
 		},
 	);
 });
