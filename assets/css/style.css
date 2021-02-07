@@ -1754,6 +1754,24 @@ label.error {
 		height: calc( 4vw + 60px  );
 	}
 }
+
+
+.centered
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex-wrap: wrap;
+	padding: 40px 0px;
+	padding-bottom: 50px;
+}
+.centered a
+{
+	margin: 10px 30px;	
+}
+
+
 /*--
     events start
 --*/
@@ -1878,3 +1896,5 @@ footer .menu li:last-of-type a:after
 {
 	display: inline-block;
 }
+
+
