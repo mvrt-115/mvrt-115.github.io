@@ -614,7 +614,7 @@ a:active {
 	width: 0%;
 	margin-left: 50%;
 	height: 2px;
-	transition: 0.1s;;
+	transition: 0.15s;;
 	background-color: #662D91;;
 }
 .logo h1:after
@@ -1733,8 +1733,14 @@ label.error {
 	text-align: center;
 }
 .sponsorimg {
+	transition: 0.2s;
 	height: calc( 5vw + 70px - 5vh );
+	transform: scale( 1 );
 /*	border: 1px solid black;*/
+}
+.sponsorimg:hover
+{
+	transform: scale( 1.1);
 }
 @media screen and (max-width: 900px) {
 	.sponsorcolumn {
@@ -1763,12 +1769,12 @@ label.error {
 	align-items: center;
 	width: 100%;
 	flex-wrap: wrap;
-	padding: 40px 0px;
-	padding-bottom: 50px;
+	padding: 30px 0px;
+	padding-bottom: 40px;
 }
 .centered a
 {
-	margin: 10px 30px;	
+	margin: 20px 30px;	
 }
 
 
