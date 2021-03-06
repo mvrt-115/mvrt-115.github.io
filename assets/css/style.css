@@ -1774,7 +1774,9 @@ label.error {
 }
 .centered a
 {
+	display: inline-block;
 	margin: 20px 30px;	
+	width: 100%:
 }
 
 
