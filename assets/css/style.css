@@ -12,6 +12,7 @@ body {
     font-family: "Josefin Sans", sans-serif;
     -webkit-font-smoothing: antialiased;
     background-color: #fff;
+	transition: 0.2s;
 }
 
 h1,
@@ -1778,6 +1779,87 @@ label.error {
 	margin: 20px 30px;	
 	width: 100%:
 }
+
+
+
+/*-- 
+	pictures start
+--*/
+
+
+#focusedimage
+{
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: 0.2s;
+	z-index: -1;	
+}
+
+#focusedimage.focused
+{
+	opacity: 1;
+	z-index: 101;	
+}
+
+#focusedimage img
+{
+	height: 80%;
+	border-radius: 5px;
+}
+
+body .container
+{
+	transition: 0.2s;
+}
+
+body.picturefocused .container
+{
+	filter: blur(5px);
+}
+#pictures
+{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width: 100%;
+}
+.picturesCol
+{
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	width: 30%;
+}
+.picturesCol img
+{
+	width: 100%;
+	box-shadow: 0px 0px 15px #0006;
+	border-radius: 10px;
+	transition: 0.2s;
+	margin: 10px;
+	display: inline-block;
+	z-index: 0;
+}
+
+.picturesCol img:hover
+{
+	transform: scale(1.05);
+	z-index: 100;
+	cursor: pointer;
+}
+
+.picturesCol img.focuspicture
+{
+	filter: blur(0px);
+}
+
 
 
 /*--
