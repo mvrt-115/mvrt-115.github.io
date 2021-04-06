@@ -1826,38 +1826,128 @@ body.picturefocused .container
 #pictures
 {
 	display: flex;
-	justify-content: center;
 	align-items: flex-start;
+    flex-wrap: wrap;
 	width: 100%;
 }
-.picturesCol
+#pictures .img
 {
-	display: flex;
-	flex-direction: column;
-	margin: 10px;
-	width: 30%;
-}
-.picturesCol img
-{
-	width: 100%;
-	box-shadow: 0px 0px 15px #0006;
-	border-radius: 10px;
+	height: calc( calc( 33vw - 10px )/2 );
+    width: 100%;
+	/* box-shadow: 0px 0px 5px #0006; */
+	border-radius: 4px;
 	transition: 0.2s;
-	margin: 10px;
+    margin: 5px 0px;
 	display: inline-block;
 	z-index: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-basis: 33%;
 }
 
-.picturesCol img:hover
+#pictures .img:hover
 {
-	transform: scale(1.05);
+	transform: scale(1.02);
 	z-index: 100;
 	cursor: pointer;
 }
 
-.picturesCol img.focuspicture
+@media( max-width: 900px )
+{
+    #pictures .img
+    {
+        flex-basis: 100%;
+        height: 50vw;
+    }
+    #focusedimage img
+    {
+        width: 80%;
+        height: auto;
+        border-radius: 5px;
+    }
+}
+/* #pictures .img:nth-of-type(3n)
+{
+    flex-basis: 10px;
+} */
+
+#pictures .img.focuspicture
 {
 	filter: blur(0px);
+}
+
+@keyframes fadein
+{
+    0%{ opacity: 0; } 100%{ opacity: 1; }
+}
+
+.dropdownselect
+{
+    font-family: Montserrat;
+    float: right;
+    display:block;
+    text-align: right;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.dropdownselect .options
+{
+    display: none;
+    box-shadow: 0px 0px 5px #eee;
+    position: absolute;
+    z-index: 1000;
+    background-color: white;
+    right: 0;
+}
+.dropdownselect .option
+{
+    box-sizing: border-box;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: 700;
+    padding: 10px 20px;
+    display: block;
+    transition: 0.1s;
+    color: black;
+    text-decoration: none;;
+
+}
+.dropdownselect .option:hover
+{
+    background-color: #eee;
+}
+
+
+.dropdownselect .selected
+{ 
+    display: inline-block;  
+    padding: 10px 20px;
+    border: 2px solid #662D91; 
+    font-weight: 700;
+    transition: 0.2s;
+    margin-bottom: 10px;
+}
+.dropdownselect .selected:hover
+{
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.dropdownselect.opened {
+    border-bottom: none;
+}
+.dropdownselect.opened .options
+{
+    display: block;
+    animation: fadein 0.2s ease 0s forwards;
+}
+
+.dropdownselect .selected:after
+{
+    content: '\25BE';
+    padding-left: 10px;;
 }
 
 
@@ -1941,10 +2031,6 @@ footer .footer-logo {
     color: #662D91;
 }
 
-.socialmediabar 
-{
-	
-}
 .socialmediabar i
 {
 	font-size: 35px;
