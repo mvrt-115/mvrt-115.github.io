@@ -6,8 +6,7 @@ json = "{\n\t\"root\":\"assets/images/\",";
 
 json += "\t\n\t\"images\":["
 
-dirs = [ "2019-Head-Start", "2019-Trainings", "2019-Cal-Games","2019-Chezy-Champs", "2019-Symposium", "2020-Build-Season", "2020-LAN"]
-
+dirs = ["2019-Trainings", "2019-Cal-Games","2019-Chezy-Champs", "2019-Fall-Festival", "2019-Head-Start", "2019-Symposium", "2020-Build-Season", '2020-LAN']
 def changeQuotes( s ):
     n = s.replace( "\'", "\"" );
     return n;
