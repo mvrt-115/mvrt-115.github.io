@@ -1110,7 +1110,7 @@ about page
     -ms-transform: translateX(-50%) translateY(-50%);
     -o-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(../img/cd-arrow.svg) no-repeat 0 0;
+    /* background: url(../img/cd-arrow.svg) no-repeat 0 0; */
 }
 
 .cd-timeline-navigation a.prev {
@@ -1777,7 +1777,7 @@ label.error {
 {
 	display: inline-block;
 	margin: 20px 30px;	
-	width: 100%:
+	width: 100%;
 }
 
 
