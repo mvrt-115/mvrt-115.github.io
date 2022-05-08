@@ -469,48 +469,33 @@ a:active {
   0% {
     left: 0%;
   }
-  10% {
+  13.157% {
     left: 0%;
   }
-  20% {
+  42.105% {
     left: 100%;
   }
-  30% {
-    left: 100%;
-  }
-  40% {
+  63.157% {
     left: 200%;
   }
-  50% {
-    left: 200%;
-  }
-  60% {
-    left: 100%;
-  }
-  70% {
-    left: 100%;
-  }
-  80% {
-    left: 0%;
-  }
-  90% {
-    left: 0%;
+  86.842% {
+    left: 300%;
   }
   100% {
-    left: 0%;
+    left: 400%;
   }
 }
 .slide-container {
   overflow: hidden;
   height: 100%;
-  width: 300%;
-  margin: 0 0 0 -200%;
+  width: 500%;
+  margin: 0 0 0 -400%;
   position: relative;
   display: flex;
+  animation-duration: 18s;
   animation-name: slide_animation;
-  animation-duration: 15s;
   animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
+  animation-direction: alternate;
   animation-play-state: run;
 }
 
