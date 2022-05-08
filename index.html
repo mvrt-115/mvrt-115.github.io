@@ -43,66 +43,74 @@
     <!--
 	    Header start
 	    ==================== -->
-    <div class="container">
+    <div class="container" style="background-image: linear-gradient(#fff 0%, 80% ,#0926ff00 90%); width: 100%; height: 13vh; justify-content: center; align-items: center">
+        <div style="display: flex; flex-direction: row; justify-content:space-between; width: 100%; align-items: center; padding-top: 0.5vh; align-items: center;">
 		
-		<svg id = "menubtn" viewBox = "0 0 100 100" onclick = "this.classList.toggle('opened'); document.getElementById('top-nav').classList.toggle('opened'); document.documentElement.classList.toggle('noscroll');">
-				<path class = "line line1" d = "M 20 29 H 82 C 91 29 107 91 77 75 l -52 -50"/>
-				<path class = "line line2" d = "M 20 50 H 80 "/>
-				<path class = "line line3" d = "M 20 71 H 82 C 91 71 107 9 77 25 L 25 75 "/>		
-		</svg>
-		
-		
-		<a class="logo" href="index.html" style = "">
-                <h1>MVRT</h1>
-            </a>
-        <nav class="navbar navigation " id="">
+            <svg id = "menubtn" viewBox = "0 0 100 100" onclick = "this.classList.toggle('opened'); document.getElementById('top-nav').classList.toggle('opened'); document.documentElement.classList.toggle('noscroll');">
+                    <path class = "line line1" d = "M 20 29 H 82 C 91 29 107 91 77 75 l -52 -50"/>
+                    <path class = "line line2" d = "M 20 50 H 80 "/>
+                    <path class = "line line3" d = "M 20 71 H 82 C 91 71 107 9 77 25 L 25 75 "/>		
+            </svg>
             
+            <a class="logo" style="" href="index.html" >
+                    <h1>MVRT</h1>
+                </a>
+            
+            <nav style="margin-top: 0%;">
+                
 
-<!--
-            <button class="navbar-toggler hidden-lg-up float-lg-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                <i class="tf-ion-android-menu"></i>
-            </button>
--->
-            <div class="" id="">
-                <ul class="nav navbar-nav menu float-lg-right" id="top-nav" style="columns:1;">
-                    <li class="active" >
-                        <a href="index.html"><b>HOME</b></a>
-                    </li>
-                    <li class="">
-                        <a href="about.html"><b>ABOUT</b></a>
-                    </li>
-                    <li class="">
-                        <a href="calendar.html"><b>CALENDAR</b></a>
-                    </li>
-                    <li class="">
-                        <a href="resources.html">RESOURCES</a>
-                    </li>
-                    <li class="">
-                        <a href="contact.html"><b>CONTACT</b></a>
-                    </li>
-                    <li class="">
-                        <a href="sponsors.html"><b>SPONSORS</b></a>
-                    </li>
-                    <li class="">
-                        <a href="join.html" class="btn-main-nav btn-main-nav-sm" style="color:#fff">Join <i class="far fa-arrow-alt-circle-right"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+    <!--
+                <button class="navbar-toggler hidden-lg-up float-lg-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <i class="tf-ion-android-menu"></i>
+                </button>
+    -->
+                <div class="" style="margin: 0%;">
+                    <ul class="nav navbar-nav menu float-lg-right" id="top-nav" style="columns:1; ">
+                        <li class="active" >
+                            <a href="index.html"><b>HOME</b></a>
+                        </li>
+                        <li class="">
+                            <a href="about.html"><b>ABOUT</b></a>
+                        </li>
+                        <li class="">
+                            <a href="calendar.html"><b>CALENDAR</b></a>
+                        </li>
+                        <li class="">
+                            <a href="resources.html">RESOURCES</a>
+                        </li>
+                        <li class="">
+                            <a href="contact.html"><b>CONTACT</b></a>
+                        </li>
+                        <li class="">
+                            <a href="sponsors.html"><b>SPONSORS</b></a>
+                        </li>
+                        <li class="">
+                            <a href="join.html" class="btn-main-nav btn-main-nav-sm" style="color:#fff">Join <i class="far fa-arrow-alt-circle-right"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </div>
-    <section class="hero-area">
+    <section class="hero-area"  >
         <div class="container">
             <div class="row">
                 <div class="col-sm-8">
-                    <div class="block">
-                        <h1 class="" style="height: auto;"><span id="headertop">We are <span id="typewriter"></span></span></h1>
-                        <p>We are the Monta Vista Robotics Team from Cupertino, California. Participating in the <a href="https://www.firstinspires.org"><i>FIRST</i> Robotics Competition</a> as Team 115!</p>
+                    <div class="block" >
+                        <h1 class="" style="height: auto; color: #3d3d3d"><span id="headertop">We are <span id="typewriter"></span></span></h1>
+                        <p style="color: #3d3d3d">We are the Monta Vista Robotics Team from Cupertino, California. <br/> Participating in the <a href="https://www.firstinspires.org"><i>FIRST</i> Robotics Competition</a> as Team 115!</p>
                         <a class="btn btn-main" href="about.html" role="button">Learn More <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div><!-- .row close -->
         </div><!-- .container close -->
+        <div class="splashing">
+            <div class="bussy">
+                <img  id="splash-img" src="./assets/images/2022-SFR/splash.jpeg" style="background-color: #fff;">
+            </div>            
+        </div>
     </section><!-- header close -->
+    
 
 
 
@@ -111,10 +119,11 @@
     <!--
         Feature start
         ==================== -->
-    <section class="feature section">
+    <!-- <section class="feature section" style="background-image: linear-gradient( #fff )"> -->
+    <section class="feature section" style="background-color: white;">
         <div class="container">
             <div class="row">
-                <div class="heading">
+                <div class="heading" style="">
                     <h2>Upcoming Events</h2>
                     <h3>A full calendar is available on our <a href="calendar.html"> calendar</a> page.</h3>
                 </div>
@@ -123,7 +132,7 @@
                     <div class="events">
                         <p>Team Meetings:</p>
 						<!--<h4></h4>-->
-						<i>Division Meetings</i>
+						<h2>Division Meetings</h2>
 
                         <h4>Check the <a href="calendar.html">calendar</a> for details about each division's meetings </h4>
                         <p> </p>
@@ -132,8 +141,9 @@
                 </div>
                 <div class="col-md-4 text-center">
                     <div class="events">
-                        <p>Team Events:</p>
-                        <h1>Season suspended due to COVID-19.</h1>
+                        <p">Team Events:</p>
+                        <h1 class = "big">Houston Championships</h1>
+                        <h4> Our first championship after 5 years!</h4>
                         <!--<i>Feb.28 – Mar.1 @ Mamba Sports Academy</i>
                         <h4>Our first regional competition of the 2020 season!</h4>
                         <p>Check your email for the link!</p>  -->
@@ -143,7 +153,13 @@
                 <div class="col-md-4 text-center">
                     <div class="events">
                         <p>Demos and Outreach:</p>
-                        <h1>Season suspended due to COVID-19.</h1>
+                        <i>May 13th STEM Day at Great America</i>
+                        <h4>Check out our robot at Great America as part of their STEM Days showcase.</h4>
+                        <p></p>
+                        <br/>
+                        <i>Measure G Walkaround</i>
+                        <h4>Come show support for FUHSD Teams and check our robot!</h4>
+                        <p></p>
                         <!-- <i>March 10th @ Lunch in F107</i>
                         <h4>Come to learn more about AI and its applications!</h4>
                         <p></p> -->
@@ -159,16 +175,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <h2 class="subheading">Registration is currently open!</h2>
+                    <h2 class="subheading">Registration is currently closed!</h2>
                     <p>We are always looking for new members, please see our Join page for detailed information!</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" style="justify-content: end; display: flex;">
                     <a class="btn btn-main-alt" href="join.html" role="button">Join <i class="far fa-arrow-alt-circle-right"></i></a>
                 </div>
             </div>
         </div>
     </section><!-- #call-to-action close -->
-
 
     <section class="feature-list section">
         <div class="container">
@@ -180,6 +195,7 @@
                 </div>
 
             </div>
+            
             <div class="row">
                 <br>
                 <div class="col-md-6 text-center">
@@ -188,7 +204,7 @@
                 <div class="col-md-6 text-center">
                     <div class="content mt-50">
                         <h3>Years As A Team:</h3>
-                        <h1>24</h1>
+                        <h1>25</h1>
                         <br>
                         <h3>Current Members:</h3>
                         <h1>150+</h1>
@@ -204,18 +220,18 @@
             <div class="row">
                 <div class="col-md-6 text-center">
                     <div class="content mt-50">
-                        <h2>2021 Season:</h2>
-                        <em>INFINITE RECHARGE</em>
+                        <h2>2022 Season:</h2>
+                        <em>RAPID REACT</em>
                         <br>
                         <br>
                         <h3>Awards:</h3>
-                        <h4>Innovation Challenge Semifinalist</p>
-                        <h4>Game Design Challenge Engineering Design Award</h4>
-                        <h4>INFINITE RECHARGE at Home Autonomous Award</h4>
-                        <h4>FIRST Dean's List Finalist - Arnav Dalal</h4>
+                        <h4>Regional Engineering Inspiration Award</h4>
+                        <br>
+                        <br>
+                        <h4>World Championship Spirit Award</h4> 
                         <br>
                         <h3>Robot:</h3>
-                        <h4>El Toro XXIII</h4>
+                        <h4>El Toro XXV</h4>
                     </div>
                     <br>
                     <a class="btn btn-main" href="about.html" role="button">Learn More <i class="fas fa-arrow-right"></i></a>
@@ -305,7 +321,7 @@
 
 
     <section class="call-to-action section bg-opacity bg-1">
-        <div class="container">
+        <div class="container" >
             <div class="row">
                 <div class="col-md-12 wow text-center">
                     <div class="block">
@@ -393,6 +409,8 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/typed.js"></script>
     <script>
+        $(':root').css("--windowHeight", $( window ).height() );
+        $(':root').css("--windowWidth", $( window ).width() );
         var typed = new Typed('#typewriter', {
             stringsElement: '#typed-strings',
             typeSpeed: 60,
