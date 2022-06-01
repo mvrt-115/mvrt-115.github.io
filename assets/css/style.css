@@ -1287,11 +1287,11 @@ about page
   animation-timing-function: ease-in-out;
 }
 
-/*---Edits here---*/
+/*---Edits here--- put style for all team images in one place for handiness*/
 .cd-horizontal-timeline .events-content li img {
   float: right;
   height: auto;
-  max-width: 600px;
+  max-width: 70%; 
   margin-top: auto;
 }
 
