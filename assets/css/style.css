@@ -1287,6 +1287,14 @@ about page
   animation-timing-function: ease-in-out;
 }
 
+/*---Edits here---*/
+.cd-horizontal-timeline .events-content li img {
+  float: right;
+  height: auto;
+  max-width: 600px;
+  margin-top: auto;
+}
+
 .cd-horizontal-timeline .events-content li.selected {
   /* visible event content */
   position: relative;
