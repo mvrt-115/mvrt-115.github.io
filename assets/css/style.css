@@ -835,6 +835,7 @@ about page
   box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
 }
 
+/*Style moved here from about.html*/
 .team img {
   margin-top: 20px;
   width: 110px;
