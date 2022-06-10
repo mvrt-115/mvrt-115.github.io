@@ -8,15 +8,23 @@
 Will relocate this later
 */
 
-.information .container .programs-list li{
+.programs-list li {
   position: relative;
   margin: 10px auto;
   padding: 20px;
-  width: 75%;
+  width: 90%;
   background:rgba(116, 81, 152, 0.8435574913559174);
   border-radius: 2px;
   display: flex;
   flex-wrap: wrap;
+}
+
+.programs-list .program-pic-left img{
+  float: left;
+}
+
+.programs-list .program-pic-right img{
+  float: right;
 }
 
 
