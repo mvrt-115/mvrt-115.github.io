@@ -12,7 +12,7 @@ Will relocate this later
   position: relative;
   margin: 10px auto;
   width: 80%;
-  background:rgb(243, 243, 243);
+  background:rgb(245, 245, 245);
   border-radius: 2px;
   display: inline-block;
   flex-wrap: wrap;
@@ -41,8 +41,8 @@ Will relocate this later
 }
 
 .programs-list h2 {
-  display: block;
   padding-top: 5px;
+  padding-bottom: 10px;
   font-size: 45px;
   font-weight: bold;
   color:rgba(62, 28, 87, 0.9331933456976541)
