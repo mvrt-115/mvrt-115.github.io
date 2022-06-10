@@ -11,7 +11,7 @@ Will relocate this later
 .programs-list li{
   position: relative;
   margin: 10px auto;
-  width: 95%;
+  width: 85%;
   background:rgb(219, 219, 219);
   border-radius: 2px;
   display: flex;
@@ -21,20 +21,16 @@ Will relocate this later
 .programs-list img {
   margin: 20px;
   float: left;
-  height: 20vw;
+  width: 20vw;
 }
 
-.programs-list h2 {
+.programs-list .program-text {
   float: right;
-  background: rgba(175, 0, 0, 0.945);
+  margin: 20px;
+  height: 100%;
+  background: rgb(90, 0, 112);
+  color: rgb(219, 219, 219)
 }
-
-.programs-list p {
-  float: right;
-  background: rgba(175, 100, 0, 0.945);
-}
-
-
 
 body {
   font-size: 14px;
