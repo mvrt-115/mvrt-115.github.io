@@ -11,23 +11,21 @@ Will relocate this later
 .programs-list li{
   position: relative;
   margin: 10px auto;
-  width: 85%;
+  width: 100%;
   background:rgb(219, 219, 219);
   border-radius: 2px;
-  display: flex;
+  display: inline-block;
   flex-wrap: wrap;
 }
 
-.programs-list img {
-  margin: 20px;
+.programs-list .program-image {
   float: left;
-  width: 20vw;
+  width: 50%;
 }
 
 .programs-list .program-text {
   float: right;
-  margin: 20px;
-  height: 100%;
+  width: 50%;
   background: rgb(90, 0, 112);
   color: rgb(219, 219, 219)
 }
