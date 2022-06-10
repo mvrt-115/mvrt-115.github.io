@@ -11,7 +11,7 @@ Will relocate this later
 .programs-list li{
   position: relative;
   margin: 10px auto;
-  width: 100%;
+  width: 90%;
   background:rgb(219, 219, 219);
   border-radius: 2px;
   display: inline-block;
@@ -23,7 +23,13 @@ Will relocate this later
   width: 50%;
 }
 
+.programs-list img {
+  padding: 10px;
+  width: 100%;
+}
+
 .programs-list .program-text {
+  padding: 10px;
   float: right;
   width: 50%;
   background: rgb(90, 0, 112);
