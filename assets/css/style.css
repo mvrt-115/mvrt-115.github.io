@@ -8,24 +8,32 @@
 Will relocate this later
 */
 
-.programs-list li {
+.programs-list li{
   position: relative;
   margin: 10px auto;
-  padding: 20px;
-  width: 90%;
-  background:rgba(116, 81, 152, 0.8435574913559174);
+  width: 95%;
+  background:rgb(219, 219, 219);
   border-radius: 2px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.programs-list .program-pic-left img{
+.programs-list img {
+  margin: 20px;
   float: left;
+  height: 20vw;
 }
 
-.programs-list .program-pic-right img{
+.programs-list h2 {
   float: right;
+  background: rgba(175, 0, 0, 0.945);
 }
+
+.programs-list p {
+  float: right;
+  background: rgba(175, 100, 0, 0.945);
+}
+
 
 
 body {
