@@ -11,31 +11,39 @@ Will relocate this later
 .programs-list li{
   position: relative;
   margin: 10px auto;
-  width: 90%;
-  background:rgb(219, 219, 219);
+  width: 80%;
+  background:rgb(243, 243, 243);
   border-radius: 2px;
   display: inline-block;
   flex-wrap: wrap;
 }
 
-.programs-list .program-image {
+.programs-list .float-left .program-image {
   float: left;
   width: 50%;
+  height: auto;
+}
+
+.programs-list .float-right .program-image {
+  float: right;
+  width: 50%;
+  height: auto;
 }
 
 .programs-list img {
-  padding: 10px;
+  padding: 20px 20px 2px 20px;
   width: 100%;
 }
 
 .programs-list .program-text {
-  padding: 15px;
-  float: right;
-  width: 50%;
+  padding: 20px;
+  width: 100%;
 }
 
 .programs-list h2 {
-  font-size: 50px;
+  display: block;
+  padding-top: 5px;
+  font-size: 45px;
   font-weight: bold;
   color:rgba(62, 28, 87, 0.9331933456976541)
 }
