@@ -14,7 +14,6 @@ PROGRAMS PAGE
 }
 
 /*program images*/
-
 .programs-list .float-left .program-image {
   float: left;
   width: 40%;
