@@ -2,22 +2,11 @@ To-Do:
 - rounded border radius
 - join button purple
 - icons to buttons
+- media query (programs)
 
 Done:
 - slight border (maybe)
     - would need to kinda change padding to margin for it to work properly
     - mff... maybe
 - media query
-    - Example:
-    @media (max-width: 768px) {
-        .some-class {
-            width: 100%;
-        }
-
-        .other-class {
-            background-color: red;
-        }
-    } 
-
     - Actually this media query thing could be implemented for the team pictures in about as well
-    - After this though

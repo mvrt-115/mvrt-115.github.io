@@ -1373,13 +1373,25 @@ about page
   animation-timing-function: ease-in-out;
 }
 
-.cd-horizontal-timeline .events-content li img {
-  float: right;
-  height: auto;
-  max-width: 600px;
-  width: 67%;
-  margin-top: auto;
+@media (min-width: 830px){
+  .cd-horizontal-timeline .events-content li img {
+    float: right;
+    height: auto;
+    max-width: 600px;
+    width: 67%;
+    margin-top: auto;
+  }
 }
+
+@media (max-width: 830px) {
+  .cd-horizontal-timeline .events-content li img {
+    float: center;
+    height: auto;
+    max-width: 600px;
+    width: 67%;
+    margin-top: auto;
+  }
+} 
 
 .cd-horizontal-timeline .events-content li.selected {
   /* visible event content */
