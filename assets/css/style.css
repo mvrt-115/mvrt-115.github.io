@@ -4,6 +4,32 @@
 Will relocate this later
 */
 
+@media (max-width: 768px) {
+  .programs-list .float-left .program-image {
+    width: 100%;
+    height: auto;
+    background:rgba(62, 28, 87, 0.9331933456976541);
+  }
+  
+  .programs-list .float-right .program-image {
+    width: 100%;
+    height: auto;
+    background:rgba(62, 28, 87, 0.9331933456976541);
+  }
+}
+
+.programs-list .float-left .program-image {
+  float: left;
+  width: 40%;
+  height: auto;
+}
+  
+.programs-list .float-right .program-image {
+  float: right;
+  width: 40%;
+  height: auto;
+}
+
 .programs-list li{
   position: relative;
   margin: 10px auto;
@@ -17,18 +43,6 @@ Will relocate this later
   border-radius: 40px;
   padding: 25px;
   width: 100%;
-}
-
-.programs-list .float-left .program-image {
-  float: left;
-  width: 40%;
-  height: auto;
-}
-
-.programs-list .float-right .program-image {
-  float: right;
-  width: 40%;
-  height: auto;
 }
 
 .programs-list .program-text {

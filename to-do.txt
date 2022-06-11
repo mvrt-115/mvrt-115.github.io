@@ -6,7 +6,7 @@ To-Do:
 Done:
 - slight border (maybe)
     - would need to kinda change padding to margin for it to work properly
-    - mff
+    - mff... maybe
 - media query
     - Example:
     @media (max-width: 768px) {
@@ -18,3 +18,6 @@ Done:
             background-color: red;
         }
     } 
+
+    - Actually this media query thing could be implemented for the team pictures in about as well
+    - After this though
