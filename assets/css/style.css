@@ -22,17 +22,17 @@ Will relocate this later
 
 .programs-list .float-right .program-image {
   float: right;
-  width: 53%;
+  width: 47%;
   height: auto;
 }
 
 .programs-list img {
-  padding: 20px;
+  padding: 30px 30px 15px 30px;
   width: 100%;
 }
 
 .programs-list .program-text {
-  padding: 20px;
+  padding: 30px;
   font-size: 20px;
   width: 100%;
 }
