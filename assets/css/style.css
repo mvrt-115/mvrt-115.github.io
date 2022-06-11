@@ -21,13 +21,13 @@ Will relocate this later
 
 .programs-list .float-left .program-image {
   float: left;
-  width: 45%;
+  width: 40%;
   height: auto;
 }
 
 .programs-list .float-right .program-image {
   float: right;
-  width: 45%;
+  width: 40%;
   height: auto;
 }
 
