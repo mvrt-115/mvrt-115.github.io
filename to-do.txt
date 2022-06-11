@@ -1,0 +1,10 @@
+To-Do:
+- rounded border radius
+- join button purple
+- icons to buttons
+
+Done:
+- slight border (maybe)
+    - would need to kinda change padding to margin for it to work properly
+    - mff
+- media query
