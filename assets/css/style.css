@@ -7,7 +7,7 @@ Will relocate this later
 .programs-list li{
   position: relative;
   margin: 10px auto;
-  width: 80%;
+  width: 90%;
   background:rgb(245, 245, 245);
   border-radius: 2px;
   display: inline-block;
@@ -16,13 +16,13 @@ Will relocate this later
 
 .programs-list .float-left .program-image {
   float: left;
-  width: 50%;
+  width: 47%;
   height: auto;
 }
 
 .programs-list .float-right .program-image {
   float: right;
-  width: 50%;
+  width: 53%;
   height: auto;
 }
 
@@ -40,12 +40,12 @@ Will relocate this later
 .programs-list h2 {
   font-size: 4vh;
   font-weight: bold;
-  color:rgba(62, 28, 87, 0.9331933456976541)
+  color:rgba(77, 26, 114, 0.933);
 }
 
 .programs-list p {
   font-size: 17px;
-  color:rgb(0, 0, 0)
+  color:rgb(0, 0, 0);
 }
 
 .programs-list .program-links {
@@ -58,6 +58,7 @@ Will relocate this later
 .programs-list .program-links a {
   padding: 15px;
   background: rgb(248, 248, 248);
+  color: #3b4045;
   box-shadow: 0 2px 6px 0 rgba(47, 83, 151, 0.1);
   border-radius: 10px;
   transition: 300ms;
