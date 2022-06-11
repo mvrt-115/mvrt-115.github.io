@@ -8,5 +8,4 @@ To-Do:
 
 Done:
 - slight border (maybe)
-    - would need to kinda change padding to margin for it to work properly
-    - mff... maybe
+    - maybe
