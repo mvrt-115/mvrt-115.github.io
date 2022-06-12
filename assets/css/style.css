@@ -76,17 +76,14 @@
 .programs-list .program-links a {
   border-radius: 30px;
   font-size: 18px;
-  padding: 15px 40px;
+  padding: 15px 30px;
   background: #662d91;
   color: rgb(255, 255, 255);
-  box-shadow: 0 2px 6px 0 rgba(47, 83, 151, 0.1);
   border-radius: 10px;
-  transition: 300ms;
-  flex-grow: 1;
 }
 
 .programs-list .program-links .resources-btn {
-  background: #bebebed7;
+  background: #bdbdbd;
 }
 
 .programs-list .program-links a:hover {
