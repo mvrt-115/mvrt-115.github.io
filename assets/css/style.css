@@ -2,6 +2,11 @@
 
 /* PROGRAMS PAGE HERE (will relocate after finishing)*/
 
+/* Main colors:
+#662d91
+#550575 (primary purple)
+*/
+
 .programs-list li{
   position: relative;
   margin: 15px auto;
@@ -28,7 +33,7 @@
 }
 
 .programs-list img {
-  border: solid 4px #662d91a6;
+  border: solid 4px #550575;
   border-radius: 20px;
   width: 100%;
 }
@@ -70,7 +75,7 @@
 
 .programs-list .program-links a {
   padding: 15px;
-  background: #662d91cc;
+  background: #550575;
   color: rgb(255, 255, 255);
   box-shadow: 0 2px 6px 0 rgba(47, 83, 151, 0.1);
   border-radius: 10px;
