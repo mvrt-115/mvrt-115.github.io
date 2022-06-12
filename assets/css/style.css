@@ -1,17 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway");
 
-/*
-PROGRAMS PAGE
-*/
-
- /*Same as content but with larger padding*/
-.information .container .content-2 {
-  position: relative;
-  background-color: #fff;
-  padding: 40px;
-  box-shadow: 0 0.125rem 0.375rem 0 rgba(0, 0, 0, 0.12);
-  width: 100%;
-}
+/* PROGRAMS PAGE HERE (will relocate after finishing)*/
 
 .programs-list li{
   position: relative;
@@ -26,20 +15,20 @@ PROGRAMS PAGE
 /*program images*/
 .programs-list .float-left .program-image {
   float: left;
-  width: 40%;
+  width: 38%;
   height: auto;
-  margin: 0px 25px 10px 0px;
+  margin: 0px 30px 20px 0px;
 }
   
 .programs-list .float-right .program-image {
   float: right;
-  width: 40%;
+  width: 38%;
   height: auto;
-  margin: 0px 0px 10px 25px;
+  margin: 0px 0px 20px 30px;
 }
 
 .programs-list img {
-  border: solid 4px #662d91cc;
+  border: solid 4px #662d91a6;
   border-radius: 40px;
   width: 100%;
 }
@@ -56,13 +45,12 @@ PROGRAMS PAGE
 
 /*program texts*/
 .programs-list .program-text {
-  
   font-size: 20px;
   width: 100%;
 }
 
 .programs-list h2 {
-  padding-top: 10px;
+  padding: 20px 0px 10px 0px;
   font-size: 5vh;
   font-weight: bold;
   color:rgba(77, 26, 114, 0.933);
@@ -96,7 +84,7 @@ PROGRAMS PAGE
   -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
 }
-/*End of programs*/
+/*PROGRAMS PAGE END*/
 
 body {
   font-size: 14px;
@@ -1068,6 +1056,15 @@ about page
   position: relative;
   background-color: #fff;
   padding: 20px;
+  box-shadow: 0 0.125rem 0.375rem 0 rgba(0, 0, 0, 0.12);
+  width: 100%;
+}
+
+/*Same as content but with larger padding*/
+.information .container .content-2 {
+  position: relative;
+  background-color: #fff;
+  padding: 40px;
   box-shadow: 0 0.125rem 0.375rem 0 rgba(0, 0, 0, 0.12);
   width: 100%;
 }
