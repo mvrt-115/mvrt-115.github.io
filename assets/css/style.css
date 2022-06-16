@@ -1713,7 +1713,6 @@ label.error {
   margin-top: 15px;
 }
 
-
 /* PROGRAMS PAGE*/
 .programs-list li{
   position: relative;
@@ -1746,16 +1745,6 @@ label.error {
   width: 100%;
 }
 
-@media (max-width: 1000px) {
-  .programs-list .float-left .program-image {
-    width: 100%;
-  }
-  
-  .programs-list .float-right .program-image {
-    width: 100%;
-  }
-} 
-
 /*program texts*/
 .programs-list .program-text {
   font-size: 20px;
@@ -1784,7 +1773,7 @@ label.error {
 .programs-list .program-links a {
   border-radius: 30px;
   font-size: 18px;
-  padding: 15px 15px;
+  padding: 15px 30px;
   background: #662d91;
   color: rgb(255, 255, 255);
   border-radius: 10px;
@@ -1806,6 +1795,21 @@ label.error {
   -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
 }
+
+@media (max-width: 1000px) {
+  .programs-list .float-left .program-image {
+    width: 100%;
+  }
+  
+  .programs-list .float-right .program-image {
+    width: 100%;
+  }
+
+  .programs-list .program-links a {
+    display: inline-block;
+    margin: 5px;
+  }
+} 
 /*PROGRAMS PAGE END*/
 
 /*--
