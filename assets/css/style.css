@@ -1,100 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway");
 
-/* PROGRAMS PAGE HERE (will relocate after finishing)*/
-
-.programs-list li{
-  position: relative;
-  margin: 15px auto;
-  width: 90%;
-  padding: 20px;
-  border-radius: 2px;
-  display: inline-block;
-  flex-wrap: wrap;
-}
-
-/*program images*/
-.programs-list .float-left .program-image {
-  float: left;
-  width: 38%;
-  height: auto;
-  margin: 0px 30px 20px 0px;
-}
-  
-.programs-list .float-right .program-image {
-  float: right;
-  width: 38%;
-  height: auto;
-  margin: 0px 0px 20px 30px;
-}
-
-.programs-list img {
-  border: solid 4px #550575;
-  border-radius: 20px;
-  width: 100%;
-}
-
-@media (max-width: 1000px) {
-  .programs-list .float-left .program-image {
-    width: 100%;
-  }
-  
-  .programs-list .float-right .program-image {
-    width: 100%;
-  }
-} 
-
-/*program texts*/
-.programs-list .program-text {
-  font-size: 20px;
-  width: 100%;
-}
-
-.programs-list h2 {
-  padding: 20px 0px 10px 0px;
-  font-size: 5vh;
-  font-weight: bold;
-  color:rgba(77, 26, 114, 0.933);
-}
-
-.programs-list p {
-  font-size: 16px;
-  color:rgb(0, 0, 0);
-}
-
-/*program links*/
-.programs-list .program-links {
-  text-align: center;
-  font-weight: 500;
-  padding: 25px;
-}
-
-.programs-list .program-links a {
-  border-radius: 30px;
-  font-size: 18px;
-  padding: 15px 30px;
-  background: #662d91;
-  color: rgb(255, 255, 255);
-  border-radius: 10px;
-}
-
-.programs-list .program-links .resources-btn {
-  background: rgb(238, 238, 238);
-  color: #3b4045;
-}
-
-.programs-list .program-links a.join-btn:hover {
-  -webkit-box-shadow: 0px 0px 20px 5px rgba(102, 45, 145, 0.4);
-  -moz-box-shadow: 0px 0px 20px 5px rgba(102, 45, 145, 0.4);
-  box-shadow: 0px 0px 20px 5px rgba(102, 45, 145, 0.4);
-}
-
-.programs-list .program-links a.resources-btn:hover {
-  -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
-}
-/*PROGRAMS PAGE END*/
-
 body {
   font-size: 14px;
   font-weight: 300;
@@ -1807,6 +1712,109 @@ label.error {
 .feature-list .btn-main {
   margin-top: 15px;
 }
+
+/* PROGRAMS PAGE*/
+.programs-list li{
+  position: relative;
+  margin: 15px auto;
+  width: 90%;
+  padding: 20px;
+  border-radius: 2px;
+  display: inline-block;
+  flex-wrap: wrap;
+}
+
+/*program images*/
+.programs-list .float-left .program-image {
+  float: left;
+  width: 38%;
+  height: auto;
+  margin: 0px 30px 20px 0px;
+}
+  
+.programs-list .float-right .program-image {
+  float: right;
+  width: 38%;
+  height: auto;
+  margin: 0px 0px 20px 30px;
+}
+
+.programs-list img {
+  border: solid 4px #550575;
+  border-radius: 20px;
+  width: 100%;
+}
+
+/*program texts*/
+.programs-list .program-text {
+  font-size: 20px;
+  width: 100%;
+}
+
+.programs-list h2 {
+  padding: 20px 0px 10px 0px;
+  font-size: 5vh;
+  font-weight: bold;
+  color:rgba(77, 26, 114, 0.933);
+}
+
+.programs-list p {
+  font-size: 16px;
+  color:rgb(0, 0, 0);
+}
+
+/*program links*/
+.programs-list .program-links {
+  text-align: center;
+  font-weight: 500;
+  padding: 25px;
+}
+
+.programs-list .program-links a {
+  border-radius: 30px;
+  font-size: 18px;
+  padding: 15px 30px;
+  background: #662d91;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.programs-list .program-links .resources-btn {
+  background: rgb(238, 238, 238);
+  color: #3b4045;
+}
+
+.programs-list .program-links a.join-btn:hover {
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(102, 45, 145, 0.4);
+  -moz-box-shadow: 0px 0px 20px 5px rgba(102, 45, 145, 0.4);
+  box-shadow: 0px 0px 20px 5px rgba(102, 45, 145, 0.4);
+}
+
+.programs-list .program-links a.resources-btn:hover {
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1000px) {
+  .programs-list .float-left .program-image {
+    width: 100%;
+  }
+  
+  .programs-list .float-right .program-image {
+    width: 100%;
+  }
+
+  .programs-list .program-links {
+    padding: 0px;
+  }
+
+  .programs-list .program-links a {
+    display: block;
+    margin-top: 15px;
+  }
+} 
+/*PROGRAMS PAGE END*/
 
 /*--
   Gallery start
