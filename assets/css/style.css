@@ -1805,9 +1805,13 @@ label.error {
     width: 100%;
   }
 
+  .programs-list .program-links {
+    padding: 0px;
+  }
+
   .programs-list .program-links a {
-    display: inline-block;
-    margin: 5px;
+    display: block;
+    margin-top: 15px;
   }
 } 
 /*PROGRAMS PAGE END*/
