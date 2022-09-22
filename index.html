@@ -45,11 +45,30 @@
         <div class="pre-loader"></div>
     </div>
 
-   <!--  Alert banner, comment out to remove -->
-    <div class="announcement">
-		<h3><a style="text-decoration:underline;" href="https://tinyurl.com/joinMVRT2023">Join</a> MVRT for our the new season</h3>
-    <h3>Registration is now <a  href="join.html">open</a>!</h3>
+    <!--  Alert banner START-->
+    <div class="banner">
+        
+        <div class="banner_button">
+            <button class="banner_close" type="button">
+                <h3 class="material-icons">close</h3>
+            </button>
+        </div>
+
+        <div class="banner_text">
+            <h3>Join MVRT for the new season, registration is now <a style="text-decoration:underline;" 
+                href="https://tinyurl.com/joinMVRT2023">open</a>!
+            </h3>
+        </div>
     </div>
+
+    <script>
+        var $slider = document.querySelector(".banner");
+        
+        document.querySelector(".banner_close").addEventListener('click', function() {
+            $slider.setAttribute('class', 'slide-out');
+        });
+    </script>
+    <!--  Alert banner END-->
 
     <!--
 	    Header start
@@ -134,11 +153,6 @@
                       
         </div>
     </section><!-- header close -->
-    
-
-
-
-
 
     <!--
         Feature start
