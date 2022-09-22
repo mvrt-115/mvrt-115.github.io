@@ -110,6 +110,79 @@ a:active {
   padding: 100px 0;
 }
 
+.announcement {
+  display: inline-block;
+  height: 10%;
+  text-align: center;
+  width: 100%;
+  background: #662d91;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+  vertical-align: middle;
+  font-size: 0.8em;
+}
+
+.announcement a {
+  color: #fff;
+}
+
+.announcement a:hover {
+  color: #0275d8;
+}
+
+/*Banner stuff*/
+
+/*
+.banner__content {
+  padding-right: 16px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+*/
+
+.banner {
+  background: #662d91;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.banner_text a {
+  color: #fff;
+}
+
+.banner_text a:hover {
+  color: #0275d8;
+}
+
+.banner_text {
+  display: inline-block;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  vertical-align: middle;
+  font-size: 0.8em;
+}
+
+.banner_button {
+  color: #fff;
+  float: right;
+  padding-top: 5px;
+  position: fixed;
+}
+
+.banner_close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  color: rgb(255, 255, 255);
+}
+
 /*--
     custom heading
 --*/
@@ -769,27 +842,6 @@ a:active {
 .menu li.active a:after {
   width: 100%;
   margin-left: 0px;
-}
-
-.announcement {
-  display: inline-block;
-  height: 10%;
-  text-align: center;
-  width: 100%;
-  background: #662d91;
-  color: #fff;
-  margin: 0;
-  padding: 20px;
-  vertical-align: middle;
-  font-size: 0.8em;
-}
-
-.announcement a {
-  color: #fff;
-}
-
-.announcement a:hover {
-  color: #0275d8;
 }
 
 /*--
