@@ -189,7 +189,7 @@ a:active {
   display: inline-block;
   width: 100%;
   text-align: center;
-  animation: slide-out 2.5s forwards;
+  animation: slide-out 1.5s forwards;
   /*-webkit-animation: slide-out 1.5s forwards; */
 }
 
@@ -198,17 +198,17 @@ a:active {
 }
 
 @keyframes slide-out {
+  /*
   0% {
     transform: translateX(0%);
   }
   100% {
     transform: translateX(-100%);
   }
+  */
 
-  /*
   0% { transform: translateY(0%); }
   100% { transform: translateY(-100%);}
-  */
   
   /*
   0% {margin-top: 0}
