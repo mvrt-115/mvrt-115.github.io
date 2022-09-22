@@ -142,13 +142,6 @@ a:active {
 }
 */
 
-.banner {
-  background: #662d91;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-}
-
 .banner_text a {
   color: #fff;
 }
@@ -186,11 +179,19 @@ a:active {
 
 .slide-out {
   background: #662d91;
-  display: inline-block;
+  display: absolute;
   width: 100%;
   text-align: center;
-  animation: slide-out 1.5s forwards;
+  position: absolute; top: 100%; left: 0;
+  animation: 2s slide-out ease-in-out
+  
   /*-webkit-animation: slide-out 1.5s forwards; */
+}
+
+.banner {
+  background: #662d91;
+  width: 100%;
+  text-align: center;
 }
 
 .remove {
@@ -198,6 +199,8 @@ a:active {
 }
 
 @keyframes slide-out {
+  0% {top: 0%; }
+  100% {top: -100%; }
   /*
   0% {
     transform: translateX(0%);
@@ -207,9 +210,11 @@ a:active {
   }
   */
 
+  /*
   0% { transform: translateY(0%); }
   100% { transform: translateY(-100%);}
-  
+  */
+
   /*
   0% {margin-top: 0}
   100% { margin-top: -75px; }
