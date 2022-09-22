@@ -62,10 +62,25 @@
     </div>
 
     <script>
+        var $slider = document.querySelector(".banner");
+        
+        document.querySelector(".banner_close").addEventListener('click', function() {
+            $slider.setAttribute('class', 'slide-out');
+
+            //setTimeout(function(){
+            //    $slider.setAttribute('class', 'remove'); 
+            //}, 1000);
+            
+        });
+    </script>
+
+    <!--
+    <script>
         document.querySelector(".banner_close").addEventListener("click", function () {
         this.closest(".banner").style.display = "none";
         });
     </script>
+    -->
     <!--  Alert banner END-->
 
     <!--
