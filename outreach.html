@@ -55,7 +55,7 @@
         <div class="pre-loader"></div>
     </div>
 
-    <!--  Alert banner START-->
+   <!--  Alert banner START-->
     <div class="banner">
         
         <div class="banner_button">
@@ -70,6 +70,12 @@
             </h3>
         </div>
     </div>
+
+    <script>
+        document.querySelector(".banner_close").addEventListener("click", function () {
+        this.closest(".banner").style.display = "none";
+        });
+    </script>
     <!--  Alert banner END-->
 
     <!--
