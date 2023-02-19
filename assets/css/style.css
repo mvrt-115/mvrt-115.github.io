@@ -1810,6 +1810,68 @@ label.error {
   margin-top: 15px;
 }
 
+/* NEWSLETTER PAGE */
+
+div.newsletter-row {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+div.gallery {
+  border: 5px solid #550575;
+  border-radius: 10px;
+}
+
+div.gallery:hover {
+  -webkit-box-shadow: 0px 0px 20px 5px #dab0ec;
+  -moz-box-shadow: 0px 0px 20px 5px  #dab0ec;
+  box-shadow: 0px 0px 20px 5px  #dab0ec;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  padding: 20px 6px;
+  float: left;
+  align-self:stretch;
+  width: 24.99999%;
+  position: relative;
+}
+
+@media only screen and (max-width: 700px) {
+  .column {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* END OF NEWSLETTER PAGE*/
+
 /* PROGRAMS PAGE*/
 .programs-list li{
   position: relative;
