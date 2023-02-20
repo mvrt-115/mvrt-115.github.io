@@ -1,10 +1,908 @@
-<html>
+<!DOCTYPE html>
+<html class="no-js">
+
 	<head>
-		<script>
-			window.open("https://mvrtresources.pythonanywhere.com/","_self");
-		</script>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>MVRT | Resources</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Source+Sans+Pro:300,400,600,700"
+			rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css"
+			integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+		<link rel="stylesheet" href="assets/css/owl.carousel.css">
+		<link rel="stylesheet" href="assets/css/magnific-popup.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/responsive.css">
+		<link rel="stylesheet" href="assets/css/resources.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+			integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+		<link rel="manifest" href="assets/favicons/site.webmanifest">
+		<link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="assets/favicons/favicon.ico">
+		<meta name="msapplication-TileColor" content="#662d91">
+		<meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
 	</head>
-	<body>
+
+	<body id="body">
+		<div id="preloader-wrapper">
+			<div class="pre-loader"></div>
+		</div>
+		<!--
+    Header start
+    ==================== -->
+		<div class="container nav-container">
+			<div class="nav-box">
+				<svg id="menubtn" viewBox="0 0 100 100"
+					onclick="this.classList.toggle('opened'); document.getElementById('top-nav').classList.toggle('opened'); document.documentElement.classList.toggle('noscroll');">
+					<path class="line line1" d="M 20 29 H 82 C 91 29 107 91 77 75 l -52 -50" />
+					<path class="line line2" d="M 20 50 H 80 " />
+					<path class="line line3" d="M 20 71 H 82 C 91 71 107 9 77 25 L 25 75 " />
+				</svg>
+
+				<a class="logo" style="" href="index.html">
+					<h1>MVRT</h1>
+				</a>
+
+				<nav style="margin-top: 0%">
+					<div class="" style="margin: 0%">
+						<ul class="nav navbar-nav menu float-lg-right" id="top-nav" style="columns: 1">
+							<li class="">
+								<a href="index.html"><b>HOME</b></a>
+							</li>
+							<li class="">
+								<a href="about.html"><b>ABOUT</b></a>
+							</li>
+							<li class="">
+								<a href="outreach.html"><b>OUTREACH</b></a>
+							</li>
+							<li class="">
+								<a href="calendar.html"><b>CALENDAR</b></a>
+							</li>
+							<li class="">
+								<a href="resources.html">RESOURCES</a>
+							</li>
+							<li class="">
+								<a href="contact.html"><b>CONTACT</b></a>
+							</li>
+							<li class="">
+								<a href="sponsors.html"><b>SPONSORS</b></a>
+							</li>
+							<li class="">
+								<a href="join.html" class="btn-main-nav btn-main-nav-sm" style="color: #fff">Join <i
+										class="far fa-arrow-alt-circle-right"></i></a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<div class="header-secondary">
+			<span class="title">Resources</span>
+		</div>
+		<div id="copylinkbox" class="copybox"></div>
+		<div class='container'>
+			<h4>
+				<a style='display:none;' id='goback' target="_self" href="javascript:restore();"><i style='float:left;'
+						class='material-icons'>reply</i> Back</a>
+				<a style='display:none;float:right;' id='share' target="_self" href="javascript:giveLink();"><i
+						style='float:right;' class='material-icons'>share</i> Shareable Link</a>
+				<a style='float:left;' target="_self" id='srchbut' href="javascript:showArticle(0,true);"> <i
+						style='float:left;' class='material-icons'>search</i> Search</a>
+				<a style='float:right;' target="_self" id='addArt' href="login.html"> <i style='float:right;'
+						class='material-icons'>note_add</i> Add Article</a>
+			</h4>
+		</div>
+		<section class="information" id="mainstuff">
+			<div class='container' id='article'></div>
+			<div class="container">
+				<div class="tabs" id='tabmenu'>
+					<a class="tab tab-1" href="#/" data-tab="1">Design</a>
+					<a class="tab tab-2" href="#/" data-tab="2">CAD Tutorials</a>
+					<a class="tab tab-3" href="#/" data-tab="3">Manufacturing</a>
+					<a class="tab tab-4" href="#/" data-tab="4">Electrical</a>
+					<!--<a class="tab tab-5" href="#/" data-tab="5">Pneumatics</a>-->
+					<a class="tab tab-5" href="#/" data-tab="5">Software</a>
+					<a class="tab tab-6" href="#/" data-tab="6">Photo/Video</a>
+					<a class="tab tab-7" href="#/" data-tab="7">Outreach</a>
+					<a class="tab tab-8" href="#/" data-tab="8">Finance</a>
+					<a class="tab tab-9" href="#/" data-tab="9">Marketing</a>
+					<a class="tab tab-10" href="#/" data-tab="10">Old Submissions</a>
+					<a class="tab tab-11 active" href="#/" data-tab="11">Rookie Training</a>
+					<!-- ^^ insert new categories above-->
+
+					<!-- <span class="highlighter"></span> -->
+				</div>
+				<script src="assets/js/articles.js" type="text/javascript"></script>
+				<style>
+					.searchbox {
+						border-width: 0;
+						border-top-right-radius: 15px;
+						border-bottom-right-radius: 15px;
+						box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.2);
+						padding: 5px 10px;
+						margin-right: 7px;
+						float: left;
+						width: calc(100% - 124px);
+						opacity: 100%;
+					}
+
+					.searchbox:hover {
+						box-shadow: 1px 1px 8px 3px rgba(0, 0, 0, 0.2);
+					}
+
+					.sbutton {
+						display: block;
+						padding: 5px 10px;
+						margin-left: 7px;
+						margin-bottom: 10px;
+						float: left;
+						background-color: #fff;
+						color: #550575;
+						width: 110px;
+						border-top-left-radius: 15px;
+						border-bottom-left-radius: 15px;
+						box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.2);
+						border-width: 1px;
+					}
+
+					.sbutton:hover {
+						text-decoration: underline;
+						box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.2);
+					}
+
+					.sbutton:visited {
+						text-decoration: underline;
+						box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.2);
+					}
+				</style>
+
+				<input id="myInput" type="text" size="1" style="visibility:hidden;font-size:2pt"></input>
+				<script>
+					window.scrollTo(0, 0);
+					var artid = "";
+					var searchHTML = `<h4><div>
+                      <a class='sbutton' target="_self" href="javascript:search();"><i style='float:left' class="material-icons">search</i>Search</a>
+                      <input class='searchbox'  id='sbox' type='text' name='keywrd' placeholder='Find articles ...' ><br>
+                      </h4></div><br><br><br>`;
+					function showArticle(articleId, search = false) {    //show back button; hide menu, tabs, and other buttons; show article
+						document.getElementById('goback').style.display = "inline";
+						document.getElementById('share').style.display = "inline";
+						document.getElementById('menu').style.display = 'none';
+						document.getElementById('tabmenu').style.display = 'none';
+						document.getElementById('addArt').style.display = "none";
+						document.getElementById('srchbut').style.display = "none";
+						artid = articleId;
+						if (!search) {
+							document.getElementById("article").innerHTML = articles[articleId];
+							sessionStorage.setItem("location", window.scrollY);
+							window.scrollTo(0, 0);
+						}
+						if (search) { document.getElementById("article").innerHTML = searchHTML; }
+					}
+
+					/* function prevArticle(articleId) {
+						if(sessionStorage.getItem("currPrev")==articleId){
+						  return;
+						}
+						sessionStorage.setItem("currPrev",articleId);
+						var prevBox=document.getElementById("preview");
+						if(articleId=='false'){
+						  prevBox.style.visibility="collapse";
+						}
+						else{
+						  var text=articles[articleId].substring(0,500);
+						  if(text.includes('class="gdocs"')){
+							text=document.getElementById(articleId).innerText;
+							prevBox.innerHTML= text;
+						  }
+						  else{
+							for(i=0;i<text.length;i++){
+							  if(text.substring(i,i+5)=="</h1>"){
+								i+=5;
+								break;
+							  }
+							}
+							prevBox.innerHTML= text.substring(i,i+150)+".....";
+						  }
+						  prevBox.style.height="auto";
+						  var prevBoxRect = prevBox.getBoundingClientRect();
+						  var prevBoxHeight = prevBoxRect.bottom - prevBoxRect.top;
+						  var rect = document.getElementById(articleId).getBoundingClientRect();
+						  var height = window.innerHeight;
+						  var boxtop=rect.bottom;
+						  if((boxtop+prevBoxHeight)>height){
+							boxtop=rect.top-prevBoxHeight;
+						  }
+						  prevBox.style.top=boxtop+'px';
+						  prevBox.style.left=rect.left+'px';
+						  prevBox.style.width=rect.right-rect.left+'px';
+						  prevBox.style.visibility="visible";
+						var text = articleId;
+						}
+					} */
+
+					//function giveLink() {
+					//
+						/* Get the text field */
+					//	var copyText = document.getElementById("myInput");
+					//	copyText.style.visibility = "visible";
+					//	var link = 'https://mvrtresources.pythonanywhere.com/?article=' + String(artid);
+					//	copyText.value = link;
+						/* Select the text field */
+					//	copyText.select();
+					//	copyText.setSelectionRange(0, 99999); /* For mobile devices */
+						//writeToClipboard(link);
+						/* Copy the text inside the text field */
+					//	document.execCommand("copy");
+					//	copyText.style.visibility = "hidden";
+
+						/* Alert the copied text */
+					//	window.alert('Shareable Link Copied to Clipboard');
+					//	window.scrollTo(0, 0);
+					//} 
+				</script>
+				<div class="content" id='menu'>
+					<div id="preview"
+						style="box-shadow:1px 1px 8px 3px rgba(0,0,0,0.2);overflow:hidden;height:0;padding:8px;background:white;visibility:collapse;position:fixed;z-index:5;left:0;">
+					</div>
+					<div class="content__section" data-tab="1" id="design">
+						<h1>Design</h1>
+						<div class="row">
+							<div class="columnimg" id="columnimg">
+								<img onclick="showArticle('ar4c0arend')" src="assets/images/Design_Template.webp"
+									class="dispimgF" alt="Elevators">
+								<img onclick="showArticle('ar1c0arend')" class='dispimgF'
+									src="assets/images/design_template-wcd2.webp">
+								<img onclick="showArticle('ar2c0arend')" class='dispimgF'
+									src="assets/images/design_template-piston.webp">
+								<img onclick="showArticle('ar3c0arend')" class='dispimgF'
+									src="assets/images/fourbar.webp">
+							</div>
+
+							<div class="columnmain" id="columnart">
+								<div id="ar4c0arend" onclick="showArticle('ar4c0arend')" class="horbar">
+									<h2>Elevators</h2>
+									<h5>July 11, 2020</h5>
+								</div>
+								<div id="ar1c0arend" onclick="showArticle('ar1c0arend')" class="horbar">
+									<h2>WCD and Gearbox</h2>
+									<h5>May 06, 2020</h5>
+								</div>
+								<div id="ar2c0arend" onclick="showArticle('ar2c0arend')" class="horbar">
+									<h2>Using Pistons (Designs)</h2>
+									<h5>May 06, 2020</h5>
+								</div>
+								<div id="ar3c0arend" onclick="showArticle('ar3c0arend')" class="horbar">
+									<h2>4 Bars & Virtual 4 Bars</h2>
+									<h5>May 06, 2020</h5>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+
+					<div class="content__section" data-tab="2" id="cadTutorials">
+						<h1>CAD Tutorials</h1>
+						<div class="row">
+							<div class="columnimg" id="columnimg">
+								<img onclick="showArticle('ar15c1arend')"
+									src="assets/images/Screen_Shot_2021-01-30_at_1.20.05_PM.webp" class="dispimgF"
+									alt="Introduction to Basic Inventor Commands">
+								<img onclick="showArticle('ar1c1arend')"
+									src="assets/images/cad-tutorials_template-bumpers.webp" class="dispimgF"
+									alt="Bumpers">
+								<img onclick="showArticle('ar2c1arend')"
+									src="assets/images/cad-tutorials_template-pocket.webp" class="dispimgF"
+									alt="Pocketing (lightening)">
+								<img onclick="showArticle('ar3c1arend')"
+									src="assets/images/cad-tutorials_template-chain.webp" class="dispimgF"
+									alt="Chain (#25, #35, Template)">
+								<img onclick="showArticle('ar4c1arend')"
+									src="assets/images/cad-tutorials_template-templates.webp" class="dispimgF"
+									alt="Inventor Templates (2x1 Template)">
+								<img onclick="showArticle('ar5c1arend')"
+									src="assets/images/cad-tutorials_template-belts.webp" class="dispimgF"
+									alt="Belts (Timing, Polyurethane)">
+								<img onclick="showArticle('ar6c1arend')"
+									src="assets/images/cad-tutorials_template-ilogic.webp" class="dispimgF"
+									alt="iLogic Forms (Hex Shaft Template)">
+								<img onclick="showArticle('ar7c1arend')"
+									src="assets/images/cad-tutorials_template-partslib.webp" class="dispimgF"
+									alt="Using MVRT Parts Library">
+								<img onclick="showArticle('ar8c1arend')"
+									src="assets/images/cad-tutorials_template-assem.webp" class="dispimgF"
+									alt="Assembling in Inventor">
+								<img onclick="showArticle('ar9c1arend')"
+									src="assets/images/cad-tutorials_template-parts.webp" class="dispimgF"
+									alt="Creating Parts">
+								<img onclick="showArticle('ar10c1arend')"
+									src="assets/images/cad-tutorials_template-ipj.webp" class="dispimgF"
+									alt="Creating Inventor Projects">
+								<img onclick="showArticle('ar11c1arend')"
+									src="assets/images/CAD-Tutorials_Template-install.webp" class="dispimgF"
+									alt="Installing Inventor">
+								<img onclick="showArticle('ar12c1arend')" src="assets/images/picColors.webp"
+									class="dispimgF" alt="Colors in Inventor">
+								<img onclick="showArticle('ar13c1arend')" src="assets/images/renderinginveotr.webp"
+									class="dispimgF" alt="Rendering in Inventor">
+								<img onclick="showArticle('ar14c1arend')" src="assets/images/pistonimportp.webp"
+									class="dispimgF" alt="Importing Piston Files">
+							</div>
+							<div class="columnmain" id="columnart">
+								<div onclick="showArticle('ar15c1arend')" class="horbar">
+									<h2>Introduction to Basic Inventor Commands</h2>
+									<h5>January 30, 2021</h5>
+								</div>
+								<div id="ar1c1arend" onclick="showArticle('ar1c1arend')" class="horbar">
+									<h2>Bumpers</h2>
+									<h5>May 18, 2020</h5>
+								</div>
+								<div id="ar2c1arend" onclick="showArticle('ar2c1arend')" class="horbar">
+									<h2>Pocketing (lightening)</h2>
+									<h5>May 18, 2020</h5>
+								</div>
+								<div id="ar3c1arend" onclick="showArticle('ar3c1arend')" class="horbar">
+									<h2>Chain (#25, #35, Template)</h2>
+									<h5>May 18, 2020</h5>
+								</div>
+								<div id="ar4c1arend" onclick="showArticle('ar4c1arend')" class="horbar">
+									<h2>Inventor Templates (2x1 Template)</h2>
+									<h5>May 18, 2020</h5>
+								</div>
+								<div id="ar5c1arend" onclick="showArticle('ar5c1arend')" class="horbar">
+									<h2>Belts (Timing, Polyurethane)</h2>
+									<h5>May 18, 2020</h5>
+								</div>
+								<div id="ar6c1arend" onclick="showArticle('ar6c1arend')" class="horbar">
+									<h2>iLogic Forms (Hex Shaft Template)</h2>
+									<h5>May 18, 2020</h5>
+								</div>
+								<div id="ar7c1arend" onclick="showArticle('ar7c1arend')" class="horbar">
+									<h2>Using MVRT Parts Library</h2>
+									<h5>May 19, 2020</h5>
+								</div>
+								<div id="ar8c1arend" onclick="showArticle('ar8c1arend')" class="horbar">
+									<h2>Assembling in Inventor</h2>
+									<h5>May 25, 2020</h5>
+								</div>
+								<div id="ar9c1arend" onclick="showArticle('ar9c1arend')" class="horbar">
+									<h2>Creating Parts</h2>
+									<h5>May 25, 2020</h5>
+								</div>
+								<div id="ar10c1arend" onclick="showArticle('ar10c1arend')" class="horbar">
+									<h2>Creating Inventor Projects</h2>
+									<h5>May 25, 2020</h5>
+								</div>
+								<div id="ar11c1arend" onclick="showArticle('ar11c1arend')" class="horbar">
+									<h2>Installing Inventor</h2>
+									<h5>September 28, 2020</h5>
+								</div>
+								<div id="ar12c1arend" onclick="showArticle('ar12c1arend')" class="horbar">
+									<h2>Colors in Inventor</h2>
+									<h5>November 23, 2020</h5>
+								</div>
+								<div id="ar13c1arend" onclick="showArticle('ar13c1arend')" class="horbar">
+									<h2>Rendering in Inventor</h2>
+									<h5>November 24, 2020</h5>
+								</div>
+								<div id="ar14c1arend" onclick="showArticle('ar14c1arend')" class="horbar">
+									<h2>Importing Piston Files</h2>
+									<h5>November 25, 2020</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="content__section" data-tab="3" id="manufacturing">
+						<h1>Manufacturing</h1>
+						<div class="row">
+							<div class="columnimg" id="columnimg">
+								<img onclick="showArticle('ar7c2arend')" src="assets/images/3dpslice.webp"
+									class="dispimgF" alt="">
+								<img onclick="showArticle('ar1c2arend')"
+									src="assets/images/manufacturing_template-laguna.webp" class="dispimgF"
+									alt="Laguna CNC Operation">
+								<img onclick="showArticle('ar2c2arend')"
+									src="assets/images/manufacturing_template-omio.webp" class="dispimgF"
+									alt="OMIO CNC Operation">
+								<img onclick="showArticle('ar3c2arend')"
+									src="assets/images/manufacturing_template-postprocess.webp" class="dispimgF"
+									alt="Post Processing (CAM)">
+								<img onclick="showArticle('ar4c2arend')" src="assets/images/Manufacturing_Template.webp"
+									class="dispimgF" alt="Nesting - CAM">
+								<img onclick="showArticle('ar5c2arend')" src="assets/images/camthumb.webp"
+									class="dispimgF" alt="Intro to CAM">
+								<img onclick="showArticle('ar6c2arend')" src="assets/images/camd3.webp" class="dispimgF"
+									alt="2x1 CAM">
+							</div>
+							<div class="columnmain" id="columnart">
+								<div onclick="showArticle('ar7c2arend')" class="horbar">
+									<h2>3D Printing: Slicing</h2>
+									<h5>March 27, 2021</h5>
+								</div>
+								<div onclick="showArticle('ar1c2arend')" class="horbar">
+									<h2>Laguna CNC Operation</h2>
+									<h5>May 06, 2020</h5>
+								</div>
+								<div onclick="showArticle('ar2c2arend')" class="horbar">
+									<h2>OMIO CNC Operation</h2>
+									<h5>May 06, 2020</h5>
+								</div>
+								<div onclick="showArticle('ar3c2arend')" class="horbar">
+									<h2>Post Processing (CAM)</h2>
+									<h5>May 19, 2020</h5>
+								</div>
+								<div onclick="showArticle('ar4c2arend')" class="horbar">
+									<h2>Nesting - CAM</h2>
+									<h5>July 11, 2020</h5>
+								</div>
+								<div onclick="showArticle('ar5c2arend')" class="horbar">
+									<h2>Intro to CAM</h2>
+									<h5>December 27, 2020</h5>
+								</div>
+								<div onclick="showArticle('ar6c2arend')" class="horbar">
+									<h2>2x1 CAM</h2>
+									<h5>January 2, 2021</h5>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+
+					<div class="content__section" data-tab="4" id="Electrical">
+						<h1>Electrical</h1>
+						<div class="row">
+							<div class="columnimg" id="columnimg">
+								<img src="assets/images/masterdoc.webp" class="dispimgF" alt="Master Doc">
+								<img src="assets/images/sensors.webp" class="dispimgF" alt="Sensors">
+								<img src="assets/images/controlsystems.webp" class="dispimgF" alt="Control Systems">
+								<img src="assets/images/bellypan.webp" class="dispimgF" alt="Bellypan Wiring">
+								<img src="assets/images/pneumatics.webp" class="dispimgF" alt="Pneumatics">
+
+							</div>
+							<div class="columnmain" id="columnart">
+								<div onclick="showArticle('ar4c3arend')" class="horbar">
+									<h2>Master Doc</h2>
+									<h5>January 29, 2021</h5>
+								</div>
+								<div onclick="showArticle('ar3c3arend')" class="horbar">
+									<h2>Sensors</h2>
+									<h5>January 29, 2021</h5>
+								</div>
+								<div onclick="showArticle('ar2c3arend')" class="horbar">
+									<h2>Control Systems</h2>
+									<h5>January 29, 2021</h5>
+								</div>
+								<div onclick="showArticle('ar1c3arend')" class="horbar">
+									<h2>Bellypan Wiring</h2>
+									<h5>January 29, 2021</h5>
+								</div>
+								<div onclick="showArticle('ar5c3arend')" class="horbar">
+									<h2>Pneumatics</h2>
+									<h5>January 29, 2021</h5>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="content__section" data-tab="5" id="software">
+						<h1>Software</h1>
+						<div class="row">
+							<div class="columnimg" id="columnimg">
+								<img src="assets/images/Screen_Shot_2021-01-30_at_3.09.23_PM.webp" class="dispimgF"
+									alt="Limelight Workshop">
+								<img src="assets/images/Screen_Shot_2021-01-30_at_3.06.41_PM.webp" class="dispimgF"
+									alt="HTML, CSS, JS Workshop">
+								<img src="assets/images/Screen_Shot_2021-01-30_at_3.03.47_PM.webp" class="dispimgF"
+									alt="Advanced GitHub Workshop">
+								<img src="assets/images/Screen_Shot_2021-01-30_at_3.11.37_PM.webp" class="dispimgF"
+									alt="ReactJS Workshop">
+								<img onclick="showArticle('ar1c5arend')"
+									src="assets/images/software_template-generalresource.webp" class="dispimgF"
+									alt="General Resources">
+							</div>
+							<div class="columnmain" id="columnart">
+								<div onclick="showArticle('ar5c4arend')" class="horbar">
+									<h2>Limelight Workshop</h2>
+									<h5>January 30, 2021</h5>
+								</div>
+								<div onclick="showArticle('ar4c4arend')" class="horbar">
+									<h2>HTML, CSS, JS Workshop</h2>
+									<h5>January 30, 2021</h5>
+								</div>
+								<div onclick="showArticle('ar3c4arend')" class="horbar">
+									<h2>Advanced GitHub Workshop</h2>
+									<h5>January 30, 2021</h5>
+								</div>
+								<div onclick="showArticle('ar2c4arend')" class="horbar">
+									<h2>ReactJS Workshop</h2>
+									<h5>January 30, 2021</h5>
+								</div>
+								<div onclick="showArticle('ar1c4arend')" class="horbar">
+									<h2>General Resources</h2>
+									<h5>May 19, 2020</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="content__section" data-tab="6" id="photo-video">
+						<h1>Photography/Videography</h1>
+						<div class="row">
+							<div class="columnimg" id="columnimg">
+
+							</div>
+							<div class="columnmain" id="columnart">
+
+							</div>
+						</div>
+					</div>
+
+					<div class="content__section" data-tab="7" id="outreach">
+						<h1>Outreach</h1>
+						<div class="row">
+							<div class="columnimg" id="columnimg">
+								<img onclick="showArticle('ar4c6arend')"
+									src="assets/images/Screen_Shot_2021-01-30_at_10.46.52_PM.webp" class="dispimgF"
+									alt="Equity Action Lesson Plan (Physics) ">
+								<img onclick="showArticle('ar3c6arend')"
+									src="assets/images/Screen_Shot_2021-01-30_at_10.44.06_PM.webp" class="dispimgF"
+									alt="Equity Action Lesson Plan (DIY Lab) ">
+								<img onclick="showArticle('ar2c6arend')"
+									src="assets/images/Screen_Shot_2021-01-30_at_10.38.46_PM.webp" class="dispimgF"
+									alt="Equity Action Lesson Plan (Chemistry) ">
+								<img onclick="showArticle('ar1c6arend')"
+									src="assets/images/Screen_Shot_2021-01-30_at_10.34.52_PM.webp" class="dispimgF"
+									alt="Equity Action Lesson Plan (Biology) ">
+
+							</div>
+							<div class="columnmain" id="columnart">
+								<div onclick="showArticle('ar4c6arend')" class="horbar">
+									<h2>Equity Action Lesson Plan (Physics) </h2>
+									<h5>January 30, 2021</h5>
+								</div>
+								<div onclick="showArticle('ar3c6arend')" class="horbar">
+									<h2>Equity Action Lesson Plan (DIY Lab) </h2>
+									<h5>January 30, 2021</h5>
+								</div>
+								<div onclick="showArticle('ar2c6arend')" class="horbar">
+									<h2>Equity Action Lesson Plan (Chemistry) </h2>
+									<h5>January 30, 2021</h5>
+								</div>
+								<div onclick="showArticle('ar1c6arend')" class="horbar">
+									<h2>Equity Action Lesson Plan (Biology) </h2>
+									<h5>January 30, 2021</h5>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="content__section" data-tab="8" id="finance">
+						<h1>Finance</h1>
+						<div class="row">
+							<div class="columnimg" id="columnimg">
+								<img onclick="showArticle('ar8c7arend')" src="assets/images/chairmans_18.webp"
+									class="dispimgF" alt="Chairman's Binder 2018">
+								<img onclick="showArticle('ar7c7arend')" src="assets/images/chairmans-19.webp"
+									class="dispimgF" alt="Chairman's Binder 2019">
+								<img onclick="showArticle('ar6c7arend')" src="assets/images/grant_impact_pic.webp"
+									class="dispimgF" alt="Grant Impact Report">
+								<img onclick="showArticle('ar5c7arend')"
+									src="assets/images/Screenshot_2021-02-06_194243.webp" class="dispimgF"
+									alt="MVRT Reimbursements and Purchase Orders Documentation">
+								<img onclick="showArticle('ar4c7arend')"
+									src="assets/images/Screenshot_2021-02-06_193202.webp" class="dispimgF"
+									alt="Chairman's Binder 2020">
+								<img onclick="showArticle('ar3c7arend')"
+									src="assets/images/Screenshot_2021-01-30_211244.webp" class="dispimgF"
+									alt="2020 Entrepreneurship Award Business Plan">
+								<img onclick="showArticle('ar2c7arend')"
+									src="assets/images/2020_Calgames_Entre_Business_Plan_Thumbnail.webp"
+									class="dispimgF" alt="2020 Calgames Entre Business Plan">
+								<img onclick="showArticle('ar1c7arend')" src="assets/images/businessplan.webp"
+									class="dispimgF" alt="Business Plan Documentation">
+
+							</div>
+							<div class="columnmain" id="columnart">
+								<div onclick="showArticle('ar8c7arend')" class="horbar">
+									<h2>Chairman's Binder 2018</h2>
+									<h5>February 13, 2021</h5>
+								</div>
+								<div onclick="showArticle('ar7c7arend')" class="horbar">
+									<h2>Chairman's Binder 2019</h2>
+									<h5>February 13, 2021</h5>
+								</div>
+								<div onclick="showArticle('ar6c7arend')" class="horbar">
+									<h2>Grant Impact Report</h2>
+									<h5>February 6, 2021</h5>
+								</div>
+								<div onclick="showArticle('ar5c7arend')" class="horbar">
+									<h2>Reimbursements and Purchase Orders Documentation</h2>
+									<h5>February 6, 2021</h5>
+								</div>
+								<div onclick="showArticle('ar4c7arend')" class="horbar">
+									<h2>Chairman's Binder 2020</h2>
+									<h5>February 6, 2021</h5>
+								</div>
+								<div onclick="showArticle('ar3c7arend')" class="horbar">
+									<h2>2020 Entrepreneurship Award Business Plan</h2>
+									<h5>January 30, 2021</h5>
+								</div>
+								<div onclick="showArticle('ar2c7arend')" class="horbar">
+									<h2>2020 Calgames Entre Business Plan</h2>
+									<h5>January 30, 2021</h5>
+								</div>
+								<div onclick="showArticle('ar1c7arend')" class="horbar">
+									<h2>Business Plan Documentation</h2>
+									<h5>January 30, 2021</h5>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+
+					<div class="content__section" data-tab="9" id="marketing">
+						<h1>Marketing</h1>
+						<div class="row">
+							<div class="columnimg" id="columnimg">
+								<img onclick="showArticle('ar2c8arend')"
+									src="assets/images/Screen_Shot_2021-01-30_at_6.00.02_PM.webp" class="dispimgF"
+									alt="Design Critique: Flyers">
+								<img onclick="showArticle('ar1c8arend')"
+									src="assets/images/Screen_Shot_2021-01-30_at_5.45.22_PM.webp" class="dispimgF"
+									alt="Graphic Design: The Process">
+
+							</div>
+							<div class="columnmain" id="columnart">
+								<div onclick="showArticle('ar2c8arend')" class="horbar">
+									<h2>Design Critique: Flyers</h2>
+									<h5>January 30, 2021</h5>
+								</div>
+								<div onclick="showArticle('ar1c8arend')" class="horbar">
+									<h2>Graphic Design: The Process</h2>
+									<h5>January 30, 2021</h5>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+					<div class="content__section" data-tab="10" id="oldSubmissions">
+						<h1>Old Submissions</h1>
+						<div class="row">
+							<div class="columnimg" id="columnimg">
+
+							</div>
+							<div class="columnmain" id="columnart">
+
+							</div>
+
+						</div>
+					</div>
+					<div class="content__section visible" data-tab="11" id="rookieTraining">
+						<h1>Rookie Training</h1>
+						<div class="row">
+							<div class="columnimg" id="columnimg">
+								<img onclick="showArticle('ar1c10arend')" src="assets/images/ezgif.com-gif-maker.webp"
+									class="dispimgF" alt="">
+								<img onclick="showArticle('ar2c10arend')" src="assets/images/bab.webp" class="dispimgF"
+									alt="Day 2 - Introductions to Divisions">
+								<img onclick="showArticle('ar3c10arend')" src="assets/images/mm.webp" class="dispimgF"
+									alt="Day 4 - Mechanical Tools, Parts, Design">
+								<img onclick="showArticle('ar4c10arend')" src="assets/images/mark.webp" class="dispimgF"
+									alt="">
+								<img onclick="showArticle('ar5c10arend')" src="assets/images/meec.webp" class="dispimgF"
+									alt="">
+								<img onclick="showArticle('ar6c10arend')" src="assets/images/dd.webp" class="dispimgF"
+									alt="Day 7 - Design & Media">
+								<img onclick="showArticle('ar7c10arend')" src="assets/images/mq2.webp" class="dispimgF"
+									alt="Day 8 - Hexshafts & Spacers CAD">
+								<img onclick="showArticle('ar8c10arend')" src="assets/images/gg.webp" class="dispimgF"
+									alt="Day 9 - WCD Frame + Layout Sketches">
+								<img onclick="showArticle('ar9c10arend')" src="assets/images/gag.webp" class="dispimgF"
+									alt="Day 10 - Outreach Intro & Electrical">
+								<img onclick="showArticle('ar10c10arend')" src="assets/images/day11.webp"
+									class="dispimgF" alt="Day 11 - Wiring Basics">
+								<img onclick="showArticle('ar11c10arend')" src="assets/images/day12.webp"
+									class="dispimgF" alt="Day 12 - Sensors Basics">
+								<img onclick="showArticle('ar12c10arend')" src="assets/images/day14.webp"
+									class="dispimgF" alt="Day 14 - Pneumatics & Soldering">
+								<img onclick="showArticle('ar13c10arend')" src="assets/images/day16.webp"
+									class="dispimgF" alt="Day 16 - Java and GitHub">
+								<img onclick="showArticle('ar14c10arend')" src="assets/images/day17.webp"
+									class="dispimgF" alt="Day 17 - Robot Java & WPI Lib">
+								<img onclick="showArticle('ar15c10arend')" src="assets/images/day18.webp"
+									class="dispimgF" alt="Day 18 - Grants & Business Plan">
+								<img onclick="showArticle('ar16c10arend')" src="assets/images/day20.webp"
+									class="dispimgF" alt="Day 20 - Code Along">
+							</div>
+							<div class="columnmain" id="columnart">
+								<div onclick="showArticle('ar1c10arend')" class="horbar">
+									<h2>Day 1 - Introduction and Strategy</h2>
+									<h5>October 6, 2020</h5>
+								</div>
+								<div onclick="showArticle('ar2c10arend')" class="horbar">
+									<h2>Day 2 - Introductions to Divisions</h2>
+									<h5>October 8, 2020</h5>
+								</div>
+								<div onclick="showArticle('ar3c10arend')" class="horbar">
+									<h2>Day 4 - Mechanical Tools, Parts, Design</h2>
+									<h5>October 13, 2020</h5>
+								</div>
+								<div onclick="showArticle('ar4c10arend')" class="horbar">
+									<h2>Day 5 - Marketing Part 1</h2>
+									<h5>October 16, 2020</h5>
+								</div>
+								<div onclick="showArticle('ar5c10arend')" class="horbar">
+									<h2>Day 6 - 2x1 & Gusset CAD</h2>
+									<h5>October 16, 2020</h5>
+								</div>
+								<div onclick="showArticle('ar6c10arend')" class="horbar">
+									<h2>Day 7 - Design & Media</h2>
+									<h5>October 20, 2020</h5>
+								</div>
+								<div onclick="showArticle('ar7c10arend')" class="horbar">
+									<h2>Day 8 - Hexshafts & Spacers CAD</h2>
+									<h5>October 23, 2020</h5>
+								</div>
+								<div onclick="showArticle('ar8c10arend')" class="horbar">
+									<h2>Day 9 - WCD Frame + Layout Sketches</h2>
+									<h5>October 24, 2020</h5>
+								</div>
+								<div onclick="showArticle('ar9c10arend')" class="horbar">
+									<h2>Day 10 - Outreach Intro & Electrical</h2>
+									<h5>October 28, 2020</h5>
+								</div>
+								<div onclick="showArticle('ar10c10arend')" class="horbar">
+									<h2>Day 11 - Wiring Basics</h2>
+									<h5>October 31, 2020</h5>
+								</div>
+								<div onclick="showArticle('ar11c10arend')" class="horbar">
+									<h2>Day 12 - Sensors Basics</h2>
+									<h5>October 31, 2020</h5>
+								</div>
+								<div onclick="showArticle('ar12c10arend')" class="horbar">
+									<h2>Day 14 - Pneumatics & Soldering</h2>
+									<h5>November 5, 2020</h5>
+								</div>
+								<div onclick="showArticle('ar13c10arend')" class="horbar">
+									<h2>Day 16 - Java and GitHub</h2>
+									<h5>November 10, 2020</h5>
+								</div>
+								<div onclick="showArticle('ar14c10arend')" class="horbar">
+									<h2>Day 17 - Robot Java & WPI Lib</h2>
+									<h5>November 13, 2020</h5>
+								</div>
+								<div onclick="showArticle('ar15c10arend')" class="horbar">
+									<h2>Day 18 - Grants & Business Plan</h2>
+									<h5>November 13, 2020</h5>
+								</div>
+								<div onclick="showArticle('ar16c10arend')" class="horbar">
+									<h2>Day 20 - Code Along</h2>
+									<h5>November 20, 2020</h5>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--<script>                #####lazy loading images disabled due to webp image sizes
+      document.addEventListener("DOMContentLoaded", function() {var lazyloadImages = document.querySelectorAll("img.lazy");var lazyloadThrottleTimeout;
+      function lazyload () {if(lazyloadThrottleTimeout) {clearTimeout(lazyloadThrottleTimeout);}
+        lazyloadThrottleTimeout = setTimeout(function() {var scrollTop = window.pageYOffset;lazyloadImages.forEach(function(img) {if(img.offsetTop < (window.innerHeight + scrollTop)) {img.src = img.dataset.src;img.classList.remove('lazy');}});
+            if(lazyloadImages.length == 0) {document.removeEventListener("scroll", lazyload);window.removeEventListener("resize", lazyload);window.removeEventListener("orientationChange", lazyload);}}, 20);}
+      document.addEventListener("scroll", lazyload);window.addEventListener("resize", lazyload);window.addEventListener("orientationChange", lazyload);});
+    </script>-->
+		<footer>
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="block">
+							<a class="footer-logo" href="https://www.mvrt.com/">
+								<h1>MVRT</h1>
+							</a>
+							<ul class="menu">
+								<li class="">
+									<a href="">HOME</a>
+								</li>
+								<li class="">
+									<a href="about.html">ABOUT</a>
+								</li>
+								<li class="">
+									<a href="calendar.html">CALENDAR</a>
+								</li>
+								<li class="" style="text-decoration: underline;">
+									<a href="resources.html">RESOURCES</a>
+								</li>
+								<li class="">
+									<a href="contact.html">CONTACT</a>
+								</li>
+								<li class="">
+									<a href="join.html">JOIN</a>
+								</li>
+							</ul>
+							<p class="copyright-text">2020 &copy; Monta Vista Robotics Team</p>
+							<p class="copyright-text">Made with <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i
+										class="fas fa-heart"></i></a> in Cupertino, CA</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+
+		<!-- Js -->
+		<script src="assets/js/jquery-3.3.1.min.js"></script>
+		<script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js"
+			integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8"
+			crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"
+			integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK"
+			crossorigin="anonymous"></script>
+		<script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
+		<script src="assets/js/owl.carousel.min.js"></script>
+		<script src="assets/js/jquery.magnific-popup.min.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script>
+			$('#circleDrop').click(function () {
+				$('.card-middle').slideToggle();
+				$('.close').toggleClass('closeRotate');
+			});
+
+		</script>
+		<script type="text/javascript">
+			const tabs = document.querySelector('.tabs');
+			tabs.addEventListener('click', e => handleClick(e));
+			function handleClick(e) {
+				const target = e.target;
+				const tabNum = target.dataset.tab;
+				const activeTab = document.querySelector('.tabs .active');
+				const activeContent = document.querySelector('.content .visible');
+				const currentContent = document.querySelector(`.content__section[data-tab='${tabNum}']`);
+				if (!tabNum) { return; }
+				activeTab.classList.remove('active');
+				target.classList.add('active');
+				activeContent.classList.remove('visible');
+				currentContent.classList.add('visible');
+			}
+			function restore() {    //remove back button, show menu and tabs, remove article
+				document.getElementById('goback').style.display = "none";
+				document.getElementById('share').style.display = "none";
+				document.getElementById('addArt').style.display = "inline";
+				document.getElementById("menu").style.display = 'block';
+				document.getElementById('tabmenu').style.display = 'inherit';
+				document.getElementById('srchbut').style.display = "inline";
+				document.getElementById("article").innerHTML = '';
+				window.scrollTo(0, sessionStorage.getItem("location"));
+			}
+			function search() {
+				var keyword = String(document.getElementById('sbox').value);
+				window.location.href = 'https://mvrtresources.pythonanywhere.com/query?keyword=' + keyword;
+			}
+			var urlParams = new URLSearchParams(window.location.search);
+			if (urlParams != '') {
+				showArticle(String(urlParams).split('=')[1]);
+			}
+		</script>
 	</body>
-	
+
 </html>
