@@ -1819,10 +1819,9 @@ div.newsletter-row {
 }
 
 div.gallery {
-  -webkit-box-shadow: 0px 0px 20px 5px rgb(113, 100, 123);
-  -moz-box-shadow: 0px 0px 20px 5px  rgb(113, 100, 123);
-  box-shadow: 0px 0px 20px 5px  rgb(113, 100, 123);
-
+  -webkit-box-shadow: 0px 0px 30px 5px rgb(113, 100, 123,0.5);
+  -moz-box-shadow: 0px 0px 30px 5px  rgb(113, 100, 123,0.5);
+  box-shadow: 0px 0px 30px 5px  rgb(113, 100, 123,0.5);
   margin: 15px auto;
   height: 90%;
   padding: 15px;
