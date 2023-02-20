@@ -1819,8 +1819,12 @@ div.newsletter-row {
 }
 
 div.gallery {
-  border: 5px solid #550575;
-  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 20px 5px rgb(113, 100, 123);
+  -moz-box-shadow: 0px 0px 20px 5px  rgb(113, 100, 123);
+  box-shadow: 0px 0px 20px 5px  rgb(113, 100, 123);
+
+  width:auto;
+  height: 600px;
 }
 
 div.gallery:hover {
@@ -1835,7 +1839,7 @@ div.gallery img {
 }
 
 div.desc {
-  padding: 15px;
+  padding: 30px;
   text-align: center;
 }
 
@@ -1844,7 +1848,7 @@ div.desc {
 }
 
 .column {
-  padding: 20px 6px;
+  padding: 20px 20px;
   float: left;
   align-self:stretch;
   width: 24.99999%;
