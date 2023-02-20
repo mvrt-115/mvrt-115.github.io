@@ -1823,8 +1823,12 @@ div.gallery {
   -moz-box-shadow: 0px 0px 20px 5px  rgb(113, 100, 123);
   box-shadow: 0px 0px 20px 5px  rgb(113, 100, 123);
 
-  width:auto;
-  height: 600px;
+  margin: 15px auto;
+  height: 90%;
+  padding: 15px;
+  border-radius: 2px;
+  display: inline-block;
+  flex-wrap: wrap;
 }
 
 div.gallery:hover {
@@ -1841,6 +1845,7 @@ div.gallery img {
 div.desc {
   padding: 30px;
   text-align: center;
+  width: 100%;
 }
 
 * {
