@@ -1847,6 +1847,10 @@ div.desc {
   width: 100%;
 }
 
+.link-box {
+  color: #444;
+}
+
 * {
   box-sizing: border-box;
 }
