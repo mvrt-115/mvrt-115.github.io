@@ -1810,6 +1810,80 @@ label.error {
   margin-top: 15px;
 }
 
+/* NEWSLETTER PAGE */
+
+div.newsletter-row {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+div.gallery {
+  -webkit-box-shadow: 0px 0px 30px 5px rgb(113, 100, 123,0.5);
+  -moz-box-shadow: 0px 0px 30px 5px  rgb(113, 100, 123,0.5);
+  box-shadow: 0px 0px 30px 5px  rgb(113, 100, 123,0.5);
+  margin: 15px auto;
+  height: 90%;
+  padding: 15px;
+  border-radius: 2px;
+  display: inline-block;
+  flex-wrap: wrap;
+}
+
+div.gallery:hover {
+  -webkit-box-shadow: 0px 0px 20px 5px #dab0ec;
+  -moz-box-shadow: 0px 0px 20px 5px  #dab0ec;
+  box-shadow: 0px 0px 20px 5px  #dab0ec;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.link-box {
+  color: #444;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  padding: 20px 20px;
+  float: left;
+  align-self:stretch;
+  width: 24.99999%;
+  position: relative;
+}
+
+@media only screen and (max-width: 700px) {
+  .column {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* END OF NEWSLETTER PAGE*/
+
 /* PROGRAMS PAGE*/
 .programs-list li{
   position: relative;
