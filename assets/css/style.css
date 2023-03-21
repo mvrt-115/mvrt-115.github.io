@@ -182,9 +182,11 @@ a:active {
   display: absolute;
   width: 100%;
   text-align: center;
-  position: absolute; top: 100%; left: 0;
-  animation: 1s slide-out ease-in-out
-  
+  position: absolute;
+  top: 100%;
+  left: 0;
+  animation: 1s slide-out ease-in-out;
+
   /*-webkit-animation: slide-out 1.5s forwards; */
 }
 
@@ -199,8 +201,12 @@ a:active {
 }
 
 @keyframes slide-out {
-  0% {top: 0%; }
-  100% {top: -100%; }
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: -100%;
+  }
   /*
   0% {
     transform: translateX(0%);
@@ -1390,7 +1396,7 @@ about page
   animation-timing-function: ease-in-out;
 }
 
-@media (min-width: 830px){
+@media (min-width: 830px) {
   .cd-horizontal-timeline .events-content li img {
     float: right;
     height: auto;
@@ -1408,7 +1414,7 @@ about page
     width: 67%;
     margin-top: auto;
   }
-} 
+}
 
 .cd-horizontal-timeline .events-content li.selected {
   /* visible event content */
@@ -1765,6 +1771,9 @@ label.error {
   line-height: 1.1;
 }
 
+#robot-image {
+  padding: 5%;
+}
 .program-images {
   border-radius: 50%;
   max-width: 70%;
@@ -1819,9 +1828,9 @@ div.newsletter-row {
 }
 
 div.gallery {
-  -webkit-box-shadow: 0px 0px 30px 5px rgb(113, 100, 123,0.5);
-  -moz-box-shadow: 0px 0px 30px 5px  rgb(113, 100, 123,0.5);
-  box-shadow: 0px 0px 30px 5px  rgb(113, 100, 123,0.5);
+  -webkit-box-shadow: 0px 0px 30px 5px rgb(113, 100, 123, 0.5);
+  -moz-box-shadow: 0px 0px 30px 5px rgb(113, 100, 123, 0.5);
+  box-shadow: 0px 0px 30px 5px rgb(113, 100, 123, 0.5);
   margin: 15px auto;
   height: 90%;
   padding: 15px;
@@ -1832,8 +1841,8 @@ div.gallery {
 
 div.gallery:hover {
   -webkit-box-shadow: 0px 0px 20px 5px #dab0ec;
-  -moz-box-shadow: 0px 0px 20px 5px  #dab0ec;
-  box-shadow: 0px 0px 20px 5px  #dab0ec;
+  -moz-box-shadow: 0px 0px 20px 5px #dab0ec;
+  box-shadow: 0px 0px 20px 5px #dab0ec;
 }
 
 div.gallery img {
@@ -1858,7 +1867,7 @@ div.desc {
 .column {
   padding: 20px 20px;
   float: left;
-  align-self:stretch;
+  align-self: stretch;
   width: 24.99999%;
   position: relative;
 }
@@ -1883,7 +1892,7 @@ div.desc {
 }
 
 /*polygence special*/
-.polygence-mini-logo img{
+.polygence-mini-logo img {
   width: 100px;
   border: 0px white;
   margin: 10px;
@@ -1892,7 +1901,7 @@ div.desc {
 /* END OF NEWSLETTER PAGE*/
 
 /* PROGRAMS PAGE*/
-.programs-list li{
+.programs-list li {
   position: relative;
   margin: 15px auto;
   width: 90%;
@@ -1909,7 +1918,7 @@ div.desc {
   height: auto;
   margin: 0px 30px 20px 0px;
 }
-  
+
 .programs-list .float-right .program-image {
   float: right;
   width: 38%;
@@ -1933,12 +1942,12 @@ div.desc {
   padding: 20px 0px 10px 0px;
   font-size: 5vh;
   font-weight: bold;
-  color:rgba(77, 26, 114, 0.933);
+  color: rgba(77, 26, 114, 0.933);
 }
 
 .programs-list p {
   font-size: 16px;
-  color:rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 /*program links*/
@@ -1978,7 +1987,7 @@ div.desc {
   .programs-list .float-left .program-image {
     width: 100%;
   }
-  
+
   .programs-list .float-right .program-image {
     width: 100%;
   }
@@ -1991,7 +2000,7 @@ div.desc {
     display: block;
     margin-top: 15px;
   }
-} 
+}
 /*PROGRAMS PAGE END*/
 
 /*--
