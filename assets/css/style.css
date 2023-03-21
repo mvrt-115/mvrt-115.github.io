@@ -1882,6 +1882,13 @@ div.desc {
   clear: both;
 }
 
+/*polygence special*/
+.polygence-mini-logo img{
+  width: 100px;
+  border: 0px white;
+  margin: 10px;
+}
+
 /* END OF NEWSLETTER PAGE*/
 
 /* PROGRAMS PAGE*/
@@ -1910,17 +1917,10 @@ div.desc {
   margin: 0px 0px 20px 30px;
 }
 
-.programs-list img {
+.programs-list .program-image img {
   border: solid 4px #550575;
   border-radius: 20px;
   width: 100%;
-}
-
-/*polygence special*/
-.polygence-mini-logo img{
-  width: 100px;
-  border: 0px white;
-  margin: 10px;
 }
 
 /*program texts*/
