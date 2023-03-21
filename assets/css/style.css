@@ -1916,6 +1916,13 @@ div.desc {
   width: 100%;
 }
 
+/*polygence special*/
+.polygence-mini-logo img{
+  width: 100px;
+  border: 0px white;
+  margin: 10px;
+}
+
 /*program texts*/
 .programs-list .program-text {
   font-size: 20px;
