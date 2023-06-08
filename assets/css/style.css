@@ -1909,7 +1909,10 @@ div.desc {
   border-radius: 2px;
   display: inline-block;
   flex-wrap: wrap;
+  filter: drop-shadow(5px 5px 5px rgba(102, 45, 145, 0.4));
 }
+
+
 
 /*program images*/
 .programs-list .float-left .program-image {
