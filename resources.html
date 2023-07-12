@@ -93,12 +93,12 @@
 			<h4>
 				<a style='display:none;' id='goback' target="_self" href="javascript:restore();"><i style='float:left;'
 						class='material-icons'>reply</i> Back</a>
-				<a style='display:none;float:right;' id='share' target="_self" href="javascript:giveLink();"><i
-						style='float:right;' class='material-icons'>share</i> Shareable Link</a>
+				<!-- <a style='display:none;float:right;' id='share' target="_self" href="javascript:giveLink();"><i -->
+						<!-- style='float:right;' class='material-icons'>share</i> Shareable Link</a> -->
 				<a style='float:left;' target="_self" id='srchbut' href="javascript:showArticle(0,true);"> <i
 						style='float:left;' class='material-icons'>search</i> Search</a>
-				<a style='float:right;' target="_self" id='addArt' href="login.html"> <i style='float:right;'
-						class='material-icons'>note_add</i> Add Article</a>
+				<!-- <a style='float:right;' target="_self" id='addArt' href="login.html"> <i style='float:right;' -->
+						<!-- class='material-icons'>note_add</i> Add Article</a> -->
 			</h4>
 		</div>
 		<section class="information" id="mainstuff">
@@ -175,10 +175,10 @@
                       </h4></div><br><br><br>`;
 					function showArticle(articleId, search = false) {    //show back button; hide menu, tabs, and other buttons; show article
 						document.getElementById('goback').style.display = "inline";
-						document.getElementById('share').style.display = "inline";
+						//document.getElementById('share').style.display = "inline";
 						document.getElementById('menu').style.display = 'none';
 						document.getElementById('tabmenu').style.display = 'none';
-						document.getElementById('addArt').style.display = "none";
+						//document.getElementById('addArt').style.display = "none";
 						document.getElementById('srchbut').style.display = "none";
 						artid = articleId;
 						if (!search) {
@@ -870,8 +870,8 @@
 			}
 			function restore() {    //remove back button, show menu and tabs, remove article
 				document.getElementById('goback').style.display = "none";
-				document.getElementById('share').style.display = "none";
-				document.getElementById('addArt').style.display = "inline";
+				//document.getElementById('share').style.display = "none";
+				//document.getElementById('addArt').style.display = "inline";
 				document.getElementById("menu").style.display = 'block';
 				document.getElementById('tabmenu').style.display = 'inherit';
 				document.getElementById('srchbut').style.display = "inline";
