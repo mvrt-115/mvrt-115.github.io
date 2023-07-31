@@ -540,11 +540,11 @@ a:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to right, #fff 0%, 30vw, #662d9100 100%);
+  background-image: linear-gradient(to right, #fff 0%, 35vw, #662d9100 100%);
 }
 
 #home-nav {
-  background-image: linear-gradient(to right, #fff 0%, 70vw, #662d9100 100%);
+  background-image: linear-gradient(to right, #fff 0%, 35vw, #662d9100 100%);
 }
 
 .splashing {
@@ -1723,10 +1723,10 @@ label.error {
   }
 
   .hero-area {
-    background-image: linear-gradient(to right, #260235 0%, 90vw, #662d9100 100%);
+    background-image: linear-gradient(to right, #fff 0%, 90vw, #662d9100 100%);
   }
   #home-nav {
-    background-image: linear-gradient(to right, #260235 0%, 90vw, #662d9100 100%);
+    background-image: linear-gradient(to right, #fff 0%, 90vw, #662d9100 100%);
   }
 }
 
