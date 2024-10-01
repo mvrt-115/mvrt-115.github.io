@@ -84,6 +84,38 @@
       content="assets/favicons/browserconfig.xml"
     />
     <meta name="theme-color" content="#ffffff" />
+    <style>
+      .newsletter-row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .column {
+        flex: 1 1 25%;
+        padding: 10px;
+      }
+      .gallery img {
+        width: 100%;
+        height: auto;
+      }
+      /* for mobile */
+      @media only screen and (max-width: 768px) {
+        .newsletter-row {
+          display: block;
+        }  
+        .column {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+        .gallery img {
+          width: 100%;
+          height: auto;
+        }
+        .desc {
+          text-align: center;
+          padding: 10px;
+        }
+      }
+    </style>
   </head>
 
   <body id="body">
@@ -534,7 +566,7 @@
             <a href = "https://twitter.com/mvrt115?lang=en" title = "Check out our Twitter"><i class = "fab fa-twitter"></i></a>
             <a href = "https://www.youtube.com/channel/UCLtNWThFAeeVWhCuQAW2miA" title = "Check ou our Youtube Channel"><i class = "fab fa-youtube"></i></a>
           </div>
-                      <p class="copyright-text">2023 &copy; Monta Vista Robotics Team</p>
+                      <p class="copyright-text">2024 &copy; Monta Vista Robotics Team</p>
                       <p class="copyright-text">Made with <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fas fa-heart"></i></a> in Cupertino, CA</p>
                   </div>
               </div>
