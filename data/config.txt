@@ -1,0 +1,51 @@
+# MVRT Website Configuration
+# This file contains site-wide settings that change year-to-year
+
+# Current Season
+CURRENT_YEAR=2025
+CURRENT_GAME=Reefscape
+
+# Active Outreach Programs (one per line)
+[OUTREACH_ACTIVE]
+Sisters in STEM
+FLL Mentoring
+International Outreach
+Scout-Reach
+SWEET
+
+# Discontinued Outreach Programs
+[OUTREACH_DISCONTINUED]
+FTC Mentoring (2018-2022)
+Robotics Workshops (2015-2020)
+
+# Current Mentors - list names only, emails not shown publicly
+[MENTORS_CURRENT]
+John Yelinek (Head Mentor)
+Ted Shinta (Head Mentor)
+Steve Bronstein
+Ashwin Mathur
+Anand Rajamani
+Rithin Venkatesh
+Jon Pannell
+Anant Singhania
+Patrick Wang
+Vinay Venkatesh
+
+# Past Mentors (highlighted few)
+[MENTORS_PAST]
+Mauri Laitinen
+Connie Laitinen
+Jeff Lou
+Edwin Datu
+Ken Leung
+Steve Rock
+Peter Easton
+Nick Baker
+
+# Homepage slideshow images (paths relative to root)
+[HOME_SLIDES]
+assets/images/team/team-2024.JPG
+assets/images/team/team-2023.JPG
+assets/images/home-page-slides/DSC00685-2.JPG
+assets/images/home-page-slides/DSC09028.JPG
+assets/images/robot-images/mvrt2024robot.png

@@ -1,0 +1,26 @@
+# 2022 Season - Leadership and Members
+YEAR=2022
+GAME=Rapid React
+ROBOT_NAME=El Toro XXV
+
+[EXECUTIVES]
+Arnav|President||assets/images/officers/2022/Arnav_4-min.png
+Ishaan|VP of Operations||assets/images/officers/2022/Ishaan_4-min.png
+Jasmita|VP of Engineering||assets/images/officers/2022/Jasmita_4-min.png
+
+[ENGINEERING]
+Malavika|Co-Director of Electrical||assets/images/officers/2022/Malavika_1-min.png
+Minsoo|Co-Director of Software||assets/images/officers/2022/Minsoo_1-min.png
+Samantha|Co-Director of Mechanical||assets/images/officers/2022/Samantha_3-min.png
+
+[OPERATIONS]
+Sanya|Director of Marketing||assets/images/officers/2022/Sanya_1-min.png
+Sidhant|Director of Outreach||assets/images/officers/2022/Sidhant_1-5-min.png
+Sohan|Director of Finance||assets/images/officers/2022/Sohan_2-min.png
+
+[MEMBERS]
+MEMBER_COUNT=130
+
+[AWARDS]
+Semifinalist - Sacramento Regional
+Innovation in Control Award

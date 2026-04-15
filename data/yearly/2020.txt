@@ -1,0 +1,26 @@
+# 2020 Season - Leadership and Members
+YEAR=2020
+GAME=Infinite Recharge
+ROBOT_NAME=El Toro XXIII
+
+[EXECUTIVES]
+Steven Long|President||assets/images/officers/2020/StevenLong.webp
+Veronica Hui|VP of Operations||assets/images/officers/2020/VeronicaHui.webp
+Sreyas Dhulipala|VP of Engineering||assets/images/officers/2020/SreyasDhulipala.webp
+
+[ENGINEERING]
+Matthew Sheh|Co-Director of Electrical||assets/images/officers/2020/MatthewSheh.webp
+Ranya Pendyala|Co-Director of Software||assets/images/officers/2020/RanyaPendyala.webp
+Benjamin Tang|Co-Director of Mechanical||assets/images/officers/2020/BenjaminTang.webp
+
+[OPERATIONS]
+Sophie Ye|Director of Marketing||assets/images/officers/2020/SophieYe.webp
+Divya Satrawada|Director of Outreach||assets/images/officers/2020/DivyaSatrawada.webp
+Annabelle Choi|Director of Finance||assets/images/officers/2020/AnnabelleChoi.webp
+
+[MEMBERS]
+MEMBER_COUNT=135
+
+[AWARDS]
+Innovation in Control Award
+Semifinalist - Silicon Valley Regional

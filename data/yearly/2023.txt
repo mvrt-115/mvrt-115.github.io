@@ -1,0 +1,27 @@
+# 2023 Season - Leadership and Members
+YEAR=2023
+GAME=Charged Up
+ROBOT_NAME=El Toro XXVI
+
+[EXECUTIVES]
+Sam Rodriguez|President||
+Jamie Thompson|VP of Operations||
+Casey Martinez|VP of Engineering||
+
+[ENGINEERING]
+Jordan Wilson|Co-Director of Electrical||
+Taylor Davis|Co-Director of Software||
+Morgan Miller|Co-Director of Mechanical||
+
+[OPERATIONS]
+Riley Brown|Director of Marketing||
+Avery Garcia|Director of Outreach||
+Quinn Lee|Director of Finance||
+
+[MEMBERS]
+MEMBER_COUNT=140
+
+[AWARDS]
+Winner - San Francisco Regional
+Finalist - Idaho Regional
+World Championship Qualifier

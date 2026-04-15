@@ -1,217 +1,84 @@
 <!DOCTYPE html>
-<html class="no-js">
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>MVRT | Calendar</title>
-    <meta
-      name="description"
-      content="Calendar for the Monta Vista Robotics Team from Cupertino, California. Participating in the FIRST Robotics Competition as Team 115!"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="keywords"
-      content="MVRT, Monta Vista, Robotics, FRC, 115, robot, FIRST,
-        Dean Kamen, Science, technology, math, engineering, young people, 
-        Interest and participation in science and technology, 
-        education opportunities, Gracious professionalism, STEM learning, sistem, el toro, omgrobots"
-    />
-
-    <meta name="og:title" content="MVRT | Calendar" />
-    <meta name="og:image" content="./assets/images/bull.png" />
-    <meta name="og:site_name" content="MVRT" />
-    <meta
-      name="og:description"
-      content="Home of the Monta Vista Robotics Team from Cupertino, California. Participating in the FIRST Robotics Competition as Team 115!"
-    />
-    <meta name="language" content="ES" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Source+Sans+Pro:300,400,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/owl.carousel.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicons/site.webmanifest">
-    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="assets/favicons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#662d91">
-    <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar | MVRT</title>
+  <meta name="description" content="MVRT events and meeting calendar">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
 </head>
-
-<body id="body">
-	
-    <div id="preloader-wrapper">
-        <div class="pre-loader"></div>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">MVRT</a>
+      <button class="menu-toggle" aria-label="Menu"><span></span></button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="outreach.html">Outreach</a>
+        <a href="calendar.html" class="active">Calendar</a>
+        <a href="resources.html">Resources</a>
+        <a href="contact.html">Contact</a>
+        <a href="sponsors.html">Sponsors</a>
+        <a href="newsletters.html">Newsletters</a>
+        <a href="join.html" class="btn btn-primary btn-sm">Join</a>
+      </nav>
     </div>
+  </header>
 
-    <!--
-	    Header start
-	    ==================== -->
-        <div class="container nav-container">
-            <div class="nav-box">
-              <svg
-                id="menubtn"
-                viewBox="0 0 100 100"
-                onclick="this.classList.toggle('opened'); document.getElementById('top-nav').classList.toggle('opened'); document.documentElement.classList.toggle('noscroll');"
-              >
-                <path
-                  class="line line1"
-                  d="M 20 29 H 82 C 91 29 107 91 77 75 l -52 -50"
-                />
-                <path class="line line2" d="M 20 50 H 80 " />
-                <path
-                  class="line line3"
-                  d="M 20 71 H 82 C 91 71 107 9 77 25 L 25 75 "
-                />
-              </svg>
-      
-              <a class="logo" style="" href="index.html">
-                <h1>MVRT</h1>
-              </a>
-      
-              <nav style="margin-top: 0%">
-                <div class="" style="margin: 0%">
-                  <ul
-                    class="nav navbar-nav menu float-lg-right"
-                    id="top-nav"
-                    style="columns: 1"
-                  >
-                    <li class="">
-                      <a href="index.html"><b>HOME</b></a>
-                    </li>
-                    <li class="">
-                      <a href="about.html"><b>ABOUT</b></a>
-                    </li>
-                    <li class="">
-                        <a href="outreach.html"><b>OUTREACH</b></a>
-                      </li>
-                    <li class="active">
-                      <a href="calendar.html"><b>CALENDAR</b></a>
-                    </li>
-                    <li class="">
-                      <a href="resources.html">RESOURCES</a>
-                    </li>
-                    <li class="">
-                      <a href="contact.html"><b>CONTACT</b></a>
-                    </li>
-                    <li class="">
-                      <a href="sponsors.html"><b>SPONSORS</b></a>
-                    </li>
-                    <li class="">
-                        <a href="newsletters.html"><b>NEWSLETTERS</b></a>
-                    </li>
-                    <li class="">
-                      <a
-                        href="join.html"
-                        class="btn-main-nav btn-main-nav-sm"
-                        style="color: #fff"
-                        >Join <i class="far fa-arrow-alt-circle-right"></i
-                      ></a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-            </div>
-          </div><div class="header-secondary">
-                <span class="title">Calendar</span>
-            </div>
-        <hr>
+  <main>
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1>Calendar</h1>
+      </div>
+    </section>
 
-    <section class="information">
-        <div class="container">
-            
-            <div class="content">
-                <div class="content__section visible" data-tab="1" id="calendar">
-                    <h1>Calendar</h1>
-                    <br />
-                    <p>If you have any questions about upcoming events, or something doesn't look quite right, please <a href="contact.html">let us know</a>! The calendar is best viewed on a computer.</p>
-                    <br />
-                    <div class = "responsive">
-                        <iframe src="https://calendar.google.com/calendar/embed?src=md3kro2ag2hmi79bcjbti446oo%40group.calendar.google.com&ctz=America%2FLos_Angeles" style=border-width:0 width=1000 height=710 frameborder=0 scrolling=no></iframe>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <!-- Intro -->
+    <section class="section">
+      <div class="container container-narrow text-center">
+        <p class="text-lead">
+          If you have any questions about upcoming events, or something doesn't look quite right, please <a href="contact.html" class="text-purple">let us know</a>! The calendar is best viewed on a computer.
+        </p>
+      </div>
+    </section>
 
-    <footer>
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block">
-                        <a class="footer-logo" href="index.html">
-                            <h1>MVRT</h1>
-                        </a>
-                        </ul>
-						<div class = "socialmediabar">
-							<a href = "https://instagram.com/mvrt115" title = "Check out our Instagram"><i class = "fab fa-instagram"></i></a>
-							<a href = "https://www.facebook.com/mvrt115/" title = "Check out our Facebook"><i class = "fab fa-facebook-square"></i></a>
-							<a href = "https://twitter.com/mvrt115?lang=en" title = "Check out our Twitter"><i class = "fab fa-twitter"></i></a>
-							<a href = "https://www.youtube.com/channel/UCLtNWThFAeeVWhCuQAW2miA" title = "Check ou our Youtube Channel"><i class = "fab fa-youtube"></i></a>
-						</div>
-                        <p class="copyright-text">2025 &copy; Monta Vista Robotics Team</p>
-                        <p class="copyright-text">Made with <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fas fa-heart"></i></a> in Cupertino, CA</p>
-                    </div>
-                </div>
-            </div>
+    <!-- Calendar Embed -->
+    <section class="section">
+      <div class="container-wide">
+        <div class="calendar-embed rounded-lg overflow-hidden shadow-lg">
+          <iframe src="https://calendar.google.com/calendar/embed?src=mvrt.com_qd9p5m3jrte2jc7oj4q8rcm3kc%40group.calendar.google.com&ctz=America%2FLos_Angeles" 
+                  style="border: 0" width="100%" height="700" frameborder="0" scrolling="no">
+          </iframe>
         </div>
-    </footer>
+      </div>
+    </section>
+  </main>
 
-    <!-- Js -->
-    <script src="assets/js/jquery-3.3.1.min.js"></script>
-    <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
-    <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script>
-        $('#circleDrop').click(function() {
-            $('.card-middle').slideToggle();
-            $('.close').toggleClass('closeRotate');
-        });
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">MVRT</a>
+          <p>Monta Vista Robotics Team - Creating the visionaries of tomorrow through STEM education and competitive robotics.</p>
+          <div class="footer-social">
+            <a href="https://instagram.com/mvrt115" aria-label="Instagram" target="_blank"><svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+            <a href="https://www.youtube.com/channel/UCLtNWThFAeeVWhCuQAW2miA" aria-label="YouTube" target="_blank"><svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+            <a href="https://twitter.com/mvrt115" aria-label="Twitter" target="_blank"><svg viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 00-4.329-2.35 5.036 5.036 0 00-4.98 5.072 5.136 5.136 0 00.127 1.16A14.381 14.381 0 011.68 3.149a5.04 5.04 0 001.541 6.737 4.87 4.87 0 01-2.265-.623v.062a5.071 5.071 0 004.052 4.964 4.893 4.893 0 01-2.264.086 5.06 5.06 0 004.724 3.512 10.158 10.158 0 01-6.296 2.168c-.408 0-.813-.024-1.21-.071a14.341 14.341 0 007.763 2.276c9.321 0 14.414-7.72 14.414-14.414 0-.22-.005-.439-.013-.653A10.291 10.291 0 0024 4.57z"/></svg></a>
+          </div>
+        </div>
+        <div><h4 class="footer-heading">Team</h4><div class="footer-links"><a href="about.html">About</a><a href="join.html">Join</a><a href="resources.html">Resources</a><a href="calendar.html">Calendar</a></div></div>
+        <div><h4 class="footer-heading">Connect</h4><div class="footer-links"><a href="outreach.html">Outreach</a><a href="sponsors.html">Sponsors</a><a href="newsletters.html">Newsletters</a><a href="contact.html">Contact</a></div></div>
+        <div><h4 class="footer-heading">Legal</h4><div class="footer-links"><a href="https://www.firstinspires.org" target="_blank">FIRST</a><a href="https://www.mvhsrobotics.org" target="_blank">MVHS Robotics</a></div></div>
+      </div>
+      <div class="footer-bottom"><p>Made with ❤️ in Cupertino, CA · &copy; 2025 Monta Vista Robotics Team</p></div>
+    </div>
+  </footer>
 
-    </script>
-    <script type="text/javascript">
-        const tabs = document.querySelector('.tabs');
-
-        tabs.addEventListener('click', e => handleClick(e));
-
-        function handleClick(e) {
-            const target = e.target;
-            const tabNum = target.dataset.tab;
-            const activeTab = document.querySelector('.tabs .active');
-            const activeContent = document.querySelector(
-                '.content .visible'
-            );
-            const currentContent = document.querySelector(
-                `.content__section[data-tab='${tabNum}']`
-            );
-
-            if (!tabNum) {
-                return;
-            }
-
-
-            activeTab.classList.remove('active');
-            target.classList.add('active');
-            activeContent.classList.remove('visible');
-            currentContent.classList.add('visible');
-        }
-    </script>
+  <script type="module" src="js/main.js"></script>
 </body>
-
 </html>

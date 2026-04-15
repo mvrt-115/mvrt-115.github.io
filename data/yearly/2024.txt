@@ -1,0 +1,29 @@
+# 2024 Season - Leadership and Members
+YEAR=2024
+GAME=Crescendo
+ROBOT_NAME=El Toro XXVII
+
+[EXECUTIVES]
+Alex Chen|President|president@mvrt.com|assets/images/officers/2024/anish.jpg
+Jordan Park|VP of Operations|operations@mvrt.com|assets/images/officers/2024/jahnavi.jpg
+Taylor Kim|VP of Engineering|engineering@mvrt.com|assets/images/officers/2024/naveen.JPG
+
+[ENGINEERING]
+Morgan Lee|Co-Director of Electrical|electrical@mvrt.com|assets/images/officers/2024/kathy.jpg
+Casey Wong|Co-Director of Electrical|electrical@mvrt.com|assets/images/officers/2024/paarth.jpg
+Riley Singh|Co-Director of Software|software@mvrt.com|assets/images/officers/2024/nithya.jpg
+Avery Patel|Co-Director of Software|software@mvrt.com|assets/images/officers/2024/saketh.jpg
+Quinn Murphy|Co-Director of Mechanical|mechanical@mvrt.com|assets/images/officers/2024/sohni.jpg
+Jordan Liu|Co-Director of Mechanical|mechanical@mvrt.com|assets/images/officers/2024/tanisha.JPG
+
+[OPERATIONS]
+Drew Anderson|Co-Director of Marketing|marketing@mvrt.com|assets/images/officers/2024/DSC02532.JPG
+Skyler Brown|Co-Director of Outreach|outreach@mvrt.com|assets/images/officers/2024/anish.jpg
+Hayden Garcia|Director of Finance|finance@mvrt.com|assets/images/officers/2024/jahnavi.jpg
+
+[MEMBERS]
+MEMBER_COUNT=145
+
+[AWARDS]
+Winner - Sacramento Regional
+Semifinalist - Silicon Valley Regional

@@ -1,0 +1,26 @@
+# 2021 Season - Leadership and Members
+YEAR=2021
+GAME=Infinite Recharge (At Home)
+ROBOT_NAME=El Toro XXIV
+
+[EXECUTIVES]
+Ritvik Dutta|President||assets/images/officers/2021/RitvikDutta.png
+Riya Ranjan|VP of Operations||assets/images/officers/2021/RiyaRanjan.webp
+Soumil Gupta|VP of Engineering||assets/images/officers/2021/SoumilGupta.webp
+
+[ENGINEERING]
+Adithya Patil|Co-Director of Electrical||assets/images/officers/2021/AdithyaPatil.webp
+Gavin Hung|Co-Director of Software||assets/images/officers/2021/GavinHung.webp
+Benjamin Tang|Co-Director of Mechanical||assets/images/officers/2021/BenjaminTang.webp
+
+[OPERATIONS]
+Samantha Au|Director of Marketing||assets/images/officers/2021/SamanthaAu.webp
+Naimisha Adira|Director of Outreach||assets/images/officers/2021/NaimishaAdira.webp
+Akash Palla|Director of Finance||assets/images/officers/2021/AkashPalla.webp
+
+[MEMBERS]
+MEMBER_COUNT=140
+
+[AWARDS]
+Game Design Challenge Finalist
+Innovation Challenge Semifinalist
