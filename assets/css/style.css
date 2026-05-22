@@ -942,6 +942,7 @@ about page
   width: 110px;
   height: 110px;
   border-radius: 50%;
+  object-fit: cover;
   box-shadow: 0 2px 6px 0 rgba(47, 83, 151, 0.1);
   margin-bottom: 10px;
 }
@@ -1135,6 +1136,101 @@ about page
   height: auto;
   transition: opacity 0.5s ease;
   z-index: 2;
+}
+
+/* Past Bots Tab */
+.bot-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 50px 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.bot-card:last-child {
+  border-bottom: none;
+}
+
+.bot-card__info {
+  flex: 0 1 400px;
+  text-align: center;
+}
+
+.bot-card__year {
+  font-size: 30px;
+  font-weight: 300;
+  color: #3b4045;
+  margin-bottom: 5px;
+}
+
+.bot-card__game {
+  font-size: 26px;
+  font-style: italic;
+  color: #888;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.bot-card__label {
+  font-size: 22px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.bot-card__name {
+  font-size: 20px;
+  font-weight: 400;
+  color: #3b4045;
+}
+
+.bot-card__binder {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 28px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #555;
+  background-color: #eee;
+  transition: all 0.25s ease;
+}
+
+.bot-card__binder:hover {
+  background-color: #ddd;
+  color: #333;
+  text-decoration: none;
+}
+
+.bot-card__image {
+  flex: 0 0 280px;
+  max-width: 280px;
+}
+
+.bot-card__image img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  border-radius: 50%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .bot-card {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .bot-card__image {
+    flex: 0 0 200px;
+    max-width: 200px;
+  }
+
+  .bot-card__image img {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 .cd-horizontal-timeline {
