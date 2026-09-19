@@ -2484,6 +2484,52 @@ body.picturefocused .container {
   font-size: 20px;
 }
 
+/* Homepage event cards: add another .event block to publish an event. */
+.feature .events {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  height: 100%;
+}
+
+.feature .events > p {
+  margin: 0;
+  color: #662d91;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.feature .events > h3 {
+  color: #596168;
+  font-size: 17px;
+  line-height: 1.45;
+}
+
+.feature .events .event {
+  min-height: 106px;
+  padding: 20px 22px;
+  border: 1px solid #e8e1ed;
+  border-left: 5px solid #662d91;
+  border-radius: 5px;
+  background: #fff;
+  text-align: left;
+}
+
+.feature .events .event .big {
+  color: #3b4045;
+  font-size: 24px;
+  line-height: 1.15;
+}
+
+.feature .events .event h4 {
+  margin-top: 10px;
+  color: #662d91;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
 /*--
     call-to-action start
 --*/
