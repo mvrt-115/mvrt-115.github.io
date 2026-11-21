@@ -1,0 +1,1537 @@
+{
+  "meta": {
+    "teamName": "Monta Vista Robotics Team",
+    "teamNumber": 115,
+    "shortName": "MVRT",
+    "location": "Cupertino, CA",
+    "copyrightYear": 2026,
+    "baseAssetUrl": "https://mvrt.com",
+    "typewriterPhrases": [
+      "MVRT.",
+      "innovators.",
+      "leaders.",
+      "a family.",
+      "MVRT."
+    ],
+    "heroSubtitle": "We are the Monta Vista Robotics Team from Cupertino, California. We build robots, mentor students, and create hands-on STEM opportunities through outreach and competition. Participating in the FIRST Robotics Competition as Team 115!",
+    "heroSlides": [
+      "https://mvrt.com/assets/images/robot-images/robot_25.webp",
+      "https://mvrt.com/assets/images/home-page-slides/DSC00685-2.JPG",
+      "https://mvrt.com/assets/images/home-page-slides/DSC00747.JPG",
+      "https://mvrt.com/assets/images/home-page-slides/im2.webp",
+      "https://mvrt.com/assets/images/home-page-slides/im1.webp"
+    ],
+    "registrationOpen": true,
+    "registrationSeasonLabel": "26-27",
+    "registrationHeadline": "Our registration form is currently open!",
+    "registrationSubtext": "We are always looking for new members, please see our Join page for detailed information!",
+    "interestFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfTeJtFdQxTswKR7rM4xgl90srHzusPvcZLDdKFTQjCzGlfZg/viewform",
+    "calendarEmbedUrl": "https://calendar.google.com/calendar/embed?src=md3kro2ag2hmi79bcjbti446oo%40group.calendar.google.com&ctz=America%2FLos_Angeles",
+    "contactFormEndpoint": "https://formspree.io/mvrt@mvrt.com",
+    "mailchimpEndpoint": "https://mvrt.us11.list-manage.com/subscribe/post?u=a8514d949daf5c32ccb843cdf&id=e2ec0c3329",
+    "socials": {
+      "instagram": "https://instagram.com/mvrt115",
+      "facebook": "https://www.facebook.com/mvrt115/",
+      "twitter": "https://twitter.com/mvrt115?lang=en",
+      "youtube": "https://www.youtube.com/channel/UCLtNWThFAeeVWhCuQAW2miA",
+      "heartEasterEggUrl": "https://www.youtube.com/watch?v=8oE5Z2GLhNc"
+    }
+  },
+  "glanceStats": {
+    "yearsAsTeam": 29,
+    "currentMembersDisplay": "129",
+    "autoCountMembers": false,
+    "currentMentors": 8,
+    "teamPhotoUrl": "https://mvrt.com/assets/images/sistem_front-page.webp",
+    "featuredSeasonYear": 2026
+  },
+  "eventsConfig": {
+    "meetingsNote": "Check the calendar for details about each division's meetings.",
+    "items": [
+      {
+        "id": "evt-team_event-0-kickoff",
+        "title": "Kickoff",
+        "dateText": "January 9, 2027, 9:00 AM –18:00 PM",
+        "isoDate": "2027-01-09",
+        "category": "team_event"
+      },
+      {
+        "id": "evt-team_event-1-districtsacr",
+        "title": "District Sacramento Event",
+        "dateText": "March 19-21, 2027",
+        "isoDate": "2027-03-19",
+        "endDate": "2027-03-21",
+        "category": "team_event"
+      },
+      {
+        "id": "evt-team_event-2-cadistrictco",
+        "title": "CA District Contra Costa Event",
+        "dateText": "April 2-4, 2027",
+        "isoDate": "2027-04-02",
+        "endDate": "2027-04-04",
+        "category": "team_event"
+      }
+    ]
+  },
+  "aboutOverview": {
+    "historyParagraph": "Founded in 1997, the Monta Vista Robotics FIRST Team #115 was established by a few friends looking for a way to venture into the technological world through creative innovation. Over the last twenty years, MVRT has taken great strides in technology and leadership by encouraging its members to further pursue their imaginations beyond the mundane world and into the extraordinary realm. However, none of the achievements and advancements in technology would have been gained without the continuous and unfailing support of our community, parents, and the more than valuable guidance of our advisors and alumni. They have assisted us in overcoming obstacles along the path for original and unique ideas. MVRT continues to fulfill its mission in creating the “visionaries of tomorrow” today by participating in FIRST and inspiring young students through mentoring and community outreach. We stand together as a diverse group of people ready to face hardships and difficulties and combine our ingenuity to attain a common goal: building a masterpiece and inspiring the next generation of engineers and leaders.",
+    "missionParagraph": "Dedicated to fostering a passion in science and technology within our community, the Monta Vista Robotics Team inspires students and develops interpersonal skills through team-based engineering challenges.",
+    "goalsList": [
+      "To create an environment that promotes sharing of knowledge, skills and experience.",
+      "To respect opinions of others as well as ourselves despite differences.",
+      "To create a friendly and professional environment.",
+      "To work towards an operating structure to ensure a solid team.",
+      "To promote the vision of FIRST in the community.",
+      "To ensure equal opportunity for all."
+    ],
+    "firstIntroParagraph": "Founded in 1989, FIRST (For Inspiration and Recognition in Science and Technology) prides itself on its leadership in the scientific arena and its commitment to building a strong foundation for the country’s future workforce. Founder Dean Kamen, the recipient of the 2000 National Medal of Technology, has “awakened the innovative and imaginative leadership in America’s youth to the excitement of science and technology.” FIRST has competitions for several different age groups, from JFLL (Junior FIRST LEGO League) for elementary school students, FLL (FIRST LEGO League) for middle school students, to FRC (FIRST Robotics Competition) and FTC (FIRST Tech Challenge) for high school students.",
+    "frcParagraph": "One of FIRST’s main goals is promoting scientific innovation through the annual FIRST Robotics Competition (FRC), designed to immerse high school students in real-life engineering in the spirit of “Gracious Professionalism” to others. FIRST has experienced exponential growth since its creation, and amazing success, as indicated by the hundreds of colleges offering scholarships to team members and the dozens of media networks that publicize the organization and its achievements. Each year FIRST develops the competition by supplying an objective to teams of students, who have six weeks to conceptualize, design, build, and test their robotic solution. Each year the objective is different; details are kept secret until early January, when they are simultaneously revealed to all teams during the Kick-Off. Once the six weeks have passed, robots are transported to the competition site where teams will compete in March. Teams go head-to-head in a series of two-minute qualification and elimination rounds during a three-day competition. This format requires that teams strategize and build into their design both offensively and defensively. The robot that scores the most points during the two minutes wins each round, and the one that earns the most points in these rounds is declared champion.",
+    "firstValuesParagraph": "FIRST strives to teach not just engineering skills, but also life skills. FIRST pushes for teams to exemplify gracious professionalism and coopertition. Gracious professionalism is “the way of doing things that encourages high-quality work, emphasizes the values of others, and respects individuals and the community.” FIRST teams can demonstrate this ideal by promoting good sportsmanship and maintaining the integrity of our members and team. While teams are happy to receive awards and do well in competitions, teams never put other down. Coopertition, a theme that’s especially prevalent in competitions, is “to display unqualified kindness and respect for other teams, even in the face of fierce competition.” FIRST teams cooperate with others even while competing, so teams can teach each other, promoting mutual learning."
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "game": "REBUILT (Presented by Haas)",
+      "robotName": "El Toro XXIX",
+      "robotImage": "https://mvrt.com/assets/images/robot-images/mvrt2026.jpg",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2026-temp.png",
+      "technicalBinderUrl": "https://mvrt.com/assets/files/technical%20binders/2026%20Technical%20Binder.pdf",
+      "showInPastRobots": true,
+      "awards": [
+        "District Semifinalists at Orange County Event",
+        "District Impact Award at Orange County Event",
+        "District Quarterfinalists at Silicon Valley Event",
+        "District Innovation in Control Award at Silicon Valley Event"
+      ],
+      "leadership": [
+        "Sean Foo - President",
+        "Anna Zhang - VP of Engineering",
+        "Sreevatsa Pervela - Co-Director of Electrical",
+        "Rohan Saxena - Co-Director of Electrical",
+        "Chloe He - Co-Director of Mechanical",
+        "Neel Kansara - Co-Director of Mechanical",
+        "Ronav Dholakia - Co-Director of Software",
+        "Pranav Gupta - Co-Director of Software",
+        "Sara Chhabra - VP of Operations",
+        "Advaith Anand - Co-Director of Marketing",
+        "Yash Guruprakash - Co-Director of Marketing",
+        "Jyothish Talari - Director of Finance",
+        "Lisa Fan - Co-Director of Outreach",
+        "Tanya Bandodkar - Co-Director of Outreach"
+      ]
+    },
+    {
+      "year": 2025,
+      "game": "REEFSCAPE (Presented by Haas)",
+      "robotName": "El Toro XXVIII",
+      "robotImage": "https://mvrt.com/assets/images/robot-images/robot_25.webp",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2025-temp.png",
+      "technicalBinderUrl": "https://mvrt.com/assets/files/technical%20binders/2025%20Technical%20Binder.pdf",
+      "showInPastRobots": true,
+      "awards": [
+        "Regional Semifinalists at Idaho Regional",
+        "Regional Quarterfinalists at Pinnacles Regional"
+      ],
+      "leadership": [
+        "Lilja Kiiski - President",
+        "Chloe Hung - VP of Engineering",
+        "Arunabh Thakuria - Director of Electrical",
+        "Orion Yap - Co-Director of Mechanical",
+        "Rohin Garg - Co-Director of Mechanical",
+        "Siran Gao - Co-Director of Software",
+        "Justin Chen - Co-Director of Software",
+        "Dylan Canoglu - VP of Operations",
+        "Yash Guruprakash - Director of Marketing",
+        "Jaden Bae - Director of Finance",
+        "Tanya Bandodkar - Director of Outreach"
+      ]
+    },
+    {
+      "year": 2024,
+      "game": "CRESCENDO (Presented by Haas)",
+      "robotName": "El Toro XXVII",
+      "robotImage": "https://mvrt.com/assets/images/robot-images/mvrt2024robot.png",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2024.JPG",
+      "showInPastRobots": true,
+      "awards": [
+        "Regional Quality Award at Ventura County Regional",
+        "Rank 3 and 2nd Alliance Captain at Ventura County Regional",
+        "Rank 4 at Monterey Bay Regional",
+        "FIRST Dean's List Finalist - Lilja Kiiski"
+      ],
+      "leadership": [
+        "Paarth Mishra - President",
+        "Naveen Karun - VP of Engineering",
+        "Saketh Korada - Director of Electrical",
+        "Anish Bayyapu- Director of Mechanical",
+        "Tanisha Kholiya - Director of Software",
+        "Sohni Tagirisa - VP of Operations",
+        "Nithya Appannagaari - Director of Marketing",
+        "Kathryn Foo - Director of Finance",
+        "Jahnavi Kumar - Director of Outreach"
+      ]
+    },
+    {
+      "year": 2023,
+      "game": "CHARGED UP (Presented by Haas)",
+      "robotName": "El Toro XXVI",
+      "robotImage": "https://mvrt.com/assets/images/robot-images/mvrt2023robot.png",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2023.JPG",
+      "showInPastRobots": true,
+      "awards": [
+        "Regional Impact Award at San Francisco Regional",
+        "Regional Finalist at San Francisco Regional",
+        "Regional Judges' Award at Idaho Regional"
+      ],
+      "leadership": [
+        "Sohan Shingade - President",
+        "Lara Vaidya - VP of Engineering",
+        "Rohit Iyer - Co-Director of Electrical",
+        "Aan Yadav - Co-Director of Electrical",
+        "Jacob Gino - Co-Director of Mechanical",
+        "Jai Gupta- Co-Director of Mechanical",
+        "Insiah Kizilbash - Co-Director of Software",
+        "Vincent Zhao - Co-Director of Software",
+        "Darpan Singh - VP of Operations",
+        "Nithya Appannagaari - Director of Marketing",
+        "Ryan Tan - Director of Finance",
+        "Sohni Tagirisa - Director of Outreach"
+      ]
+    },
+    {
+      "year": 2022,
+      "game": "RAPID REACT (Presented by the Boeing Company)",
+      "robotName": "El Toro XXV",
+      "robotImage": "https://mvrt.com/assets/images/robot-images/mvrt2022robot.png",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2022.png",
+      "showInPastRobots": true,
+      "awards": [
+        "Regional Engineering Inspiration Award at Central Valley Regional",
+        "Spirit Award at Houston World Championship"
+      ],
+      "leadership": [
+        "Arnav Dalal - President",
+        "Vidhya Kalimani - VP of Engineering",
+        "Samantha Au - Co-Director of Electrical",
+        "Sanya Garg - Co-Director of Electrical",
+        "Ishaan Gupta - Co-Director of Mechanical",
+        "Malavika Vutukuru- Co-Director of Mechanical",
+        "Sohan Shingade - Co-Director of Software",
+        "Vincent Zhao - Co-Director of Software",
+        "Jasmita Yechuri - VP of Operations",
+        "Yaseen Sadaat - Director of Marketing",
+        "Minsoo Kim - Director of Finance",
+        "Sidhant Malik - Director of Outreach"
+      ]
+    },
+    {
+      "year": 2021,
+      "game": "INFINITE RECHARGE (Presented by Lucasfilm)",
+      "robotName": "El Toro XXIV",
+      "teamImage": "https://mvrt.com/assets/images/team/lan.webp",
+      "showInPastRobots": false,
+      "awards": [
+        "Innovation Challenge Semifinalist",
+        "Game Design Challenge Engineering Design Award",
+        "INFINITE RECHARGE at Home Autonomous Award",
+        "FIRST Dean's List Finalist - Arnav Dalal"
+      ],
+      "leadership": [
+        "Akash Palla - President",
+        "Jatin Soni - VP of Engineering",
+        "Jainam Doshi - Co-Director of Electrical",
+        "Samantha Au - Co-Director of Electrical",
+        "Ritvik Dutta - Co-Director of Mechanical",
+        "Aditya Patil - Co-Director of Mechanical",
+        "Gavin Hung - Director of Software",
+        "Harshitha Pandian - VP of Operations",
+        "Benjamin Tang - Director of Marketing",
+        "Soumil Gupta - Director of Finance",
+        "Riya Ranjan - Co-Director of Outreach",
+        "Naimisha Adira - Co-Director of Outreach"
+      ]
+    },
+    {
+      "year": 2020,
+      "game": "INFINITE RECHARGE (Presented by Lucasfilm)",
+      "robotName": "El Toro XXIII",
+      "robotImage": "https://mvrt.com/assets/images/robot-images/mvrt2020robot.webp",
+      "teamImage": "https://mvrt.com/assets/images/team/lan.webp",
+      "showInPastRobots": true,
+      "awards": [
+        "Regional Finalist at Los Angeles North Regional",
+        "Quality Award at Los Angeles North Regional",
+        "Houston Championships qualification by Wild Card"
+      ],
+      "leadership": [
+        "Divya Satrawada - President",
+        "Veronica Hui - VP of Engineering",
+        "Matthew Sheh - Director of Electrical",
+        "Sreyas Dhulipala - Director of Mechanical",
+        "Steven Long - Director of Software",
+        "Sophie Ye - VP of Operations",
+        "Benjamin Tang - Director of Marketing",
+        "Seung-Ah Choi - Director of Finance",
+        "Ranya Pendyala - Director of Outreach"
+      ]
+    },
+    {
+      "year": 2019,
+      "game": "",
+      "robotName": "El Toro XXII",
+      "robotImage": "https://mvrt.com/assets/images/robot-images/MVRT-2019-G.png",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2019.webp",
+      "showInPastRobots": true,
+      "awards": [
+        "Entrepreneurship Award at San Francisco Regional",
+        "Team Spirit Award at Ventura Regional",
+        "FIRST Dean's List Finalist at San Francisco Regional - Divya Satrawada",
+        "FIRST Dean's List Award at Einstein Field (Houston) - Divya Satrawada"
+      ],
+      "leadership": [
+        "Andy Ding - President",
+        "Pavan Kalla - VP of Engineering",
+        "Divya Satrawada - Director of Electrical",
+        "Veronica Hui - Director of Mechanical",
+        "Steven Long - Director of Software",
+        "Isha Chakraborty - VP of Operations",
+        "Sophie Ye - Director of Marketing",
+        "Seung-Ah Choi - Director of Finance",
+        "Ranya Pendyala - Director of Outreach"
+      ]
+    },
+    {
+      "year": 2018,
+      "game": "FIRST POWER UP",
+      "robotName": "El Toro XXI",
+      "robotImage": "https://mvrt.com/assets/images/robot-images/2018robo.png",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2018.webp",
+      "showInPastRobots": true,
+      "awards": [
+        "Entrepreneurship Award at Utah Regional"
+      ],
+      "leadership": [
+        "Ishan Mitra - President",
+        "Ninaad Sridharan - VP of Engineering",
+        "Michael Wan - Director of Electrical",
+        "Gautham Gujjula - Director of Mechanical",
+        "Saurav Pahadia - VP of Operations",
+        "Sophie Ye - Director of Marketing",
+        "Isha Chakraborty - Director of Finance",
+        "Ranya Pendyala - Director of Outreach"
+      ]
+    },
+    {
+      "year": 2017,
+      "game": "FIRST STEAMWORKS",
+      "robotName": "El Toro XX",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2017.webp",
+      "showInPastRobots": false,
+      "awards": [
+        "Winner at Arizona North Regional",
+        "Semi-Finalist at Sillicon Valley Regional",
+        "Roebling Division Finalist at Houston Championships",
+        "FIRST Dean's List Finalist at Silicon Valley Regional - Saurav Pahadia"
+      ],
+      "leadership": [
+        "Akhil Palla - President",
+        "Ninaad Sridharan - VP of Engineering",
+        "Ishan Mitra - Director of Electrical",
+        "Rithin Venkatesh - Director of Mechanical",
+        "Aditya Kalari - VP of Operations",
+        "Benjamin Danek - Director of Marketing",
+        "Saurav Pahadia - Director of Finance",
+        "Sameer Kapur - Director of Outreach"
+      ]
+    },
+    {
+      "year": 2016,
+      "game": "FIRST STRONGHOLD",
+      "robotName": "El Toro XIX",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2016.webp",
+      "showInPastRobots": false,
+      "awards": [
+        "FIRST Dean's List Finalist - Akhil Palla",
+        "Semi-Finalist at Utah Regional"
+      ],
+      "leadership": [
+        "Praxis Bays - President",
+        "Nihil Muthaiah - VP of Engineering",
+        "Marcus Plutowski - Director of Electrical",
+        "Anand Rajamani - Director of Mechanical",
+        "Akhil Palla - Director of Engineering Data",
+        "Namrata Subramanian- VP of Operations",
+        "Sophie Cao - Director of Media",
+        "Sameer Kapur - Director of Public Relations",
+        "Arushi Rai - Director of Outreach",
+        "Saurav Pahadia/Kingsley Wang - Co-Director of Finance",
+        "Aditya Kalari - Director of Technology"
+      ]
+    },
+    {
+      "year": 2015,
+      "game": "RECYCLE RUSH",
+      "robotName": "El Toro XVIII",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2015.webp",
+      "showInPastRobots": false,
+      "awards": [
+        "Entrepreneurship Award at Utah Regional",
+        "Quarter-Finalist at the Sillicon Valley Regional"
+      ],
+      "leadership": [
+        "Archana Kikla - President",
+        "Andrew He - VP of Engineering",
+        "Lee Mracek - Director of Electrical",
+        "Chirag Toprani - Director of Mechanical",
+        "RJ Cunningham - Director of Engineering Data",
+        "Divek Toprani - VP of Operations",
+        "Sophie Cao - Director of Media",
+        "Michelle Danese - Director of Public Relations",
+        "Jeremy Chen - Director of Finance",
+        "Praxis Bays - Director of Outreach",
+        "Sydney Howard - Director of Documentation",
+        "Shovik Guha - Webmaster"
+      ]
+    },
+    {
+      "year": 2014,
+      "game": "AERIAL ASSIST",
+      "robotName": "El Toro XVII",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2014.webp",
+      "showInPastRobots": false,
+      "awards": [
+        "Quarter-Finalist at Sacramento Regional"
+      ],
+      "leadership": [
+        "Karen Feng - President",
+        "Jimin Park - VP of Engineering",
+        "Andrew He - Director of Electrical",
+        "Chirag Toprani - Director of Mechanical",
+        "RJ Cunningham - Director of Engineering Data",
+        "Archana Kikla - VP of Operations",
+        "Emma Lewis - Director of Media",
+        "Sachin Makaram - Director of Public Relations",
+        "Namrata Ramani - Director of Finance",
+        "Praxis Bays - Director of Outreach",
+        "Nikita Sankar - Director of Documentation",
+        "Shovik Guha - Webmaster"
+      ]
+    },
+    {
+      "year": 2013,
+      "game": "ULTIMATE ASCENT",
+      "robotName": "El Toro XVI",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2013.webp",
+      "showInPastRobots": false,
+      "awards": [
+        "Team Spirit Award sponsored by Chrysler at Sillicon Valley Regional"
+      ],
+      "leadership": [
+        "Evelyn Ding - President",
+        "Kumar Veeravel - VP of Engineering",
+        "Karen Feng - Director of Electrical",
+        "Mark Sinks - Director of Mechanical",
+        "Joyce Yan - VP of Operations",
+        "Emma Lewis - Director of Media",
+        "Sachin Makaram - Director of Public Relations",
+        "Namrata Ramani - Director of Finance",
+        "Jessica Chen - Director of Documentation"
+      ]
+    },
+    {
+      "year": 2012,
+      "game": "REBOUND RUMBLE",
+      "robotName": "El Toro XV",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2012.webp",
+      "showInPastRobots": false,
+      "awards": [
+        "Best Website Award at Championships",
+        "Johnson & Johnson Gracious Professionalism Award at the Sillicon Valley Regional",
+        "Best Website Award at Sacramento Regional"
+      ],
+      "leadership": [
+        "Anant Singhania - President",
+        "Nupur Garg - VP of Engineering",
+        "Karen Feng - Director of Electrical",
+        "Kumar Veeravel - Director of Mechanical",
+        "Evelyn Ding - VP of Operations",
+        "Daniel Tan - Director of Media",
+        "Jessica Chen - Director of Documentation",
+        "Dahyoung Yoon - Director of Public Relations"
+      ]
+    },
+    {
+      "year": 2011,
+      "game": "LOGO MOTION",
+      "robotName": "El Toro XIV",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2011.webp",
+      "showInPastRobots": false,
+      "awards": [
+        "Judges’ Award at Silicon Velley Regional",
+        "Best Website Award at Silicon Valley Regional",
+        "Excellence in Design Award at Seattle Cascade Regional",
+        "Best Website Award at Seattle Cascade Regional"
+      ],
+      "leadership": [
+        "Helena Qin - President",
+        "Karthik Kumaravel - VP of Engineering",
+        "Nupur Garg - Director of Electrical",
+        "Abhijaat Kelkar - Director of Mechanical",
+        "Rohan Gupta - VP of Operations",
+        "Daniel Tan - Director of Media",
+        "Anant Singhania - Director of Public Relations",
+        "Evelyn Ding - Director of Finance"
+      ]
+    },
+    {
+      "year": 2010,
+      "game": "BREAKAWAY",
+      "robotName": "El Toro XIII",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2010.webp",
+      "showInPastRobots": false,
+      "awards": [
+        "Regional Chairman’s Award at Silicon Valley Regional",
+        "Best Website Award at San Diego Regional",
+        "Second Place at San Diego Regional"
+      ],
+      "leadership": [
+        "Parag Kikla - President",
+        "Karthik Kumaravel - VP of Engineering",
+        "Make He - Director of Electrical",
+        "Abhijaat Kelkar - Director of Mechanical",
+        "Arun Kuchibhotla - VP of Operations",
+        "Rohan Gupta - Director of Media",
+        "Vinay Venkatesh - Director of Public Relations",
+        "Helena Qin - Director of Finance"
+      ]
+    },
+    {
+      "year": 2009,
+      "game": "LUNACY",
+      "robotName": "El Toro XII",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2009.webp",
+      "showInPastRobots": false,
+      "awards": [
+        "Best Website Award at Davis Regional",
+        "Engineering Inspiration Award at Davis Regional"
+      ],
+      "leadership": [
+        "Jean Feng - President",
+        "Ashwin Mathur - VP of Engineering",
+        "Make He - Director of Electrical",
+        "Karthik Kumaravel - Director of Mechanical",
+        "Prashanth Vijay - VP of Operations",
+        "Arun Kuchibhotla - Director of Media",
+        "Aravindh Dorai - Director of Public Relations",
+        "Parag Kikla - Director of Finance"
+      ]
+    },
+    {
+      "year": 2008,
+      "game": "FIRST Overdrive",
+      "robotName": "El Toro XI",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2008.webp",
+      "showInPastRobots": false,
+      "awards": [
+        "Champion at Davis Regional",
+        "Best Website Award at Davis Regional",
+        "Champion at Silicon Valley Regional",
+        "Website Award at Nationals",
+        "Johnson & Johnson Gracious Professionalism at Silicon Valley Regional",
+        "Best Website Award at Silicon Valley Regional"
+      ],
+      "leadership": [
+        "Brij Datta - President",
+        "Humphrey Hu - VP of Engineering",
+        "Christine Chen - Director of Electrical",
+        "Ashwin Mathur - Director of Mechanical",
+        "Schott Chen - VP of Operations",
+        "Jeremy Le - Director of Media",
+        "Rijuta Ravichandran - Director of Public Relations",
+        "Rosalind Lee - Director of Finance"
+      ]
+    },
+    {
+      "year": 2007,
+      "game": "Rack \"N\" Roll",
+      "robotName": "El Toro X",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2007.webp",
+      "showInPastRobots": false,
+      "awards": [
+        "Quarter-Finalist at Davis Sacramento Regional",
+        "Kleiner Perkins Caufield & Byers Entrepreneurship Award at Davis Sacramento Regional",
+        "Best Website Award at Davis Sacramental Regional",
+        "WRRF Volunteer Award"
+      ],
+      "leadership": [
+        "Pavan Dutta - President",
+        "Danica Chang - VP of Engineering",
+        "Christine Chen - Director of Electrical",
+        "Humphrey Hu - Director of Mechanical",
+        "Brij Datta - VP of Operations",
+        "Jerry Chen - Director of Media",
+        "Rijuta Ravichandran - Director of Public Relations",
+        "Rosalind Lee - Director of Finance"
+      ]
+    },
+    {
+      "year": 2006,
+      "game": "Aim High",
+      "robotName": "El Toro IX",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2006.webp",
+      "showInPastRobots": false,
+      "awards": [
+        "Semi-Finalist at Sacramento Regional",
+        "Best Website Award at Silicon Valley Regional"
+      ],
+      "leadership": [
+        "Pavan Dutta - President",
+        "Danica Chang - VP of Engineering",
+        "Christine Chen - Director of Electrical",
+        "Humphrey Hu - Director of Mechanical",
+        "Brij Datta - VP of Operations",
+        "Eileen Laitinen - Director of Media",
+        "Vannett Li - Director of Public Relations",
+        "Rosalind Lee - Director of Finance"
+      ]
+    },
+    {
+      "year": 2005,
+      "game": "Triple Play",
+      "robotName": "El Toro VIII",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2005.webp",
+      "showInPastRobots": false,
+      "awards": [
+        "Quarter-Finalist at Sacramento Regional",
+        "Quarter-Finalist at Silicon Valley Regional",
+        "Judges’ Award at Silicon Valley Regional",
+        "Coached a FIRST Lego League Team which Qualified for the State Tournament",
+        "Programming Award to the FIRST Lego Team",
+        "Outstanding Mentor Award at Northern California State Tournament, for Shrenik Shah"
+      ],
+      "leadership": [
+        "Shrenik Shah - President",
+        "Eric Zhou - VP of Engineering",
+        "Stephanie Lin - Director of Electrical",
+        "Tom Clegg - Director of Mechanical",
+        "Siyu Song - VP of Operations",
+        "Jeffrey Lee - Director of Media",
+        "Uta Gou - Director of Public Relations",
+        "Irem Mertol - Director of Finance"
+      ]
+    },
+    {
+      "year": 2004,
+      "game": "FIRST Frenzy",
+      "robotName": "El Toro VII",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2004.webp",
+      "showInPastRobots": false,
+      "awards": [
+        "Engineering Inspiration Award at Silicon Valley Regional",
+        "Woodie Flowers Award to Ted Shinta",
+        "Quarter-Finalist at Silicon Valley Regionals"
+      ],
+      "leadership": [
+        "Akshay Dodeja - President",
+        "Shrenik Shah - VP of Engineering",
+        "Rebecca Illowsky - Director of Electrical",
+        "Eric Zhou - Director of Mechanical",
+        "Jennifer Tse - VP of Operations",
+        "Siyu Song - Director of Media",
+        "Uta Gou - Director of Public Relations",
+        "Irem Mertol - Director of Finance"
+      ]
+    },
+    {
+      "year": 2003,
+      "game": "Stack Attack",
+      "robotName": "El Toro VI",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2003.webp",
+      "showInPastRobots": false,
+      "awards": [
+        "Semi-Finalist at Sacramento Regional",
+        "Website Design Award at Sacramento Regional",
+        "General Motor’s Industrial Design Award at Sacramento Regional",
+        "Champion at Silicon Valley Regional",
+        "Website Design Award at Silicon Valley Regional",
+        "Xerox Creativity Award at Silicon Valley Regional"
+      ],
+      "leadership": [
+        "Patrick Wang - President",
+        "Jonathan Liang - VP of Engineering",
+        "Rebecca Illowsky - Director of Electrical",
+        "Shrenik Shah - Director of Mechanical",
+        "Jennifer Tse - VP of Operations",
+        "Siyu Song - Director of Animations",
+        "Akshay Dodeja - Director of Graphics",
+        "Uta Gou - Director of Public Relations",
+        "Catherine Chen - Director of Finance"
+      ]
+    },
+    {
+      "year": 2002,
+      "game": "Zone Zeal",
+      "robotName": "El Toro V",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2002.webp",
+      "showInPastRobots": false,
+      "awards": [
+        "Second Place at Silicon Valley Regional"
+      ],
+      "leadership": [
+        "Patrick Wang - President",
+        "Jonathan Liang - Vice President (Term Incomplete)",
+        "Matt Rock - Executive Officer",
+        "Paul Marshall - Director of Mechanical (Term Incomplete)",
+        "Frank Wang - Director of Electrical (Term Incomplete)",
+        "Katherine Lai - Director of Animations",
+        "Lisa Warner - Director of Graphics",
+        "Abby Chen - Director of Finance (Term Incomplete)",
+        "Catherine Chen - Director of Finance (Mid-Season Entry)"
+      ]
+    },
+    {
+      "year": 2001,
+      "game": "Diabolical Dynamics",
+      "robotName": "El Toro IV",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2001.webp",
+      "showInPastRobots": false,
+      "awards": [
+        "Third Place Nationwide at National Competition, selected in the top ranking alliance for the Curie Division",
+        "Second Place at Silicon Valley West Coast Regional",
+        "Honeywell Leadership in Control Award at West Coast Regional"
+      ],
+      "leadership": [
+        "Henry Chen - President",
+        "Thomas Fong - Vice President",
+        "Matt Rock - Executive Officer",
+        "Frank Wang - Director of Electrical",
+        "Travis Covington - Director of Mechanical",
+        "Katherine Lai - Director of Animations",
+        "Lisa Warner - Director of Graphics",
+        "Aya Maeda - Director of Public Relations",
+        "Helen Wang - Director of Finance"
+      ]
+    },
+    {
+      "year": 2000,
+      "game": "Co-opertition FIRST",
+      "robotName": "El Toro III",
+      "teamImage": "https://mvrt.com/assets/images/team/team-2000.webp",
+      "showInPastRobots": false,
+      "awards": [
+        "Second Place at Southern California Los Angeles Invitational",
+        "Fifth Place at NASA Ames West Coast Regionals",
+        "Honeywell Leadership in Control Award at West Coast Regional",
+        "“Most Unconventional” Award in Whimsy Division at Sandhill Challenge Modern Soap-Box Derby in Menlo Park",
+        "Second Place at WRRF/FIRST California Robotics Games",
+        "Speed Division Winners at WRRF/FIRST California Robotics Games"
+      ],
+      "leadership": [
+        "Aya Maeda - President",
+        "Henry Chen - Vice President",
+        "Thomas Fong - Executive Officer",
+        "Amol - Director of Electrical",
+        "Travis Covington - Director of Mechanical",
+        "Patrick and Henrick Shyu - Director of Animations",
+        "Helen Wang - Director of Public Relations",
+        "Helen Wang - Director of Public Finance"
+      ]
+    },
+    {
+      "year": 1999,
+      "game": "Double Trouble",
+      "robotName": "El Toro II",
+      "teamImage": "https://mvrt.com/assets/images/team/team-1999.webp",
+      "showInPastRobots": false,
+      "awards": [
+        "Fourth Place at NASA Ames West Coast Regionals"
+      ],
+      "leadership": [
+        "Shirley Lai - President",
+        "Janice Chen - Vice President",
+        "Ben Doyle - Executive Officer",
+        "Tom Lauwers - Director of Electrical",
+        "Rajesh Nishtala - Director of Mechanical",
+        "Einoville Talvala - Director of Animations"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "id": "lead-1",
+      "name": "Anna Zhang",
+      "role": "President",
+      "tier": "President",
+      "email": "president@mvrt.com",
+      "imageUrl": "https://mvrt.com/assets/images/officers/2027/anna.jpg"
+    },
+    {
+      "id": "lead-2",
+      "name": "Tanya Bandodkar",
+      "role": "VP of Operations",
+      "tier": "Vice Presidents",
+      "email": "operations@mvrt.com",
+      "imageUrl": "https://mvrt.com/assets/images/officers/2027/tanya.JPG"
+    },
+    {
+      "id": "lead-3",
+      "name": "Chloe He",
+      "role": "VP of Engineering",
+      "tier": "Vice Presidents",
+      "email": "engineering@mvrt.com",
+      "imageUrl": "https://mvrt.com/assets/images/officers/2027/chloe.JPG"
+    },
+    {
+      "id": "lead-4",
+      "name": "William Wang",
+      "role": "Director of Electrical",
+      "tier": "Engineering Directors",
+      "email": "electrical@mvrt.com",
+      "imageUrl": "https://mvrt.com/assets/images/officers/2027/william.JPG"
+    },
+    {
+      "id": "lead-5",
+      "name": "Ethan Liao",
+      "role": "Co-Director of Software",
+      "tier": "Engineering Directors",
+      "email": "software@mvrt.com",
+      "imageUrl": "https://mvrt.com/assets/images/officers/2027/ethan.JPG"
+    },
+    {
+      "id": "lead-6",
+      "name": "Raymond Li",
+      "role": "Co-Director of Software",
+      "tier": "Engineering Directors",
+      "email": "software@mvrt.com",
+      "imageUrl": "https://mvrt.com/assets/images/officers/2027/raymond.JPG"
+    },
+    {
+      "id": "lead-7",
+      "name": "Misha Bakhtin",
+      "role": "Co-Director of Mechanical",
+      "tier": "Engineering Directors",
+      "email": "mechanical@mvrt.com",
+      "imageUrl": "https://mvrt.com/assets/images/officers/2027/misha.JPG"
+    },
+    {
+      "id": "lead-8",
+      "name": "Hersh Saxena",
+      "role": "Co-Director of Mechanical",
+      "tier": "Engineering Directors",
+      "email": "mechanical@mvrt.com",
+      "imageUrl": "https://mvrt.com/assets/images/officers/2027/hersh.JPG"
+    },
+    {
+      "id": "lead-9",
+      "name": "Ginny Tie",
+      "role": "Director of Marketing",
+      "tier": "Operations Directors",
+      "email": "outreach@mvrt.com",
+      "imageUrl": "https://mvrt.com/assets/images/officers/2027/ginny.jpeg"
+    },
+    {
+      "id": "lead-10",
+      "name": "Declan Thomas",
+      "role": "Co-Director of Outreach",
+      "tier": "Operations Directors",
+      "email": "outreach@mvrt.com",
+      "imageUrl": "https://mvrt.com/assets/images/officers/2027/declan.JPG"
+    },
+    {
+      "id": "lead-11",
+      "name": "Cayce Zeng",
+      "role": "Co-Director of Outreach",
+      "tier": "Operations Directors",
+      "email": "outreach@mvrt.com",
+      "imageUrl": "https://mvrt.com/assets/images/officers/2027/cayce.JPG"
+    },
+    {
+      "id": "lead-12",
+      "name": "Lisa Fan",
+      "role": "Director of Finance",
+      "tier": "Operations Directors",
+      "email": "finance@mvrt.com",
+      "imageUrl": "https://mvrt.com/assets/images/officers/2027/lisa.JPG"
+    }
+  ],
+  "members": [
+    "Aanya Dhua",
+    "Aanvi Singh",
+    "Aaraadh Johal",
+    "Aarav Lath",
+    "Aarush Joshi",
+    "Aaryan Jayaraj",
+    "Aaron Cai",
+    "Aaron Liu",
+    "Adeeb Mahmood",
+    "Aditya Vardhan Chevuru",
+    "Adit Sharma",
+    "Advaith Anand",
+    "Alice Lin",
+    "Amiel Chatterji",
+    "Anay Chauhan",
+    "Aniq Rahman",
+    "Anish Durve",
+    "Anna (Jiatong) Zhang",
+    "Aric Obaidur",
+    "Arjun Rayankula",
+    "Arjun Sanjeev",
+    "Arnav Jaiswal",
+    "Aryan Gadkari",
+    "Audre Chang",
+    "Ashwanth Sundaramoorthi",
+    "Avnish Shukla",
+    "Bela Ranade",
+    "Benjamin Fan",
+    "Brandon Li",
+    "Brandon Liu",
+    "Cameron Dahi",
+    "Casey Lin",
+    "Cayce Zeng",
+    "Chinmay Irkar",
+    "Chloe He",
+    "Daksh Agrawal",
+    "Darshini Karthik",
+    "Declan Thomas",
+    "Demir Ilhan",
+    "Dmitry Sokolov",
+    "Elaina Pan",
+    "Elina Polavarapu",
+    "Elinor Byers",
+    "Esther Seok",
+    "Ethan Liao",
+    "Fida Jasmin",
+    "Ginny Tie",
+    "Gowri Athreya",
+    "Haozhe Feng",
+    "Hersh Saxena",
+    "Husain Khan",
+    "Ira Sannappanavar",
+    "Isaac Mok",
+    "Jaeyoon Na",
+    "Janmejay Khandelwal",
+    "Jennifer Jelovic",
+    "Jerry He",
+    "Jiho Jeong",
+    "Jihoo Won",
+    "Junjie Yan",
+    "Jyothish Talari",
+    "Kaitlyn Lum",
+    "Kavin Kumar",
+    "Kavyansh Kumawat",
+    "Kevin Ko",
+    "Krishna Batni",
+    "Kunal Rastogi",
+    "Lisa Fan",
+    "Logan Chu",
+    "Mikhail Bakhtin",
+    "Michelle Lee",
+    "Milana Chinko",
+    "Mukhil Saravanan",
+    "Mykhailo Fominykh",
+    "Nidhi Saravanan",
+    "Nikhil Pellakuru",
+    "Nishka Yadav",
+    "Nizar Mulla",
+    "Noora Kiiski",
+    "Owshik Jagadeesh",
+    "Patrick Jiang",
+    "Plaksha Jha",
+    "Polaris Leong",
+    "Pragti Gupta",
+    "Pranav Balaji",
+    "Pranav Gupta",
+    "Pranshu Jha",
+    "Qixuan Mu",
+    "Raymond Li",
+    "Riley Chow",
+    "Rishabh Rathi",
+    "Rohan Murthy",
+    "Rohan Saxena",
+    "Ronit Kuila",
+    "Ronav Dholakia",
+    "Rusheek Suglur Jayapala",
+    "Ryan Chu",
+    "Saharsh Nangunoori",
+    "Sahana Jaware",
+    "Samyuktha Gutta",
+    "Santheev Senthilkumar",
+    "Sara Chhabra",
+    "Sarah Kim",
+    "Sarvesh Prabu",
+    "Saumit Korada",
+    "Satyaki Sen",
+    "Sebastian Chen",
+    "Sean Foo",
+    "Shaurya Pathak",
+    "Shrey Savur",
+    "Shreyas Doke",
+    "Siddhi Lakkarsu",
+    "Sreevatsa Pervela",
+    "Sreevidya Pervela",
+    "Sridhar Shivashankar",
+    "Srithika Barakam",
+    "Subrata Jain",
+    "Takuji Kubota",
+    "Tanya Bandodkar",
+    "Tejeshwar Marupadige",
+    "Trisha Sharma",
+    "Varsha Supreeth",
+    "Vedant Patel",
+    "Vihaan Paradkar",
+    "Vishruth Murugan Prakash",
+    "William Wang",
+    "Xinyi Zhang",
+    "Yash Guruprakash",
+    "Zihan Lu"
+  ],
+  "mentors": {
+    "introText": "Dedicated mentors, advisors, and volunteers are our team's most essential asset. Not only do they share their knowledge and expertise with the team, but also their valuable time and energy, which together comprises the backbone of our team.",
+    "headMentors": [
+      "Lawrence Mok"
+    ],
+    "currentMentors": [
+      "Ashwin Mathur",
+      "Jon Pannell",
+      "Patrick Wang",
+      "Ryan Lee"
+    ],
+    "pastMentors": [
+      "John Yelinek",
+      "Ted Shinta",
+      "Mauri Laitinen",
+      "Connie Laitinen",
+      "Jeff Lou",
+      "Edwin Datu",
+      "Ken Leung",
+      "Steve Rock",
+      "Peter Easton",
+      "Nick Baker",
+      "Alice Chang",
+      "Daniel Yang",
+      "Jaiom Sambyal",
+      "Randy Lam",
+      "Rachel Yang",
+      "Abhijaat Kelkar",
+      "Umesh Toprani",
+      "Bhaven Toprani",
+      "Karthik Kumaravel",
+      "Rod Sinks",
+      "Galen Embry",
+      "Cara Lai",
+      "Nupur Garg",
+      "Sridhar Palla",
+      "Kyle Evans",
+      "Elena Stumm",
+      "Dewal Gupta",
+      "John Arakaki",
+      "Peter Chase",
+      "Arun Kuchibhotla",
+      "Vinay Venkatesh",
+      "Anant Singhania",
+      "Rithin Venkatesh",
+      "Steve Bronstein",
+      "Anand Rajamani"
+    ]
+  },
+  "outreach": [
+    {
+      "id": "out-stem4kids",
+      "title": "STEM4KIDS",
+      "description": "STEM4Kids was founded with a mission of expanding the world of STEM to those in our community to those who are underprivileged. Through weekly lessons over the course of a year, we taught the students concepts that paralleled their school curriculum in hopes of helping them improve their academic performance. The program’s curriculum covered foundational knowledge in biology, physics and chemistry, taught through both a lecture followed by lab activities. MVRT currently measures knowledge retention through surveys and short game quizzes, however, in the future as we filter through more groups of students, we hope to collect data centering around grade improvement because of the program’s initial goal. Through this program, we hope to expand our mission to help provide equal opportunities to everyone in our community.",
+      "imageUrl": "https://mvrt.com/assets/images/programs/stem4kids.png"
+    },
+    {
+      "id": "out-sistem",
+      "title": "Sisters in STEM",
+      "description": "Sisters in STEM (SiSTEM) is a program founded by our female veterans in 2016 to combat the lack of girls in STEM and encourage more females to join the team. Many girls felt discouraged to be a part of the team, especially in the engineering divisions, and MVRT often experienced low retention rates of female members. MVRT recognized the gender gap and difference in opportunities that currently exists in engineering fields and provided a solution to the problem: the SiSTEM initiative. With this program, we have had an 80% increase in female attendance and member retention and an increase in overall team morale. We include male veterans to take part in mentoring the little siblings, along with female rookies, to encourage both genders to learn how to work together and bridge any disconnect present in the past. With more people involved in our design and execution, our team has improved as a whole, as has our community.",
+      "imageUrl": "https://mvrt.com/assets/images/programs/symposium.jpg"
+    },
+    {
+      "id": "out-equity",
+      "title": "Equity Workshops",
+      "description": "In order to supplement the SiSTEM program, MVRT annually hosts symposiums in which we invite women in STEM to share how they overcame obstacles within their STEM journeys. To host these symposiums, MVRT partners with Polygence, a research program where intellectually curious high schoolers connect with expert mentors to conduct passion projects. Under the guidance of their mentors, Polygence students engage in academic fields across the STEM, the social sciences, and the humanities to produce showcase-able and personalized final projects. MVRT and Polygence are proud partners and our partnership has enabled Polygence to offer all MVHS students 10% financial assistance to pursue their very own Polygence project.",
+      "imageUrl": "https://mvrt.com/assets/images/programs/equityworkshops.jpg",
+      "partnerLogoUrl": "https://mvrt.com/assets/images/logos/polygence.png",
+      "primaryButtonText": "More info here.",
+      "primaryButtonUrl": "https://www.polygence.org/partner/robotics"
+    },
+    {
+      "id": "out-cadology",
+      "title": "CADology",
+      "description": "CADology was founded at the aim of instilling a passion for robotics in elementary through middle school aged students using personalized and interactive classes. The students develop a foundational knowledge in computer aided design (CAD), an essential skill to build a robot, in an engaging and non-intimidating way with the help of our members. Students are broken up into groups by skill and experience with MVRT members, and learn how to CAD at a pace most comfortable for them. As an end project, students are able to see the outcome of their work by 3D printing their own model!",
+      "imageUrl": "https://mvrt.com/assets/images/programs/cadology.png"
+    },
+    {
+      "id": "out-taiwan",
+      "title": "Taiwan",
+      "description": "MVRT invited over 25 international students during the summer of 2016 to tour our facilities and learn about the FIRST Robotics Competition. Then in early 2017, we invited a new group of 30 international students to tour Monta Vista once again. MVRT also held a demo for the Taiwan Exchange Students. We are now supporting them as they start their own FRC team. The team is currently meeting on a daily basis based on the coach’s responses and has had a successful kickoff. They are meeting for Build Season and we are in constant contact with them for them to be ready for this season. MVRT has also invited 25 new international students during the season this year to tour our facilities. We hope to continue a strong relationship and have them visit our facility every year and host a demo.",
+      "imageUrl": "https://mvrt.com/assets/images/programs/taiwan.jpg"
+    },
+    {
+      "id": "out-france",
+      "title": "France Collaboration",
+      "description": "In 2023, MVRT visited a summer daycare in rural Saint Gérand, France, to introduce STEM concepts to kids aged 5–9. They led a spaghetti and marshmallow tower challenge, teaching structural engineering basics through hands-on teamwork. Students were grouped and guided through a simple design process, deciding how much material to use for their towers. They enjoyed the freedom to experiment and problem-solve with the unique materials. This engaging activity sparked curiosity and introduced STEM to students who may not have had prior exposure, making it a fun and educational experience that encouraged collaboration and creativity.",
+      "imageUrl": "https://mvrt.com/assets/images/programs/francedemo2024.jpg"
+    },
+    {
+      "id": "out-ohana",
+      "title": "Ohana",
+      "description": "MVRT formed a partnership with the Ohana Club, a club at Monta Vista dedicated to providing special education students with as many skills as possible, to teach students STEM concepts in an interactive, hands-on way. Throughout the years, our curriculum has evolved and improved based on feedback from both the Ohana students and the Ohana officer team. The program was founded in 2012 and has grown to have over 60 special education students participating in the program.",
+      "imageUrl": "https://mvrt.com/assets/images/programs/ohana.jpg"
+    },
+    {
+      "id": "out-headstart",
+      "title": "HeadStart",
+      "description": "MVRT’s HeadStart Summer Camp was launched in 2016 to build a strong engineering foundation for rookie members. Over the course of the week-long camp, rookies are taught the fundamentals of FRC engineering to assemble a kitbot, culminating in a design challenge and a friendly competition. HeadStart is entirely student designed, organized, and taught. Students involved in running HeadStart are able to develop critical skills ranging from teaching to event management. Incoming members are able to also befriend upperclassmen in the team, forming relationships that go a long way. Although HeadStart is designed to help create a foundation for incoming rookies, HeadStart is open to anyone interested in jump starting their FIRST Robotics Journey.",
+      "imageUrl": "https://mvrt.com/assets/images/programs/headstart.png"
+    },
+    {
+      "id": "out-fll",
+      "title": "FIRST LEGO League (FLL)",
+      "description": "FLL is a program that MVRT sponsors for middle school kids interested in STEM. MVRT members have mentored 60 FIRST LEGO League (FLL) teams since 2003. Through FLL, our members teach students engineering and robotics skills. Our FLL students develop skills essential to flourish in the FIRST Robotics Competition, including team management, leadership, and communication, while their coaches develop mentorship skills that can be applied to their activities on our team.",
+      "imageUrl": "https://mvrt.com/assets/images/programs/fll.jpg"
+    },
+    {
+      "id": "out-hongyun",
+      "title": "Hongyun Art",
+      "description": "One of our most unique and innovative outreach programs is Hongyun Art—a series of classes based on teaching kids STEM through art. MVRT worked with Hongyun Art, an art studio, by hosting camps for students and weekly lessons. Using Java, Scratch, Python and Arduinos, students participate in several interactive art projects, such as building an interactive mirror. Overall, the partnership is fulfilling to both sides, as MVRT students are able to gain insight in art and creativity while Hongyun Art students can learn STEM skills.",
+      "imageUrl": "https://mvrt.com/assets/images/programs/hongyun_art.png"
+    },
+    {
+      "id": "out-googlearm",
+      "title": "Google Arm & Intel RealSense Camera",
+      "description": "MVRT students have been given the opportunity to apply their knowledge from FIRST to the real world by working as professional engineers alongside Google and Intel employees. Our members worked with Google to build a robot arm to play tic tac toe, and through extensive testing, we helped Google restructure their APIs. Likewise, we beta-tested Intel’s real-sense camera in 2018, which was aimed to help FRC teams in the future. While our strong relations with our sponsors have helped provide more opportunities for our own members, we additionally strive to help our sponsors with their own projects, just as they have for us.",
+      "imageUrl": "https://mvrt.com/assets/images/programs/google_arm.png"
+    },
+    {
+      "id": "out-mali",
+      "title": "Mali",
+      "description": "Through our partnership with iNerde, an organization that aims to spread STEM education in Africa, MVRT helped iNerde to reach 133% of their annual goal for students impacted. While researching iNerde, MVRT learned that they were creating a FIRST Global Challenge robotics team in Bamako, Mali, and were looking for more mentors. MVRT stepped in and provided a comprehensive curriculum for trainings along with a 24/7 support-line for their team. MVRT taught Team Mali about the fundamentals of running a FRC team but also basic engineering skills using an adaptation of the 3-month training plan MVRT uses for our rookie trainings. At the end of the FIRST Global competition, Team Mali ended up winning the silver medal Engineering Design.",
+      "imageUrl": "https://mvrt.com/assets/images/programs/mali.png"
+    },
+    {
+      "id": "out-bloom",
+      "title": "Bloom",
+      "description": "Bloom provides accessible, practical STEM education locally and internationally so students can gain real skills and opportunities. Our curriculum focuses on hands-on projects, mentorship, and a supportive community at no cost. We teach beginner and advanced courses in Java, Python, and CAD with Onshape. Internationally, we've reached out to Uganda, Nigeria, Georgia, Kenya and India.",
+      "imageUrl": "https://mvrt.com/assets/images/programs/bloom.png"
+    }
+  ],
+  "resources": [
+    {
+      "id": "div-mech",
+      "division": "Mechanical",
+      "items": [
+        {
+          "id": "res-m1",
+          "title": "Omio CNC Setup & Guide",
+          "url": "https://www.youtube.com/watch?v=fhrf0OuGvbQ&list=PLsiEJAZgdF8Jz60HfNvy415mHReZtNI0I",
+          "thumbnailUrl": "https://mvrt.com/assets/images/resources/blank.png",
+          "badge": "Manufacturing"
+        },
+        {
+          "id": "res-m2",
+          "title": "Intro to CAD on Onshape",
+          "url": "https://www.youtube.com/watch?v=r34QdlQD51Y",
+          "thumbnailUrl": "https://mvrt.com/assets/images/resources/mech1.png",
+          "badge": "CAD Tutorial"
+        },
+        {
+          "id": "res-m3",
+          "title": "CAM Templates",
+          "url": "https://drive.google.com/drive/folders/1SlNamNqqateqZVmexi-jucMvYU_dOorB",
+          "thumbnailUrl": "https://mvrt.com/assets/images/resources/blank.png",
+          "badge": "Templates"
+        }
+      ]
+    },
+    {
+      "id": "div-soft",
+      "division": "Software",
+      "items": [
+        {
+          "id": "res-s1",
+          "title": "Rookie Trainings Day 1",
+          "url": "https://docs.google.com/presentation/d/1yg_w992oN5_AA-btFUD00ftDuwwwO3_EWwmg2JBgt10/edit#slide=id.g27fbbc8e00e_0_163",
+          "thumbnailUrl": "https://mvrt.com/assets/images/resources/swd1.webp",
+          "badge": "Java & WPILib"
+        },
+        {
+          "id": "res-s2",
+          "title": "Rookie Trainings Day 2",
+          "url": "https://docs.google.com/presentation/d/1Zpw1So0hOnR6CeWFgPqGW1p1cBkkHdx9h-qVakkaNdw/edit#slide=id.g2fa4c4490c0_0_0",
+          "thumbnailUrl": "https://mvrt.com/assets/images/resources/swd2.webp",
+          "badge": "Subsystems"
+        },
+        {
+          "id": "res-s3",
+          "title": "Rookie Trainings Day 3",
+          "url": "https://docs.google.com/presentation/d/1XjJlo233gccaekIdOigrfdKuForjPUoIH5OsyvhNj5M/edit#slide=id.g2fa4c4490c0_0_0",
+          "thumbnailUrl": "https://mvrt.com/assets/images/resources/swetd3.webp",
+          "badge": "Commands & PID"
+        },
+        {
+          "id": "res-s4",
+          "title": "Rookie Trainings Day 4",
+          "url": "https://docs.google.com/presentation/d/11XmImyDoh0mvcNoaZ9WTBZfOlW9vZnmfv7Y8F04EYeQ/edit#slide=id.g2fa4c4490c0_0_0",
+          "thumbnailUrl": "https://mvrt.com/assets/images/resources/swd4.webp",
+          "badge": "Autonomous"
+        }
+      ]
+    },
+    {
+      "id": "div-elec",
+      "division": "Electrical",
+      "items": [
+        {
+          "id": "res-e1",
+          "title": "Control Systems and Connections",
+          "url": "https://docs.google.com/presentation/d/17XnvSYoM5Cst1rHRq3cZecRnY0jeqdRBaox59yYy11Q/",
+          "thumbnailUrl": "https://mvrt.com/assets/images/resources/et1.webp",
+          "badge": "FRC Control System"
+        },
+        {
+          "id": "res-e2",
+          "title": "Sensors and Pneumatics",
+          "url": "https://docs.google.com/presentation/d/1VSvoqzBHX1WZXAFe6T9Fn-VxsaUC_Whj7-RWfU8vMBY/",
+          "thumbnailUrl": "https://mvrt.com/assets/images/resources/et2.webp",
+          "badge": "Hardware"
+        },
+        {
+          "id": "res-e3",
+          "title": "Rookie Trainings Sensors",
+          "url": "https://docs.google.com/presentation/d/14X7ghrCdifTVYgW2uu3HtQfMfTwo9O-o8dFC3Qz8uns/",
+          "thumbnailUrl": "https://mvrt.com/assets/images/resources/et3.webp",
+          "badge": "CAN & Wiring"
+        },
+        {
+          "id": "res-e4",
+          "title": "More From Rookie Trainings",
+          "url": "https://docs.google.com/presentation/d/1XjJlo233gccaekIdOigrfdKuForjPUoIH5OsyvhNj5M/edit#slide=id.g2fa4c4490c0_0_0",
+          "thumbnailUrl": "https://mvrt.com/assets/images/resources/swetd3.webp",
+          "badge": "Reference"
+        }
+      ]
+    },
+    {
+      "id": "div-outreach",
+      "division": "Outreach",
+      "items": [
+        {
+          "id": "res-o1",
+          "title": "Outreach Vet Trainings",
+          "url": "https://docs.google.com/presentation/d/11hMVGe3eGX8jJp-C1ygx7vRqLBicn1c1YrMksuJvQQ4/edit#slide=id.g2eab6d148b4_0_376",
+          "thumbnailUrl": "https://mvrt.com/assets/images/resources/ot1.webp",
+          "badge": "Impact & Events"
+        },
+        {
+          "id": "res-o2",
+          "title": "Intro to FRC and Competitions",
+          "url": "https://docs.google.com/presentation/d/1pX-u9CevVRy9op5TcstNubXbdjgGYrqrQT9ASxmGQFE/edit#slide=id.g27fd458d8a9_0_28",
+          "thumbnailUrl": "https://mvrt.com/assets/images/resources/ot2.webp",
+          "badge": "Onboarding"
+        }
+      ]
+    },
+    {
+      "id": "div-finance",
+      "division": "Finance",
+      "comingSoon": true,
+      "items": []
+    },
+    {
+      "id": "div-marketing",
+      "division": "Marketing",
+      "items": [
+        {
+          "id": "res-mk1",
+          "title": "Newsletters / Social Media / Branding",
+          "url": "https://docs.google.com/presentation/d/1lqxq8Y4r1BegOHJz4RV5wDjHDWOlnsDF8W-uP3CpgBk/edit#slide=id.g2769febc0ff_0_71",
+          "thumbnailUrl": "https://mvrt.com/assets/images/resources/mk1.webp",
+          "badge": "Communications"
+        },
+        {
+          "id": "res-mk2",
+          "title": "Graphics Design / Branding",
+          "url": "https://docs.google.com/presentation/d/1Z7Nz3LkRIM0Y_dvknjV4xDJmMEWJxJzfYhl43rTYpbE/edit#slide=id.g2e5e3993d9f_8_4",
+          "thumbnailUrl": "https://mvrt.com/assets/images/resources/mk2.webp",
+          "badge": "Design & Media"
+        }
+      ]
+    }
+  ],
+  "sponsorsPage": {
+    "heading": "Special Thanks to Our Sponsors",
+    "promoBannerText": "Use fabworks code FRC115 for a 5% discount!",
+    "promoCode": "FRC115",
+    "grantImpactReportUrl": "https://mvrt.com/assets/files/grantimpactreportforallsponsors.pdf",
+    "sponsorPacketUrl": "https://mvrt.com/assets/files/sponsorpacket2026.pdf",
+    "sponsors": [
+      {
+        "id": "sp-intuitive",
+        "name": "Intuitive Surgical",
+        "logoUrl": "https://mvrt.com/assets/images/logos/intuitive_surgical.png",
+        "websiteUrl": "https://www.intuitive.com/en-us"
+      },
+      {
+        "id": "sp-rotary",
+        "name": "Rotary Club",
+        "logoUrl": "https://mvrt.com/assets/images/logos/rotary.svg",
+        "websiteUrl": "https://www.rotary.org/en"
+      },
+      {
+        "id": "sp-apple",
+        "name": "Apple",
+        "logoUrl": "https://mvrt.com/assets/images/logos/apple.png",
+        "websiteUrl": "https://www.apple.com/"
+      },
+      {
+        "id": "sp-fuhsd",
+        "name": "FUHSD Foundation",
+        "logoUrl": "https://mvrt.com/assets/images/logos/fuhsd.jpg",
+        "websiteUrl": "https://fuhsfoundation.org/"
+      },
+      {
+        "id": "sp-ptc",
+        "name": "PTC Inc.",
+        "logoUrl": "https://mvrt.com/assets/images/logos/ptc.png",
+        "websiteUrl": "https://www.ptc.com/en"
+      },
+      {
+        "id": "sp-mvhs",
+        "name": "Monta Vista High School",
+        "logoUrl": "https://mvrt.com/assets/images/logos/montavista.png",
+        "websiteUrl": "https://mvhs.fuhsd.org/"
+      },
+      {
+        "id": "sp-fabworks",
+        "name": "Fabworks",
+        "logoUrl": "https://mvrt.com/assets/images/logos/fabworks.png",
+        "websiteUrl": "https://fabworks.com/"
+      }
+    ]
+  },
+  "newsletters": [
+    {
+      "id": "nl-1",
+      "title": "Week 1 Build 2025 Newsletter",
+      "summary": "MVRT had a fantistic Kickoff and start to build season, spending the week strategizing, designing, and prototyping our basic game elements, alongside starting our awards submissions!",
+      "thumbnailUrl": "https://mvrt.com/assets/images/newsletters/Build12025Image.png",
+      "pdfUrl": "https://mvrt.com/assets/newsletters/MVRT%20Build%20Newsletter%20Week%201.pdf",
+      "seasonYear": 2025
+    },
+    {
+      "id": "nl-2",
+      "title": "November 2024 Newsletter",
+      "summary": "As November comes to an end, MVRT wrapped up our annual rookie training and launched countless outreach programs!",
+      "thumbnailUrl": "https://mvrt.com/assets/images/newsletters/Nov2024Image.png",
+      "pdfUrl": "https://mvrt.com/assets/newsletters/MVRT%20November%20Newsletter%202024.pdf",
+      "seasonYear": 2024
+    },
+    {
+      "id": "nl-3",
+      "title": "October 2024 Newsletter",
+      "summary": "Continuing our annual rookie training and attending an off-season competition, MVRT had a truly action-packed month!",
+      "thumbnailUrl": "https://mvrt.com/assets/images/newsletters/Oct2024Image.png",
+      "pdfUrl": "https://mvrt.com/assets/newsletters/MVRT%20October%202024%20Newsletter.pdf",
+      "seasonYear": 2024
+    },
+    {
+      "id": "nl-4",
+      "title": "September 2024 Newsletter",
+      "summary": "From off-season veteran trainings to attending the Cupertino Rotary Fall Festival to recruiting new members, MVRT had an action-packed month!",
+      "thumbnailUrl": "https://mvrt.com/assets/images/newsletters/Sep2024Image.png",
+      "pdfUrl": "https://mvrt.com/assets/newsletters/MVRT%20September%202024%20Newsletter.pdf",
+      "seasonYear": 2024
+    },
+    {
+      "id": "nl-5",
+      "title": "Week 4 Build 2024 Newsletter",
+      "summary": "During this Crescendo season, MVRT has continued to work diligently in our fourth week of progress!",
+      "thumbnailUrl": "https://mvrt.com/assets/images/newsletters/MVRTWeek4Build.JPG",
+      "pdfUrl": "https://mvrt.com/assets/newsletters/MVRTWeek4Build2024.pdf",
+      "seasonYear": 2024
+    },
+    {
+      "id": "nl-6",
+      "title": "Week 3 Build 2024 Newsletter",
+      "summary": "MVRT has officially finished its third week of progress during the Crescendo Season!",
+      "thumbnailUrl": "https://mvrt.com/assets/images/newsletters/MVRTWeek3Build.jpg",
+      "pdfUrl": "https://mvrt.com/assets/newsletters/MVRTWeek3Build2024.pdf",
+      "seasonYear": 2024
+    },
+    {
+      "id": "nl-7",
+      "title": "Week 2 Build 2024 Newsletter",
+      "summary": "MVRT continued working hard during week 2 of the Crescendo build season, making great strides towards a completed practice bot!",
+      "thumbnailUrl": "https://mvrt.com/assets/images/newsletters/MVRTWeek2Build.jpg",
+      "pdfUrl": "https://mvrt.com/assets/newsletters/MVRTWeek2Build2024.pdf",
+      "seasonYear": 2024
+    },
+    {
+      "id": "nl-8",
+      "title": "Week 1 Build 2024 Newsletter",
+      "summary": "After having a great winter break, MVRT has officially entered into the Build Season for this year's FRC game, Crescendo!",
+      "thumbnailUrl": "https://mvrt.com/assets/images/newsletters/MVRTWeek1Build.JPG",
+      "pdfUrl": "https://mvrt.com/assets/newsletters/MVRTWeek1Build2024.pdf",
+      "seasonYear": 2024
+    },
+    {
+      "id": "nl-9",
+      "title": "November 2023 Newsletter",
+      "summary": "Get ready this November as we finish our rookie trainings and launch ourselves into one another exciting build season!",
+      "thumbnailUrl": "https://mvrt.com/assets/images/newsletters/MVRTNovemberPic.JPG",
+      "pdfUrl": "https://mvrt.com/assets/newsletters/MVRTNovember2023Newsletter.pdf",
+      "seasonYear": 2023
+    },
+    {
+      "id": "nl-10",
+      "title": "October 2023 Newsletter",
+      "summary": "Starting off October with offseason competitions and ending with rookie trainings, MVRT truly had an eventful month!",
+      "thumbnailUrl": "https://mvrt.com/assets/images/newsletters/October2023.jpeg",
+      "pdfUrl": "https://mvrt.com/assets/newsletters/MVRTOctober2023Newsletter.pdf",
+      "seasonYear": 2023
+    },
+    {
+      "id": "nl-11",
+      "title": "September 2023 Newsletter",
+      "summary": "MVRT has been going at full speed with the start of our offseason!",
+      "thumbnailUrl": "https://mvrt.com/assets/images/newsletters/September2023.jpeg",
+      "pdfUrl": "https://mvrt.com/assets/newsletters/MVRTSeptember2023Newsletter.pdf",
+      "seasonYear": 2023
+    },
+    {
+      "id": "nl-12",
+      "title": "Summer of 2023 Newsletter",
+      "summary": "While the school campus was quiet during this summer vacation, robotics kept the gears turning, with vet trainings and robot improvements in full blast!",
+      "thumbnailUrl": "https://mvrt.com/assets/images/newsletters/2023Summer.JPG",
+      "pdfUrl": "https://mvrt.com/assets/newsletters/2023Summer.pdf",
+      "seasonYear": 2023
+    },
+    {
+      "id": "nl-13",
+      "title": "2023 World Championships Newsletter",
+      "summary": "From Tuesday to Sunday, MVRT spent Champs gaining unforgettable memories meeting innumerable teams, attending conferences to learn more FIRST and robotics, and competing in matches.",
+      "thumbnailUrl": "https://mvrt.com/assets/images/newsletters/2023champs.png",
+      "pdfUrl": "https://mvrt.com/assets/newsletters/2023Champs.pdf",
+      "seasonYear": 2023
+    },
+    {
+      "id": "nl-14",
+      "title": "2023 Idaho Regional Newsletter",
+      "summary": "After just a week of preparation after the San Francisco Regional, MVRT brought their finalist-winning robot all the way to Nampa, Idaho!",
+      "thumbnailUrl": "https://mvrt.com/assets/images/newsletters/Idaho.JPG",
+      "pdfUrl": "https://mvrt.com/assets/newsletters/2023Idaho.pdf",
+      "seasonYear": 2023
+    },
+    {
+      "id": "nl-15",
+      "title": "2023 San Francisco Regional Newsletter",
+      "summary": "Having devoted innumerable hours throughout the six-week build period, MVRT brought their expertly crafted robot to the highly anticipated San Francisco Regionals competition!",
+      "thumbnailUrl": "https://mvrt.com/assets/images/newsletters/SFR.JPG",
+      "pdfUrl": "https://mvrt.com/assets/newsletters/2023SFR.pdf",
+      "seasonYear": 2023
+    },
+    {
+      "id": "nl-16",
+      "title": "2023 Week 6 Build Newsletter",
+      "summary": "From drive practice to finishing the practice bot, MVRT ends the sixth week strong, eager for this year's FRC competition.",
+      "thumbnailUrl": "https://mvrt.com/assets/images/newsletters/week6.png",
+      "pdfUrl": "https://mvrt.com/assets/newsletters/week6.pdf",
+      "seasonYear": 2023
+    },
+    {
+      "id": "nl-17",
+      "title": "2023 Week 5 Build Newsletter",
+      "summary": "From incredible advancements made in our practice bot and code advancements, MVRT started and ended Week 5 strong.",
+      "thumbnailUrl": "https://mvrt.com/assets/images/newsletters/week5.png",
+      "pdfUrl": "https://mvrt.com/assets/newsletters/week5.pdf",
+      "seasonYear": 2023
+    },
+    {
+      "id": "nl-18",
+      "title": "2023 Week 4 Build Newsletter",
+      "summary": "In Week 4 of the Build Season, our team and robot progressed just as much, if not more, compared to the pace set in Week 3.",
+      "thumbnailUrl": "https://mvrt.com/assets/images/newsletters/week4.png",
+      "pdfUrl": "https://mvrt.com/assets/newsletters/week4.pdf",
+      "seasonYear": 2023
+    },
+    {
+      "id": "nl-19",
+      "title": "2023 Week 3 Build Newsletter",
+      "summary": "MVRT began Week 3 with determination and energy, charged up to overcome any obstacles that this year's FRC competition may present us!",
+      "thumbnailUrl": "https://mvrt.com/assets/images/newsletters/week3.png",
+      "pdfUrl": "https://mvrt.com/assets/newsletters/week3.pdf",
+      "seasonYear": 2023
+    },
+    {
+      "id": "nl-20",
+      "title": "2023 Week 2 Build Newsletter",
+      "summary": "MVRT entered week 2 strong, energized to get our subsystems going!",
+      "thumbnailUrl": "https://mvrt.com/assets/images/newsletters/week2.png",
+      "pdfUrl": "https://mvrt.com/assets/newsletters/week2.pdf",
+      "seasonYear": 2023
+    },
+    {
+      "id": "nl-21",
+      "title": "2023 Week 1 Build Newsletter",
+      "summary": "After a restful winter break, we enter our build season, prepared to tackle the challenges of the 2023 FRC game, Charged Up!",
+      "thumbnailUrl": "https://mvrt.com/assets/images/newsletters/week1.png",
+      "pdfUrl": "https://mvrt.com/assets/newsletters/week1.pdf",
+      "seasonYear": 2023
+    },
+    {
+      "id": "nl-22",
+      "title": "2022 November Newsletter",
+      "summary": "From rookie trainings to awards ceremonies, November presented us with opportunities to explore ourselves as a team and showcase everything we have achieved over the years.",
+      "thumbnailUrl": "https://mvrt.com/assets/images/newsletters/november.png",
+      "pdfUrl": "https://mvrt.com/assets/newsletters/november.pdf",
+      "seasonYear": 2022
+    },
+    {
+      "id": "nl-23",
+      "title": "2022 October Newsletter",
+      "summary": "After months of preparation and learning, MVRT took their famed bot to compete in the CalGames!",
+      "thumbnailUrl": "https://mvrt.com/assets/images/newsletters/october.png",
+      "pdfUrl": "https://mvrt.com/assets/newsletters/october.pdf",
+      "seasonYear": 2022
+    },
+    {
+      "id": "nl-24",
+      "title": "2022 September Newsletter",
+      "summary": "With the school year commencing, MVRT is back, ready to become the best in the west!",
+      "thumbnailUrl": "https://mvrt.com/assets/images/newsletters/september.png",
+      "pdfUrl": "https://mvrt.com/assets/newsletters/september.pdf",
+      "seasonYear": 2022
+    }
+  ],
+  "joinPage": {
+    "introParagraph": "We would love to have you on board! Each year, we are tasked to build a robot depending on the game released by the FIRST Robotics Competition. We need all the minds we can get to make this happen. Additionally, we also host numerous outreach events and programs to spread STEM opportunities, including an annual summer camp! Joining the team is easy—just follow the instructions below. If you want to learn more about the team, visit the about page!",
+    "regularSeasonHeading": "Registration for the 26-27 season is currently open!",
+    "regularSeasonBody": "We would love to have you on board! Joining the team is easy—just follow the instructions in the interest form!",
+    "closedSeasonHeading": "Registration for the 26-27 season is now closed.",
+    "closedSeasonBody": "Please check back at the beginning of the next school year for registration updates, or contact us if you have any questions!",
+    "faqs": [
+      {
+        "id": "faq-1",
+        "question": "Is there a test/tryout to be a part of robotics, or can anyone join?",
+        "answer": "Nope, all a student needs to do is complete the registration process and they can be a part of the team!"
+      },
+      {
+        "id": "faq-2",
+        "question": "Do students need to pick a specific division on the team, or can they do everything?",
+        "answer": "Students can be a part of as many or as few divisions as they feel comfortable with. Students can always try working in different divisions and learn about all aspects of the team! There is no requirement to choose a division at any point of time."
+      },
+      {
+        "id": "faq-3",
+        "question": "Do students need to attend all meetings?",
+        "answer": "Nope, students are not required to attend every meeting, and they should decide whether or not to attend a meeting based on their academic progress and other activities they take part in. All online training sessions will be recorded and available on the resources section of the website if a student misses a meeting. Although missing a lot of meetings will result in the student not getting access to the interactive activities, and so we don't recommend students to only watch the online recordings."
+      },
+      {
+        "id": "faq-4",
+        "question": "What exactly does the $250 donation contribute to?",
+        "answer": "The donations we receive help pay for the expense of the various tools and parts we use, such as crimpers, drills, stock aluminum, etc. These donations also help us cover the expenses for organizing meetings and services, such as securing space for large team events and bringing food and other essential commodities. We require about $50k-$70k to operate the team each year, and donations help us cover part of that cost."
+      }
+    ]
+  }
+}
